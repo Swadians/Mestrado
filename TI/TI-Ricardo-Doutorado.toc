@@ -12,14 +12,15 @@
 \contentsline {section}{\numberline {2.4}Considera\IeC {\c c}\IeC {\~o}es sobre o Cap\IeC {\'\i }tulo}{21}{section.2.4}
 \contentsline {chapter}{\numberline {3}Estado da Arte}{22}{chapter.3}
 \contentsline {section}{\numberline {3.1}Mapeamento Sistem\IeC {\'a}tico da Literatura}{22}{section.3.1}
-\contentsline {section}{\numberline {3.2}Trabalhos Relacionados}{23}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Risk-based Adaptive Security for Smart IoT in eHealth}{24}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Architecture and Knowledge-Driven Self-Adaptive Security in Smart Space}{28}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Event driven adaptive security in internet of things}{31}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Managing Context Information for Adaptive Security in IoT environments}{36}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}An Ontology-based Security framework for Decision-making in Industrial Systems}{40}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Efficient Security Adaptation framework for Internet of Things}{43}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{45}{section.3.3}
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{48}{section.3.4}
-\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{49}{chapter.4}
-\contentsline {chapter}{Refer{\^e}ncias}{51}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.1}Crit\IeC {\'e}rios de Inclus\IeC {\~a}o e Exclus\IeC {\~a}o}{23}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Trabalhos Relacionados}{25}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Risk-based Adaptive Security for Smart IoT in eHealth}{25}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Architecture and Knowledge-Driven Self-Adaptive Security in Smart Space}{29}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Event driven adaptive security in internet of things}{32}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Managing Context Information for Adaptive Security in IoT environments}{37}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}An Ontology-based Security framework for Decision-making in Industrial Systems}{42}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Efficient Security Adaptation framework for Internet of Things}{44}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{47}{section.3.3}
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{50}{section.3.4}
+\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{51}{chapter.4}
+\contentsline {chapter}{Refer{\^e}ncias}{53}{chapter.4}

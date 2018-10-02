@@ -12,24 +12,24 @@
 \contentsline {figure}{\numberline {Figura\nobreakspace 1}{\ignorespaces Ciclo de \textit {feedback} gen\IeC {\'e}rico \citep {dobson06}}}{16}{section.2.2}
 \contentsline {figure}{\numberline {Figura\nobreakspace 2}{\ignorespaces MAPE-K - Modelo para sistema adaptativos \citep {iglesia15}}}{18}{section.2.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {Figura\nobreakspace 3}{\ignorespaces Strings de buscas usadas.}}{22}{section.3.1}
-\contentsline {figure}{\numberline {Figura\nobreakspace 4}{\ignorespaces Percentual de publica\IeC {\c c}\IeC {\~o}es encontradas por base.}}{23}{section.3.1}
-\contentsline {figure}{\numberline {Figura\nobreakspace 5}{\ignorespaces N\IeC {\'u}mero de publica\IeC {\c c}\IeC {\~o}es encontradas por base.}}{24}{section.3.1}
-\contentsline {figure}{\numberline {Figura\nobreakspace 6}{\ignorespaces Quantidade de publica\IeC {\c c}\IeC {\~o}es de interesse por ano.}}{25}{section.3.1}
-\contentsline {figure}{\numberline {Figura\nobreakspace 7}{\ignorespaces Modelo proposto para gerenciamento de seguran\IeC {\c c}a adaptativa}}{26}{subsection.3.2.1}
-\contentsline {figure}{\numberline {Figura\nobreakspace 8}{\ignorespaces Estudo de caso baseado em monitoramento de paciente}}{28}{subsection.3.2.1}
-\contentsline {figure}{\numberline {Figura\nobreakspace 9}{\ignorespaces Estrutura da arquitetura de adapta\IeC {\c c}\IeC {\~a}o}}{29}{subsection.3.2.2}
-\contentsline {figure}{\numberline {Figura\nobreakspace 10}{\ignorespaces Partes gen\IeC {\'e}ricas e espec\IeC {\'\i }ficas da implementa\IeC {\c c}\IeC {\~a}o do monitoramento do n\IeC {\'\i }vel de seguran\IeC {\c c}a}}{30}{subsection.3.2.2}
-\contentsline {figure}{\numberline {Figura\nobreakspace 11}{\ignorespaces Depend\IeC {\^e}ncias entre ontologias de seguran\IeC {\c c}a e de contexto}}{31}{subsection.3.2.2}
-\contentsline {figure}{\numberline {Figura\nobreakspace 12}{\ignorespaces EDAS - modelo de refer\IeC {\^e}ncia}}{33}{subsection.3.2.3}
-\contentsline {figure}{\numberline {Figura\nobreakspace 13}{\ignorespaces EDAS - ontologia para seguran\IeC {\c c}a adaptativa}}{35}{subsection.3.2.3}
-\contentsline {figure}{\numberline {Figura\nobreakspace 14}{\ignorespaces EDAS - processo de seguran\IeC {\c c}a adaptativa}}{35}{subsection.3.2.3}
-\contentsline {figure}{\numberline {Figura\nobreakspace 15}{\ignorespaces Framework de seguran\IeC {\c c}a ciente de contexto para IoT}}{37}{subsection.3.2.4}
-\contentsline {figure}{\numberline {Figura\nobreakspace 16}{\ignorespaces Vis\IeC {\~a}o geral do Gerenciador de Contexto}}{38}{subsection.3.2.4}
-\contentsline {figure}{\numberline {Figura\nobreakspace 17}{\ignorespaces Intera\IeC {\c c}\IeC {\~o}es do \textit {framework} para mecanismos de seguran\IeC {\c c}a adaptativa cientes de contexto}}{40}{subsection.3.2.4}
-\contentsline {figure}{\numberline {Figura\nobreakspace 18}{\ignorespaces Uma arquitetura para \textit {framework} de seguran\IeC {\c c}a adaptativa baseada em ontologia integrada com a plataforma C2NET.}}{41}{subsection.3.2.5}
-\contentsline {figure}{\numberline {Figura\nobreakspace 19}{\ignorespaces Ontologia de refer\IeC {\^e}ncia para seguran\IeC {\c c}a na IoT \citep {mozzaquatro15}}}{42}{subsection.3.2.5}
-\contentsline {figure}{\numberline {Figura\nobreakspace 20}{\ignorespaces SARM - descri\IeC {\c c}\IeC {\~a}o do sistema aut\IeC {\^o}nomo}}{44}{subsection.3.2.6}
-\contentsline {figure}{\numberline {Figura\nobreakspace 21}{\ignorespaces SARM - fundamentos do \textit {framework} gen\IeC {\'e}rico para seguran\IeC {\c c}a adaptativa}}{45}{subsection.3.2.6}
+\contentsline {figure}{\numberline {Figura\nobreakspace 3}{\ignorespaces Strings de buscas usadas.}}{23}{Item.5}
+\contentsline {figure}{\numberline {Figura\nobreakspace 4}{\ignorespaces Percentual de publica\IeC {\c c}\IeC {\~o}es encontradas por base.}}{24}{Item.5}
+\contentsline {figure}{\numberline {Figura\nobreakspace 5}{\ignorespaces N\IeC {\'u}mero de publica\IeC {\c c}\IeC {\~o}es encontradas por base.}}{25}{Item.5}
+\contentsline {figure}{\numberline {Figura\nobreakspace 6}{\ignorespaces Quantidade de publica\IeC {\c c}\IeC {\~o}es de interesse por ano.}}{26}{Item.5}
+\contentsline {figure}{\numberline {Figura\nobreakspace 7}{\ignorespaces Modelo proposto para gerenciamento de seguran\IeC {\c c}a adaptativa}}{27}{subsection.3.2.1}
+\contentsline {figure}{\numberline {Figura\nobreakspace 8}{\ignorespaces Estudo de caso baseado em monitoramento de paciente}}{29}{subsection.3.2.1}
+\contentsline {figure}{\numberline {Figura\nobreakspace 9}{\ignorespaces Estrutura da arquitetura de adapta\IeC {\c c}\IeC {\~a}o}}{30}{subsection.3.2.2}
+\contentsline {figure}{\numberline {Figura\nobreakspace 10}{\ignorespaces Partes gen\IeC {\'e}ricas e espec\IeC {\'\i }ficas da implementa\IeC {\c c}\IeC {\~a}o do monitoramento do n\IeC {\'\i }vel de seguran\IeC {\c c}a}}{31}{subsection.3.2.2}
+\contentsline {figure}{\numberline {Figura\nobreakspace 11}{\ignorespaces Depend\IeC {\^e}ncias entre ontologias de seguran\IeC {\c c}a e de contexto}}{32}{subsection.3.2.2}
+\contentsline {figure}{\numberline {Figura\nobreakspace 12}{\ignorespaces EDAS - modelo de refer\IeC {\^e}ncia}}{34}{subsection.3.2.3}
+\contentsline {figure}{\numberline {Figura\nobreakspace 13}{\ignorespaces EDAS - ontologia para seguran\IeC {\c c}a adaptativa}}{36}{subsection.3.2.3}
+\contentsline {figure}{\numberline {Figura\nobreakspace 14}{\ignorespaces EDAS - processo de seguran\IeC {\c c}a adaptativa}}{36}{subsection.3.2.3}
+\contentsline {figure}{\numberline {Figura\nobreakspace 15}{\ignorespaces Framework de seguran\IeC {\c c}a ciente de contexto para IoT}}{38}{subsection.3.2.4}
+\contentsline {figure}{\numberline {Figura\nobreakspace 16}{\ignorespaces Vis\IeC {\~a}o geral do Gerenciador de Contexto}}{39}{subsection.3.2.4}
+\contentsline {figure}{\numberline {Figura\nobreakspace 17}{\ignorespaces Intera\IeC {\c c}\IeC {\~o}es do \textit {framework} para mecanismos de seguran\IeC {\c c}a adaptativa cientes de contexto}}{41}{subsection.3.2.4}
+\contentsline {figure}{\numberline {Figura\nobreakspace 18}{\ignorespaces Uma arquitetura para \textit {framework} de seguran\IeC {\c c}a adaptativa baseada em ontologia integrada com a plataforma C2NET.}}{42}{subsection.3.2.5}
+\contentsline {figure}{\numberline {Figura\nobreakspace 19}{\ignorespaces Ontologia de refer\IeC {\^e}ncia para seguran\IeC {\c c}a na IoT \citep {mozzaquatro15}}}{43}{subsection.3.2.5}
+\contentsline {figure}{\numberline {Figura\nobreakspace 20}{\ignorespaces SARM - descri\IeC {\c c}\IeC {\~a}o do sistema aut\IeC {\^o}nomo}}{45}{subsection.3.2.6}
+\contentsline {figure}{\numberline {Figura\nobreakspace 21}{\ignorespaces SARM - fundamentos do \textit {framework} gen\IeC {\'e}rico para seguran\IeC {\c c}a adaptativa}}{46}{subsection.3.2.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
