@@ -338,7 +338,7 @@ Neste capítulo será apresentado o estado da arte das pesquisas que tem como te
 
 \section{Mapeamento Sistemático da Literatura}
 
-O mapeamento sistemático abordado neste capítulo é baseada na metodologia proposta por Petersen et al. (2008), onde seguindo a série de passos proposto, torna o estudo realizado, possível de ser replicado por outros pesquisadores \cite{petersen08}. Podemos citar cinco etapas do processo das quais serão seguidas por este mapeamento:
+O mapeamento sistemático abordado neste capítulo é baseada na metodologia proposta por Petersen et al. (2008), onde seguindo a série de passos proposto, torna o estudo realizado, possível de ser replicado por outros pesquisadores \cite{petersen08}. A partir desta metodologia, podemos citar cinco etapas das quais serão seguidas por este mapeamento:
 
 \begin{enumerate}
 	\item Definição das questões de pesquisa;
@@ -350,7 +350,7 @@ O mapeamento sistemático abordado neste capítulo é baseada na metodologia pro
 
 \end{enumerate}  
 
-Para a consulta dos trabalhos relacionados primeiramente foi definido um conjunto de palavras como candidatas a palavras chave para a String de busca, das quais podemos citar: \textit{internet of things}, \textit{distributed} e \textit{complex event processing}. A Partir da definição destas como palavras chave, foi possível elaborar a String de busca usada para executar as consultas sobre as bases da: ACM Digital Library, IEEE Explore, ScienceDirect, Springer, Web of Science e Scopus; e assim obter-se os trabalhos relacionados com o tema de pesquisa, as strings de consulta podem ser vistas na figura \ref{tab:stringBusca} incluindo a qual respectiva base estas foram executadas.
+Para a consulta dos trabalhos relacionados primeiramente foi definido um conjunto de palavras como candidatas a palavras chave para a String de busca, dentre estas podemos citar: \textit{internet of things}, \textit{distributed} e \textit{complex event processing}. A Partir da definição destas como palavras chave, foi possível elaborar a String de busca usada para executar as consultas sobre as bases da: ACM Digital Library, IEEE Explore, ScienceDirect, Springer, Web of Science e Scopus; e assim obter-se os trabalhos relacionados com o tema de pesquisa, as strings de consulta podem ser vistas na figura \ref{tab:stringBusca} incluindo a qual respectiva base estas foram executadas.
 
 
 
@@ -363,7 +363,7 @@ Para a consulta dos trabalhos relacionados primeiramente foi definido um conjunt
 
 Após a execução desta consulta preliminar, que entende-se como a etapa de levantamento dos estudos primários relevantes, foi identificado 647 trabalhos de interesse onde este valor  compreende-se da soma dos resultados obtidos em todas as bases de consulta.
 
-Todas as consultas foram realizadas sobre os metadados dos artigos(titulo, resumo e palavras chave), como a base de dados Springer não oferecia suporte a este tipo de consulta, este problema foi contornado da seguinte forma: primeiramente foi feito a exportação do resultado preliminar da busca na base para o formato CSV(único formato suportado) resultando em 472 artigos, após isto fez-se uso da ferramenta CSV2Bib\footnote{\url{https://github.com/jacksonpradolima/csv2bib}} para converter o arquivo CSV para bib com o intuito de importar o resultado, para a ferramenta Zotero\footnote{\url{http://lapes.dc.ufscar.br/tools/start_tool}},  oque permitiu a execução da String de busca sobre os metadados dos 472 artigos encontrados preliminarmente, resultando em 6 documentos de interesse, a figura  \ref{fig:GrafBarraPubAno} apresenta um gráfico de barras contendo o numero de artigos encontrados pela String de busca em cada base, já o gráfico \ref{fig:GrafPizPubAno} apresenta o percentual de publicações que cada uma das bases contribuiu para o montante final.
+Todas as buscas foram realizadas sobre os metadados dos artigos(titulo, resumo e palavras chave), porem, como a base de dados Springer não oferecia suporte a este tipo de consulta, este problema foi contornado da seguinte forma: primeiramente foi feito a exportação do resultado preliminar da busca na base para o formato CSV(o único suportado) resultando em 472 artigos, após isto fez-se uso da ferramenta CSV2Bib\footnote{\url{https://github.com/jacksonpradolima/csv2bib}} para converter o arquivo CSV para bib com o intuito de importar o resultado, para a ferramenta Zotero\footnote{\url{http://lapes.dc.ufscar.br/tools/start_tool}}, que permitiu a execução da String de busca sobre os metadados dos 472 artigos encontrados preliminarmente, resultando em 6 documentos de interesse, a figura  \ref{fig:GrafBarraPubAno} apresenta um gráfico de barras contendo o numero de artigos encontrados pela String de busca em cada uma das bases, já o gráfico \ref{fig:GrafPizPubAno} apresenta o percentual de publicações que cada uma das bases contribuiu para o montante final.
 
 \begin{figure}[ht]
 	\centering
@@ -380,7 +380,7 @@ Todas as consultas foram realizadas sobre os metadados dos artigos(titulo, resum
 \end{figure}
 
 
-O gráfico \ref{fig:grafPublicaAno} apresenta o numero de publicações de interesse encontradas e cada uma das bases, o eixo X apresenta o ano o qual os artigos foram publicados e o eixo Y apresenta o numero total de publicações em relação ao ano, ainda para a representação do gráfico foram removidos todas as publicações duplicadas. Podemos perceber pelo figura que á um considerável pico no número de publicações no ano de 2017, demonstrando assim um ponto de interesse a partir deste ano.
+O gráfico \ref{fig:grafPublicaAno} apresenta o numero de publicações de interesse encontradas e cada uma das bases, o eixo X apresenta o ano do qual os artigos foram publicados e o eixo Y apresenta o numero total de publicações em relação ao ano, ainda podemos ressaltar que para a representação do gráfico foram removidos todas as publicações duplicadas. Podemos perceber pelo figura que a partir do ano de 2015 á uma ascendência no numero de publicações, e ainda um considerável pico no ano de 2017, demonstrando assim pontos de interesses neste período de publicações.
 
 \begin{figure}[ht]
 	\centering
@@ -405,6 +405,8 @@ Após a seleção inicial realizada sobre as bases de dados, executou-se a triag
 	
 Para auxiliar na aplicação dos critérios de inclusão e exclusão foi feita a importação dos resultados preliminares das buscas na ferramenta Start\footnote{\url{http://lapes.dc.ufscar.br/tools/start_tool}},
 para isso usou-se os arquivos .bib exportados pelas ferramentas das bases de busca, com exceção apenas da Spriger, onde usou-se o arquivo .bib exportado pelo Zootero, que foi gerado apos a execução da consulta sobre os metadados, aplicada sobre o resultado preliminar da base.
+
+Após execução da triagem inicial dos trabalhos, aplicando os critérios de inclusão e exclusão sobre o resumo dos artigos, selecionou-se 27 documentos de interesse. 
 
 \section{Trabalhos Relacionados}
 

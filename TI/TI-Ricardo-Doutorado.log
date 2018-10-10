@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.26)  8 OCT 2018 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.26)  9 OCT 2018 10:07
 entering extended mode
 **./TI-Ricardo-Doutorado.tex
 (TI-Ricardo-Doutorado.tex
@@ -1528,290 +1528,288 @@ Package pdftex.def Info: imagens/grafPublicaAno.png  used on input line 387.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 392.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 395.
+(babel)             in language  on input line 394.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 395.
+(babel)             in language  on input line 394.
  [23 <./imagens/tabela_string_busca.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 409.
+(babel)             in language  on input line 408.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 412.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 412.
+(babel)             in language  on input line 408.
  [24 <./imagens/GrafPizPubAno.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 415.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 422.
+(babel)             in language  on input line 417.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 422.
+(babel)             in language  on input line 423.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 423.
  [25 <./imagens/GrafBarraPubAno.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
 []|[]\T1/phv/b/n/12 Processo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 []|[]\T1/phv/b/n/12 Processo/Metodologia ARM
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 431.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 433.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 431.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 433.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 443.
+(babel)             in language  on input line 444.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 443.
+(babel)             in language  on input line 444.
 [26 <./imagens/grafPublicaAno.png>]
 <imagens/adaptive-security-management-model.png, id=555, 926.46124pt x 715.6737
 5pt>
 File: imagens/adaptive-security-management-model.png Graphic file (type png)
 <use imagens/adaptive-security-management-model.png>
 Package pdftex.def Info: imagens/adaptive-security-management-model.png  used o
-n input line 449.
+n input line 451.
 (pdftex.def)             Requested size: 318.66948pt x 246.16513pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 457.
+(babel)             in language  on input line 459.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 457.
+(babel)             in language  on input line 459.
  [27 <./imagens/adaptive-security-management-model.png>]
-<imagens/case-study-patient-monitoring.png, id=565, 903.375pt x 748.7975pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 467.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 467.
+ [28]
+<imagens/case-study-patient-monitoring.png, id=569, 903.375pt x 748.7975pt>
 File: imagens/case-study-patient-monitoring.png Graphic file (type png)
 <use imagens/case-study-patient-monitoring.png>
 Package pdftex.def Info: imagens/case-study-patient-monitoring.png  used on inp
-ut line 468.
+ut line 470.
 (pdftex.def)             Requested size: 318.66948pt x 264.13968pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 475.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 475.
- [28]
-Underfull \hbox (badness 1681) in paragraph at lines 479--479
+
+Underfull \hbox (badness 1681) in paragraph at lines 481--481
 []\T1/phv/b/n/12 Architecture and Knowledge-Driven Self-Adaptive Se-cu-rity in 
 Smart
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 479.
+(babel)             in language  on input line 481.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 485.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 485.
 [29 <./imagens/case-study-patient-monitoring.png>]
-<imagens/ismo-architecture.png, id=581, 907.39pt x 463.7325pt>
+<imagens/ismo-architecture.png, id=580, 907.39pt x 463.7325pt>
 File: imagens/ismo-architecture.png Graphic file (type png)
 <use imagens/ismo-architecture.png>
-Package pdftex.def Info: imagens/ismo-architecture.png  used on input line 489.
+Package pdftex.def Info: imagens/ismo-architecture.png  used on input line 491.
 
 (pdftex.def)             Requested size: 318.66948pt x 162.86072pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 497.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 497.
+(babel)             in language  on input line 499.
  [30 <./imagens/ismo-architecture.png>]
 <imagens/ismo-monitor.png, id=589, 731.73375pt x 425.59pt>
 File: imagens/ismo-monitor.png Graphic file (type png)
 <use imagens/ismo-monitor.png>
-Package pdftex.def Info: imagens/ismo-monitor.png  used on input line 501.
+Package pdftex.def Info: imagens/ismo-monitor.png  used on input line 503.
 (pdftex.def)             Requested size: 318.66948pt x 185.34445pt.
 <imagens/ismo-ontology.png, id=591, 780.9175pt x 486.81876pt>
 File: imagens/ismo-ontology.png Graphic file (type png)
 <use imagens/ismo-ontology.png>
-Package pdftex.def Info: imagens/ismo-ontology.png  used on input line 514.
+Package pdftex.def Info: imagens/ismo-ontology.png  used on input line 516.
 (pdftex.def)             Requested size: 318.66948pt x 198.6536pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 521.
+(babel)             in language  on input line 519.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 521.
+(babel)             in language  on input line 519.
  [31 <./imagens/ismo-monitor.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 524.
+(babel)             in language  on input line 526.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 531.
+(babel)             in language  on input line 533.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 531.
+(babel)             in language  on input line 533.
  [32 <./imagens/ismo-ontology.png>]
-<imagens/edas-reference-model.png, id=609, 593.21625pt x 671.50874pt>
+<imagens/edas-reference-model.png, id=608, 593.21625pt x 671.50874pt>
 File: imagens/edas-reference-model.png Graphic file (type png)
 <use imagens/edas-reference-model.png>
 Package pdftex.def Info: imagens/edas-reference-model.png  used on input line 5
-41.
+43.
 (pdftex.def)             Requested size: 318.66948pt x 360.73424pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 549.
+(babel)             in language  on input line 550.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 549.
+(babel)             in language  on input line 550.
 [33]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 556.
+(babel)             in language  on input line 555.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 556.
+(babel)             in language  on input line 555.
  [34 <./imagens/edas-reference-model.png>]
 <imagens/edas-ontology.png, id=620, 1048.91875pt x 810.02625pt>
 File: imagens/edas-ontology.png Graphic file (type png)
 <use imagens/edas-ontology.png>
-Package pdftex.def Info: imagens/edas-ontology.png  used on input line 577.
+Package pdftex.def Info: imagens/edas-ontology.png  used on input line 579.
 (pdftex.def)             Requested size: 318.66948pt x 246.08739pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 584.
+(babel)             in language  on input line 586.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 584.
+(babel)             in language  on input line 586.
  [35]
 <imagens/edas-adaptation-process.png, id=628, 1395.2125pt x 622.325pt>
 File: imagens/edas-adaptation-process.png Graphic file (type png)
 <use imagens/edas-adaptation-process.png>
 Package pdftex.def Info: imagens/edas-adaptation-process.png  used on input lin
-e 589.
+e 591.
 (pdftex.def)             Requested size: 318.66948pt x 142.13466pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 595.
+(babel)             in language  on input line 597.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 595.
- [36 <./imagens/edas-ontology.png> <./imagens/edas-adaptation-process.png>]
+(babel)             in language  on input line 597.
+ [36 <./imagens/edas-ontology.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 603.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 607.
+(babel)             in language  on input line 609.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 607.
- [37]
+(babel)             in language  on input line 609.
+ [37 <./imagens/edas-adaptation-process.png>]
 <imagens/arm-framework.png, id=652, 1445.4pt x 737.75626pt>
 File: imagens/arm-framework.png Graphic file (type png)
 <use imagens/arm-framework.png>
-Package pdftex.def Info: imagens/arm-framework.png  used on input line 611.
+Package pdftex.def Info: imagens/arm-framework.png  used on input line 613.
 (pdftex.def)             Requested size: 318.66948pt x 162.65585pt.
 <imagens/context-manager-overview.png, id=656, 745.78625pt x 877.2775pt>
 File: imagens/context-manager-overview.png Graphic file (type png)
 <use imagens/context-manager-overview.png>
 Package pdftex.def Info: imagens/context-manager-overview.png  used on input li
-ne 622.
+ne 624.
 (pdftex.def)             Requested size: 318.66948pt x 374.85262pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 629.
+(babel)             in language  on input line 631.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 629.
+(babel)             in language  on input line 631.
  [38 <./imagens/arm-framework.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 631.
+(babel)             in language  on input line 633.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 631.
+(babel)             in language  on input line 633.
  [39 <./imagens/context-manager-overview.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 639.
+(babel)             in language  on input line 641.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 639.
+(babel)             in language  on input line 641.
  [40]
-<imagens/context-aware-adaptive-security.png, id=679, 1077.02374pt x 848.16875p
+<imagens/context-aware-adaptive-security.png, id=678, 1077.02374pt x 848.16875p
 t>
 File: imagens/context-aware-adaptive-security.png Graphic file (type png)
 <use imagens/context-aware-adaptive-security.png>
 Package pdftex.def Info: imagens/context-aware-adaptive-security.png  used on i
-nput line 644.
+nput line 646.
 (pdftex.def)             Requested size: 318.66948pt x 250.95824pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 653.
+(babel)             in language  on input line 652.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 656.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 656.
+(babel)             in language  on input line 652.
  [41 <./imagens/context-aware-adaptive-security.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 655.
 <imagens/iotsec-architecture.png, id=691, 845.1575pt x 682.55pt>
 File: imagens/iotsec-architecture.png Graphic file (type png)
 <use imagens/iotsec-architecture.png>
-Package pdftex.def Info: imagens/iotsec-architecture.png  used on input line 65
-9.
+Package pdftex.def Info: imagens/iotsec-architecture.png  used on input line 66
+1.
 (pdftex.def)             Requested size: 318.66948pt x 257.36163pt.
-<imagens/iotsec-ontology.png, id=696, 892.33376pt x 542.025pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 667.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 667.
+ [42 <./imagens/iotsec-architecture.png>]
+<imagens/iotsec-ontology.png, id=705, 892.33376pt x 542.025pt>
 File: imagens/iotsec-ontology.png Graphic file (type png)
 <use imagens/iotsec-ontology.png>
-Package pdftex.def Info: imagens/iotsec-ontology.png  used on input line 668.
+Package pdftex.def Info: imagens/iotsec-ontology.png  used on input line 670.
 (pdftex.def)             Requested size: 318.66948pt x 193.56569pt.
 
-Underfull \hbox (badness 2689) in paragraph at lines 669--669
+Underfull \hbox (badness 2689) in paragraph at lines 671--671
 [][]|\T1/phv/m/n/12 On-to-lo-gia de re-fe-rên-cia para se-gu-rança na IoT ([]MO
 Z-ZA-QUA-TRO;
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 674.
+(babel)             in language  on input line 682.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 674.
-[42 <./imagens/iotsec-architecture.png>]
+(babel)             in language  on input line 682.
+[43 <./imagens/iotsec-ontology.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 681.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 681.
- [43 <./imagens/iotsec-ontology.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 684.
+(babel)             in language  on input line 686.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 700.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 700.
-
-[44]
+ [44]
 <imagens/sarm-description.png, id=724, 365.365pt x 231.86626pt>
 File: imagens/sarm-description.png Graphic file (type png)
 <use imagens/sarm-description.png>
-Package pdftex.def Info: imagens/sarm-description.png  used on input line 705.
+Package pdftex.def Info: imagens/sarm-description.png  used on input line 707.
 (pdftex.def)             Requested size: 318.66948pt x 202.24208pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 712.
+(babel)             in language  on input line 714.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 712.
+(babel)             in language  on input line 714.
  [45 <./imagens/sarm-description.png>]
 <imagens/sarm-framework.png, id=731, 760.8425pt x 683.55376pt>
 File: imagens/sarm-framework.png Graphic file (type png)
 <use imagens/sarm-framework.png>
-Package pdftex.def Info: imagens/sarm-framework.png  used on input line 717.
+Package pdftex.def Info: imagens/sarm-framework.png  used on input line 719.
 (pdftex.def)             Requested size: 318.66948pt x 286.30835pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 729.
+(babel)             in language  on input line 725.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 732.
+(babel)             in language  on input line 725.
+[46 <./imagens/sarm-framework.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 732.
- [46 <./imagens/sarm-framework.png>]
+(babel)             in language  on input line 731.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 748.
+(babel)             in language  on input line 749.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 748.
-
-[47]
+(babel)             in language  on input line 749.
+ [47]
 <imagens/comparacao-estado-da-arte.png, id=765, 964.5636pt x 584.9052pt>
 File: imagens/comparacao-estado-da-arte.png Graphic file (type png)
 <use imagens/comparacao-estado-da-arte.png>
 Package pdftex.def Info: imagens/comparacao-estado-da-arte.png  used on input l
-ine 761.
+ine 763.
 (pdftex.def)             Requested size: 455.24411pt x 276.0568pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 772.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 772.
  [48]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 775.
+(babel)             in language  on input line 776.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 778.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 778.
+(babel)             in language  on input line 776.
  [49 <./imagens/comparacao-estado-da-arte.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 781.
+(babel)             in language  on input line 777.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 781.
+(babel)             in language  on input line 783.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 783.
  [50]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 781.
+(babel)             in language  on input line 783.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 794.
+(babel)             in language  on input line 796.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 794.
+(babel)             in language  on input line 796.
  [51
 
-]
-(TI-Ricardo-Doutorado.bbl
+] (TI-Ricardo-Doutorado.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
@@ -1876,20 +1874,20 @@ Package babel Info: Redefining portuges shorthand "|
  [57]) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 803.
+(babel)             in language  on input line 805.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 803.
+(babel)             in language  on input line 805.
 [58]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 803.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 803.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 803.
+(babel)             in language  on input line 805.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 805.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 805.
  (TI-Ricardo-Doutorado.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 803.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 803.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 805.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 805.
 Package rerunfilecheck Info: File `TI-Ricardo-Doutorado.out' has not changed.
 (rerunfilecheck)             Checksum: ECD31D0FB905EFF32F23CF0139A44696;5516.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 803.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 805.
  ) 
 Here is how much of TeX's memory you used:
  22977 strings out of 493305
@@ -1912,7 +1910,7 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/We
 slenSchiavon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.
 pfb><C:/Users/WeslenSchiavon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
 helvetic/uhvro8a.pfb>
-Output written on TI-Ricardo-Doutorado.pdf (59 pages, 3435920 bytes).
+Output written on TI-Ricardo-Doutorado.pdf (59 pages, 3436074 bytes).
 PDF statistics:
  1005 PDF objects out of 1200 (max. 8388607)
  155 named destinations out of 1000 (max. 500000)
