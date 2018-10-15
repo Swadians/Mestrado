@@ -405,10 +405,25 @@ Após a seleção inicial realizada sobre as bases de dados, executou-se a triag
 Para auxiliar na aplicação dos critérios de inclusão e exclusão foi feita a importação dos resultados preliminares das buscas na ferramenta Start\footnote{\url{http://lapes.dc.ufscar.br/tools/start_tool}},
 para isso usou-se os arquivos .bib exportados pelas ferramentas das bases de busca, com exceção apenas da Spriger, onde usou-se o arquivo .bib exportado pelo Zootero, que foi gerado apos a execução da consulta sobre os metadados, aplicada sobre o resultado preliminar da base.
 
-
+Os critérios de exclusão foram aplicados seguindo a seguinte ordem e etapas:
 
 \begin{itemize}
-	\item  \textbf{Remoção de Trabalhos duplicados - } Muitos dos trabalhos retornados pela String de busca estavam indexados em ambas as bases de consulta, tornando necessário a execução de uma etapa de remoção dos mesmos, resultando em 74 trabalhos duplicados removidos.
+	\item  \textbf{Remoção de Trabalhos Duplicados - } Muitos dos trabalhos retornados pela String de busca estavam indexados em ambas as bases de consulta, tornando necessário a execução de uma etapa de remoção dos mesmos, resultando em 74 trabalhos duplicados removidos.
+	
+	\item  \textbf{Filtro por Data - } O intervalo de interesse para a aplicação do filtro foi adotado baseado no numero de publicações por ano, após o levantamento dos trabalhos de interesse, identificou-se o ano de 2015, como sendo o ano em que o numero de publicações aumenta considerável mente, continuando a ascender até o pico máximo no ano de 2017, como pode ser visto na figura \ref{fig:grafPublicaAno}. Assim optou-se por eliminar todas as publicações que fossem anteriores ao ano de 2015 eliminando desta forma 26 artigos.	
+	
+	\item  \textbf{Artigos Full Paper - } Com o intuito de remover artigos que apresentem apenas resumos superficiais sobre os trabalhos, ou que não tenham apelo cientifico, optou-se por remover artigos que não sejam Full Paper (livro ou capítulo de livro, introdução de anais, entre outros), onde foram removidos 9 trabalhos.
+	
+	\item  \textbf{Filtro por Idioma - } Como as pesquisas foram realizadas sobre varias bases de dados onde muitas destas indexam trabalhos em vários idiomas, optou-se por usar um filtro por idiomas para remover qualquer trabalho que não esteja em Português ou Inglês(idiomas de total domínio do autor) removendo desta forma 1 artigo.
+	
+	\item  \textbf{Indisponibilidade do Artigo completo - } Dado que alguns dos estudos de interesse selecionados apresentaram apenas seus resumos e introdução disponíveis não oferecendo a opção de obter-se o trabalho completo, optou-se por remover estes do pesquisa, excluindo desta forma 3 trabalhos.
+	
+	\item  \textbf{Avaliação da Proposta - } Foram removidos todos os artigos que não executaram algum tipo de teste ou estudo de caso das soluções propostas por seus trabalhos, excluindo assim 17 artigos.
+	
+	\item  \textbf{Sem Nenhum Critério de Inclusão - } Todos trabalhos que não  se enquadraram em nenhum dos critério de inclusão foram removidos, excluindo desta forma 28 trabalhos da pesquisa.
+	
+	
+	
 
 \end{itemize}
 
