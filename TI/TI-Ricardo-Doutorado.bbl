@@ -7,19 +7,10 @@
   Sciences: Social-Informatics and Telecommunications Engineering), 2012.
   p.269--275. (BodyNets '12).
 
-\bibitem[ABIE et~al.(2010)ABIE; BIGHAM; ROTONDI; SAVOLA; DATTANI;
-  BORMIDA]{abie10} ABIE, H. et~al\@. Self-Healing and Secure Adaptive Messaging
-  Middleware for Business Critical Systems. \textbf{International Journal on
-  Advances in Security}, [S.l.], v.3, 2010.
-
 \bibitem[ALABA et~al.(2017)ALABA; OTHMAN; HASHEM; ALOTAIBI]{alaba17} ALABA,
   F.~A.; OTHMAN, M.; HASHEM, I. A.~T.; ALOTAIBI, F\@. Internet of Things
   security: A survey. \textbf{Journal of Network and Computer Applications},
   [S.l.], v.88, p.10 -- 28, 2017.
-
-\bibitem[ALIENVAULT(2018)ALIENVAULT]{ossim18} ALIENVAULT. OSSIM: The Open
-  Source SIEM | AlienVault. Dispon{\'\i}vel em:
-  \url{<https://www.alienvault.com/products/ossim>}, acesso em: 11 feb 2018.
 
 \bibitem[AMAN(2016)AMAN]{aman16} AMAN, W\@. \textbf{Adaptive Security in the
   Internet of Things}. 2016. Tese (Doutorado em Ci{\^e}ncia da
@@ -44,13 +35,6 @@
   L\@. A survey of context data distribution for mobile ubiquitous systems.
   \textbf{ACM Comput. Surv.}, New York, NY, USA, v.44, n.4, p.24:1--24:45,
   Sept.~2012.
-
-\bibitem[BERNAL~BERNABE et~al.(2014)BERNAL~BERNABE; HERN{\'A}NDEZ; MORENO;
-  SKARMETA~GOMEZ]{bernabe14} BERNAL~BERNABE, J.; HERN{\'A}NDEZ, J.~L.; MORENO,
-  M.~V.; SKARMETA~GOMEZ, A.~F\@. Privacy-Preserving Security Framework for a
-  Social-Aware Internet of Things. In: UBIQUITOUS COMPUTING AND AMBIENT
-  INTELLIGENCE. PERSONALISATION AND USER ADAPTED SERVICES, 2014, Cham.
-  \textbf{Anais{\ldots}} Springer International Publishing, 2014. p.408--415.
 
 \bibitem[BR{\'E}ZILLON(1999)BR{\'E}ZILLON]{brezillon99} BR{\'E}ZILLON, P\@.
   Context in problem solving: a survey. \textbf{Knowl. Eng. Rev.}, New York,
@@ -78,12 +62,6 @@
 \bibitem[EL~MALIKI(2014)EL~MALIKI]{elmaliki14} EL~MALIKI, T\@. \textbf{Security
   adaptation in highly dynamic wireless networks}. 2014. Tese (Doutorado em
   Ci{\^e}ncia da Computa{\c{c}}{\~a}o) --- Université de Genève.
-
-\bibitem[EL-MALIKI; SEIGNE(2016)EL-MALIKI; SEIGNE]{elmaliki16} EL-MALIKI, T.;
-  SEIGNE, J.~M\@. Efficient Security Adaptation Framework for Internet of
-  Things. In: INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCE AND
-  COMPUTATIONAL INTELLIGENCE (CSCI), 2016., 2016. \textbf{Anais{\ldots}}
-  [S.l.:~s.n.], 2016. p.206--211.
 
 \bibitem[ELKHODARY; WHITTLE(2007)ELKHODARY; WHITTLE]{elkhodary07} ELKHODARY,
   A.; WHITTLE, J\@. A Survey of Approaches to Adaptive Application Security.
@@ -172,27 +150,12 @@
   I\@. Internet of things: Vision, applications and research challenges.
   \textbf{Ad Hoc Networks}, [S.l.], v.10, n.7, p.1497 -- 1516, 2012.
 
-\bibitem[MOZZAQUATRO; JARDIM-GONCALVES; AGOSTINHO(2015)MOZZAQUATRO;
-  JARDIM-GONCALVES; AGOSTINHO]{mozzaquatro15} MOZZAQUATRO, B.~A.;
-  JARDIM-GONCALVES, R.; AGOSTINHO, C\@. Towards a reference ontology for
-  security in the Internet of Things. In: IEEE INTERNATIONAL WORKSHOP ON
-  MEASUREMENTS NETWORKING (M N), 2015., 2015. \textbf{Anais{\ldots}}
-  [S.l.:~s.n.], 2015. p.1--6.
-
 \bibitem[MOZZAQUATRO et~al.(2016)MOZZAQUATRO; MELO; AGOSTINHO;
   JARDIM-GONCALVES]{mozzaquatro16} MOZZAQUATRO, B.~A.; MELO, R.; AGOSTINHO, C.;
   JARDIM-GONCALVES, R\@. An ontology-based security framework for
   decision-making in industrial systems. In: INTERNATIONAL CONFERENCE ON
   MODEL-DRIVEN ENGINEERING AND SOFTWARE DEVELOPMENT (MODELSWARD), 2016., 2016.
   \textbf{Anais{\ldots}} [S.l.:~s.n.], 2016. p.779--788.
-
-\bibitem[OCG(2018)OCG]{ocg18} OCG. Open Geospatial Consortium. Sensor Model
-  Language (SensorML). Dispon{\'\i}vel em:
-  \url{<http://www.opengeospatial.org/standards/sensorml>}, acesso em: 12 feb
-  2018.
-
-\bibitem[O.M.A.(2012)O.M.A.]{oma12} O.M.A\@. \textbf{NGSI Context Management}.
-  [S.l.]: Open Mobile Alliance, 2012.
 
 \bibitem[ONWUBIKO(2012)ONWUBIKO]{onwubiko12} ONWUBIKO, C\@. \textbf{Situational
   Awareness in Computer Network Defense}: Principles, Methods and Applications:
@@ -214,12 +177,6 @@
   \url{<https://www.gartner.com/smarterwithgartner/gartner-top-10-strategic-technology-trends-for-2018/>},
   Gartner - Top 10 Strategic Technology Trends for 2018. Acesso em janeiro de
   2018.
-
-\bibitem[PERERA et~al.(2014)PERERA; ZASLAVSKY; CHRISTEN;
-  GEORGAKOPOULOS]{perera14} PERERA, C.; ZASLAVSKY, A.; CHRISTEN, P.;
-  GEORGAKOPOULOS, D\@. Context Aware Computing for The Internet of Things: A
-  Survey. \textbf{IEEE Communications Surveys Tutorials}, [S.l.], v.16, n.1,
-  p.414--454, First~2014.
 
 \bibitem[PETERSEN et~al.(2008)PETERSEN; FELDT; MUJTABA; MATTSSON]{petersen08}
   PETERSEN, K.; FELDT, R.; MUJTABA, S.; MATTSSON, M\@. Systematic Mapping
@@ -247,12 +204,6 @@
   titans - Arcsight vs QRadar. Dispon{\'\i}vel em:
   \url{<http://infosecnirvana.com/clash-titans-arcsight-vs-qradar/>}, acesso
   em: 04 fev 2018.
-
-\bibitem[SHNITKO(2004)SHNITKO]{shnitko04} SHNITKO, A\@. Practical and
-  theoretical issues on adaptive security. In: FCS'04 WORKSHOP ON FOUNDATIONS
-  OF COMPUTER SECURITY, WORKSHOP ON LOGICAL FOUNDATIONS OF AN ADAPTIVE SECURITY
-  INFRASTRUCTURE, 2004. \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 2004.
-  p.267--282.
 
 \bibitem[SICARI et~al.(2015)SICARI; RIZZARDI; GRIECO; COEN-PORISINI]{sicari15}
   SICARI, S.; RIZZARDI, A.; GRIECO, L.; COEN-PORISINI, A\@. Security, privacy

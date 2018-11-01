@@ -331,7 +331,7 @@ No que tange a segurança adaptativa, caso os contextos relevantes para a identi
 Inicialmente neste capítulo foi apresentada a definição de IoT, sendo destacado que a segurança adaptativa é considerado um desfio importante e atual. Posteriormente a segurança adaptativa foi discutida, sendo exposto que o uso de um clico de \textit{feedback} se faz necessário para apoiar a implantação deste conceito. Também foi descrito que a ciência de contexto é um atributo fundamental para a adaptação. Com isto, na seção seguinte foi analisada a ciência de contexto descrevendo como ela pode ser aplicada neste âmbito.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \chapter{Estado da Arte} 
 
 Neste capítulo será apresentado o estado da arte das pesquisas que tem como tema processamento de eventos complexos e internet das coisas. Na seção seguinte será apresentado o protocolo seguido para a execução do mapeamento sistemático assim como todos os passos executados que levaram a escolha dos trabalhos de interesse. Por fim será apresentado uma discussão sobre as soluções abordadas nos trabalhos de interesse selecionados.    
@@ -420,19 +420,9 @@ Os critérios de exclusão foram aplicados seguindo a seguinte ordem e etapas:
 	
 	\item  \textbf{Avaliação da Proposta - } Foram removidos todos os artigos que não executaram algum tipo de teste ou estudo de caso das soluções propostas por seus trabalhos, excluindo assim 17 artigos.
 	
-	\item  \textbf{Sem Nenhum Critério de Inclusão - } Todos trabalhos que não  se enquadraram em nenhum dos critério de inclusão foram removidos, excluindo desta forma 28 trabalhos da pesquisa.
-	
-	
-	
+	\item  \textbf{Sem Nenhum Critério de Inclusão - } Todos trabalhos que não  se enquadraram em nenhum dos critério de inclusão foram removidos, excluindo desta forma 28 trabalhos da pesquisa.	
 
 \end{itemize}
-
-
-
-
-
-
-
 
 
 Após execução da triagem inicial dos trabalhos, aplicando os critérios de inclusão e exclusão sobre o resumo dos artigos, selecionou-se 24 documentos de interesse, o fluxo da aplicação dos critérios de exclusão pode ser visto na figura \ref{fig:grafFluxoTriagemInicial} assim como o numero total de trabalhos removidos por cada um dos critérios de aplicação. 
@@ -449,324 +439,23 @@ Após execução da triagem inicial dos trabalhos, aplicando os critérios de in
 
 
 \section{Trabalhos Relacionados}
-
-Como resultado do mapeamento sistemático da literatura foram selecionados 6 artigos, os quais são apresentados a seguir, sendo explorados aspectos referentes ao seu modelo, detalhes sobre o clico de \textit{feedback}, bem como, suas principais características. 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Risk-based Adaptive Security for Smart IoT in eHealth} % 2012
-
-Este artigo propõem um \textit{framework} de segurança adaptativa baseado em risco para a IoT em cenários de \textit{eHealth} \cite{habtamu12}. O \textit{framework} é utiliza a teoria dos jogos e técnicas de ciência de contexto para estimar e prever o risco à segurança da informação. Os métodos e mecanismos de segurança do \textit{framework} buscam adaptar as decisões de segurança sobre essas estimativas e previsões. O \textit{framework} incorpora modelos de avaliação prática e sistemática que utilizam métricas de segurança para validação da adaptação.
-
-A abordagem realiza um esforço para aumentar a segurança a um nível adequado, adaptando-se às condições dinâmicas de mudança da IoT, incluindo usabilidade, ameaças e heterogeneidade. O artigo também descreve um possível estudo de caso projetado para validação que propõem estratégias adaptativas para a interação dinâmica entre segurança e transmissão de dados em um sistema de monitoramento de pacientes móveis.
-
-O \textit{framework} emprega o clico de controle adaptativo, por meio da metodologia \textit{Monitor-Analyze-Adapt}, para gerenciamento de riscos de segurança e privacidade levando em consideração as informações de contexto necessárias para garantir a eficiência ao longo do tempo. A Tabela \ref{aligment-iso-27005} mostra o alinhamento da metodologia Plan-Do-Check-Act (PDCA) apresentada na ISO/IEC 27005:2008 com os processos \textit{Information Security Management System} (ISMS) e \textit{Information Security Risk Management} (ISRM) com a \textit{Adaptive Risk Management} (ARM) proposta.
-
-        \begin{table}[h]
-        \centering
-	\caption{Alinhamento da ISO/IEC 27005 ISMS, ISRM e ARM}
-	\label{aligment-iso-27005}
-	\begin{tabular}{p{2cm}|p{6cm}|p{6cm}}
-	\rowcolor[HTML]{003366}
-	\textcolor{white}{\textbf{Processo ISMS}} & \textcolor{white}{\textbf{Processo ISRM}} & \textcolor{white}{\textbf{Processo/Metodologia ARM Proposto}} \\
-	\hline
-	\cellcolor[HTML]{E5EAEA} \textbf{\textit{Plan}} & \textit{Establish the context; Risk assessment; Risk treatment planning; Risk acceptance} & \textit{Analyze (plan): establish security} \\
-	\hline
-	\cellcolor[HTML]{E5EAEA} \textbf{\textit{Do}} & \textit{Implementation of risk treatment plan} & \textit{Adapt (Execute): adapt, implement and operate security} \\
-	\hline
-	\cellcolor[HTML]{E5EAEA} \textbf{\textit{Check}} & \textit{Continual monitoring and reviewing of risks} & \textit{Monitor: monitor and review security} \\
-	\hline
-	\cellcolor[HTML]{E5EAEA} \textbf{\textit{Act}} & \textit{Maintain and improve the ISRM process} & \textit{Adapt (learn): maintain, learn \& improve security}
-	\end{tabular}
-	\end{table}
-
-Os autores definem como ARM um modelo de gerenciamento de riscos capaz de aprender, adaptar, prevenir, identificar e responder a ameaças conhecidas e desconhecidas em tempo real. A principal função deste modelo é o desenvolvimento de métodos e mecanismos de segurança adaptativos baseados em risco para dispositivos inteligentes da IoT que estimam e prevêem danos de risco e benefícios futuros, integrando modelos de monitoramento adaptativo, analítico e preditivo, modelos de decisão adaptativa e modelos de avaliação e validação em um ciclo contínuo, permitindo que os métodos e mecanismos de segurança adaptem suas decisões sobre essas estimativas e previsões.
-
-Para enfrentar esses desafios, o modelo ARM proposto considera as seguintes medidas necessárias: (i) identificação - capacidade de prever problemas, (ii) análise - capacidade de prever o impacto, (iii) planejamento para implementar ações planejadas, (iv) rastreabilidade - capacidade de manter o foco do gerenciamento em ações de mitigação de risco, e (v) controle - capacidade de reduzir a exposição ao risco. Estas medidas são alcançadas através da coordenação de diferentes modelos.
-
-A Figura \ref{adaptive-security-management-model} descreve o framework de segurança adaptativa baseada em risco para a IoT. O framework consiste em (i) o modelo de gerenciamento de risco adaptativo, (ii) o modelo de monitoramento adaptativo, (iii) os modelos analíticos e preditivos, (iv) os modelos adaptativos de tomada de decisão e (v) os modelos de avaliação e validação.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/adaptive-security-management-model.png}
-\caption{Modelo proposto para gerenciamento de segurança adaptativa}
-\label{adaptive-security-management-model}
-\end{figure}
-
-O modelo de monitoramento de segurança adaptável (\textit{Adaptive Monitoring}) empregado no framework foi proposto pelos autores em \cite{abie10} e é utilizado para obter evidências técnicas automatizadas para fins de monitoramento de segurança operacional contínua. O modelo de monitoramento de segurança adaptável adapta a arquitetura seguindo um ciclo contínuo de monitoramento das informações de contexto e estado dos dispositivos inteligentes da IoT que são explorados em tempo de execução no processo de adaptação.
-
-Os modelos analíticos e preditivos analisam as informações coletadas  a partir do modelo de monitoramento adaptativo usando a teoria dos jogos e a ciência de contexto para estimar e prever dinamicamente riscos de segurança e privacidade e benefícios futuros, visando compreender e priorizar as atividades de tomada de decisão e analisar a segurança socioeconômica da segurança adaptativa na IoT. A teoria dos jogos foi escolhida pois pode modelar o comportamento dinâmico das partes interessadas com interesses conflitantes, incluindo as estratégias dos adversários do mundo real. Os modelos também buscam aprimorar a precisão das estimativas aplicando métodos de aprendizado automatizado e algoritmos baseados em regras.
-
-Na eHealth baseada na IoT, segurança adaptativa para tomada de decisão é necessária para adaptar os meios de proteção dos dispositivos envolvidos, suas interações e seu ambiente contra intrusos maliciosos e usuários autorizados. O modelo de tomada de decisão adapta-se ao dinamismo desses dispositivos, suas interações, ao meio ambiente e aos diversos graus de risco que o sistema da IoT para eHealth será confrontado. Isso é realizado determinando dinamicamente se as mudanças e a adaptação devem ser feitas ou não e, se for feita, selecionando o ``melhor'' modelo de segurança adaptativo para uma determinada situação para posteriormente aplicar as mudanças e adaptações identificadas garantindo a maior probabilidade de alcançar o maior benefício para o menor risco. O modelo geral de tomada de decisão adaptativa também aprende e se adapta a um ambiente de IoT em mudança em tempo de execução. Isso é feito (i) combinando modelos adaptativos de decisão baseado em risco, modelos adaptativos de segurança e privacidade e atuadores para fazer uma reação adaptativa efetiva, e (ii) integrando diferentes métricas para validação e verificação, avaliação adaptativa de risco e modelos de análise preditiva para estimativa e previsão de riscos e impactos de segurança e privacidade.
-
-
-Medições de segurança e métricas são necessárias para avaliar e validar de forma mensurável a adaptação em tempo de execução. As técnicas de decomposição de objetivos de segurança são promissoras e evoluirão com modelos teóricos e matemáticos para medir e validar o potencial dos modelos de segurança adaptativa para IoT. As técnicas permitem capturar requisitos e métricas de projeto em diferentes níveis de abstração para determinar e identificar lacunas e obstáculos nos níveis de arquitetura e modelo. As métricas de segurança baseadas em simulação preditiva e verificação podem auxiliar a entender as diferentes soluções, variando os pressupostos sobre ameaças e requisitos, para selecionar métricas que servem como indicadores de riscos de segurança para a IoT.
-
-
-O artigo detalha ainda um possível estudo de caso baseado no fato de que os sistemas de monitoramento de pacientes são uma importante fonte de dados em ambientes de saúde. É ressaltado que esses sistemas devem manter um certo nível de disponibilidade, QoS, segurança e proteção de privacidade do paciente. Com isso, os autores apresentam um estudo de caso (vide Figura \ref{case-study-patient-monitoring}) baseado em um sistema de monitoramento de pacientes apoiado pela IoT . O paciente pode estar em casa ou no hospital, e os dispositivos da IoT incluem \textit{smartphones}, \textit{tablets}, sensores e atuadores.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/case-study-patient-monitoring.png}
-\caption{Estudo de caso baseado em monitoramento de paciente}
-\label{case-study-patient-monitoring}
-\end{figure}
-
-
-Como trabalho futuro os autores destacam o desenvolvimento e prototipação dos modelos para estimar e prever riscos e benefícios usando a teoria dos jogos e a ciência de contexto, definir a metodologia para medições de segurança e métricas para validar a eficácia da adaptação, bem como conceber dispositivos inteligentes com mecanismos de baixo consumo de recursos que irão permitir a detecção de ameaças em tempo de execução, respondendo a elas e se adaptando ao meio ambiente aprimorando o grau de segurança e privacidade. Também é incluído a necessidade de validação do cenário proposto.
+Com a execução do mapeamento sistemático da literatura
+foram selecionados dez trabalhos de interesse, os quais serão apresentados nas subseções a seguir, onde serão abordados os seguintes tópicos de interesse: motivação e justificativa do trabalho, a solução apresentada, avaliação e Resultados da Proposta.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Towards a Generalized Approach for Deep Neural Network based Event Processing for the Internet of Multimedia Things}
 
-\subsection{Architecture and Knowledge-Driven Self-Adaptive Security in Smart Space} % 2013
-
-Este artigo apresenta uma arquitetura para segurança adaptativa em espaços inteligentes. A abordagem combina um ciclo de adaptação, uma ontologia denominada \textit{Information Security Measuring Ontology} (ISMO) e um modelo de controle de segurança para espaços inteligentes. O ciclo de adaptação inclui as fases de monitoramento, análise, planejamento e execução de mudanças no espaço inteligente. De acordo com os autores, a abordagem se diferencia por definir todo o ciclo de adaptação e o conhecimento necessário em cada etapa. As contribuições são validadas como parte do protótipo de um espaço inteligente. A abordagem oferece meios reutilizáveis e extensíveis para alcançar a segurança adaptativa em espaços inteligentes \cite{evesti13c}. 
-
-Apesar de neste artigo a arquitetura ser explorada por meio de políticas dinâmicas de controle de acesso, o trabalho foi extendido em \cite{evesti13a}, onde outros cenários de uso são expostos. Ou seja, a segurança adaptativa pode ser aplicada em vários domínios, sendo uma abordagem de adaptação genérica, consequentemente permitindo a adaptação à vários objetivos de segurança. Além disso, a abordagem deve aplicar os mecanismos de segurança existentes, em vez de desenvolver mecanismos dedicados para fins de adaptação.
-
-A estrutura da arquitetura proposta é apresentada na Figura \ref{ismo-architecture}, onde observa-se que a mesma está em conformidade com o modelo de referência MAPE-K. Consequentemente, os componentes \textit{Monitor}, \textit{Analyser}, \textit{Planner} e \textit{Executor} desempenham um papel fundamental na estrutura, ou seja, a arquitetura aplica o ciclo de adaptação MAPE completo para a segurança adaptativa e define cada fase separadamente. O conhecimento é oferecido a partir da ontologia no formato \textit{Ontology Web Language} (OWL), a ISMO, a qual está conectada aos componentes \textit{Monitor}, \textit{Analyser} e \textit{Planner} que utilizam o seu conhecimento.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/ismo-architecture.png}
-\caption{Estrutura da arquitetura de adaptação}
-\label{ismo-architecture}
-\end{figure}
-
-O componente \textit{Monitor} está conectado aos componentes \textit{Monitoring Probe}, ao \textit{Analyzer} e ao ISMO. Da ISMO, o \textit{Monitor} recupera as métricas base. Assim, apenas as métricas para os objetivos de segurança exigidos e os mecanismos de segurança utilizados são usadas. Cada métrica base possui sua própria abordagem de medição que descreve como realizar a medição. Os componentes \textit{Monitoring Probe} são trechos de código que implementam os métodos de medição. O componente \textit{Monitor} solicita a medição dos resultados dos componentes \textit{Monitoring Probe} selecionados. A solução proposta utiliza métricas de segurança para monitorar o nível de segurança alcançado. 
-
-O componente \textit{Analyzer} é chamado pelo componente Monitor. A Figura \ref{ismo-monitor} mostra os componentes internos do componente  \textit{Analyzer} para calcular o indicador de nível de segurança. O \textit{Analyzer} recupera medidas derivadas, indicadores e abordagens de medição relacionadas da ISMO. O componente analisa as regras dos modelos de análise que são utilizados no componente do combinador de métricas base (\textit{Base measure combiner}) para calcular o indicador de nível de segurança. Posteriormente, o componente \textit{Analyzer} compara os níveis de segurança alcançados e necessários com base em informações contextuais monitoradas e chama o componente \textit{Planner} se a segurança necessária não tiver sido alcançada. 
-
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/ismo-monitor.png}
-\caption{Partes genéricas e específicas da implementação do monitoramento do nível de segurança}
-\label{ismo-monitor}
-\end{figure}
-
-O objetivo do componente Planner é criar um plano de adaptação. O componente é conectado à ontologia ISMO para recuperar mecanismos ou atributos de segurança alternativos para alcançar a segurança necessária. O plano de adaptação é definido em tempo de modelagem e decidido em tempo de execução com base no conhecimento da ISMO, ou na pior situação, as instruções sobre como proceder são solicitadas ao usuário.
-
-O \textit{Executor} é o último componente no loop de adaptação. Seu objetivo é fazer cumprir o plano de adaptação recebido como entrada do componente \textit{Planner}. Assim, ele está conectado aos componentes \textit{Action to Adapt}, que são implementações para adaptar a segurança, ou seja, são mecanismos de segurança destinados a aplicar ou modificar os atributos dos mecanismos de segurança.
-
-No que diz respeito a base de conhecimento ISMO, é ressaltado que a adaptação de segurança requer: i) conhecimento de segurança, ii) medição de conhecimento e iii) conhecimento de contexto. O conhecimento de segurança define objetivos de segurança, mecanismos, ameaças e como eles estão relacionados. Posteriormente, a medição do conhecimento descreve os atributos e a forma de medi-los. Por último, o conhecimento de contexto descreve o espaço inteligente e o papel dos dados, usuários e ações dentro do espaço inteligente. Essas três áreas de conhecimento são apresentadas na Figura \ref{ismo-ontology}.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/ismo-ontology.png}
-\caption{Dependências entre ontologias de segurança e de contexto}
-\label{ismo-ontology}
-\end{figure}
-
-
-Como contribuições, o trabalho apresentou dois casos de uso da ontologia aplicada em tempo de modelagem e em tempo de execução. É também destacado a possibilidade de reuso e extensão tanto da ontologia quanto da arquitetura para adaptações de segurança, a qual contempla todas as fases do modelo MAPE-K. Finalmente, os autores enfatizam o fato de esta ser a primeira arquitetura até o momento da sua publicação que apresentou uma separação entre a base de conhecimento do ciclo de adaptação. 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Event driven adaptive security in internet of things} % 2014
-
-Em \cite{aman14}, o objetivo dos autores é a concepção de uma solução autônoma para o gerenciamento de risco adaptativo para a IoT que possa analisar situações adversas em um contexto distinto e gerenciar o risco envolvido de forma inteligente para que as preferências do usuário final, o serviço e a segurança  estejam preservadas. Com isto, o artigo detalha o modelo de segurança adaptativa orientada a eventos para IoT e explica como ele pode ser aplicado em um cenário de eHealth para proteger o ambiente de ameaças em tempo de execução.
-
-Os autores destacam a ausência de um modelo com métodos específicos para abordar e conectar análises e adaptações como uma solução holística. Por isso, eles exploram essa problemática como um conjunto de duas questões: como monitorar e coletar mudanças de segurança em tempo de execução e analisá-las em um contexto específico, e; como as informações analisadas podem ser usadas para adaptar configurações de segurança, de modo que as preferências de usuários e serviços sejam preservadas.
- 
-A primeira questão é abordada utilizando a solução \textit{Open Source Security Information Management} (OSSIM) \cite{ossim18}, que fornece uma plataforma para escrever \textit{scripts}, chamados de \textit{plugins}, para filtrar e normalizar eventos primitivos de segurança coletados de diferentes dispositivos presentes no escopo monitorado. As diretivas de correlação do OSSIM são especificadas por meio de regras em \textit{eXtensible Markup Language} (XML) para modelar situações adversas em que eventos de segurança são correlacionados e analisados, em uma visão temporal e espacial, considerando um contexto particular. 
-
-
-A segunda questão é tratada por meio de uma ontologia proposta para adaptação que aproveita as informações de risco da correlação de eventos e adapta as configurações de segurança em tempo de execução. A ontologia permite que uma ação de mitigação seja selecionada de um conjunto de ações de forma que sua utilidade, em termos de usabilidade, QoS e confiabilidade de segurança, seja máxima entre as possíveis ações conforme os requisitos do usuário.
-
-A principal contribuição deste artigo é a ontologia de adaptação autonômica à segurança. A OSSIM não fornece essa capacidade e depende de reconfigurações manuais que podem não atender aos requisitos do usuário e do serviço. Além disso, o OSSIM está focado no ambiente de computação tradicional, incluindo servidores, desktops e aplicações correspondentes, onde o processamento de eventos é relativamente uma tarefa comum. Este artigo amplia a segurança orientada à eventos para a IoT, onde o ambiente se torna mais complexo devido à diversidade e mobilidade dos dispositivos para as quais os protocolos e ferramentas tradicionais são ineficientes para processar eventos.
-
-O modelo apresentado, \textit{Event Driven Adaptive Security} (EDAS), aborda a segurança adaptativa na IoT como uma \textit{Event Driven Architecture} (EDA) na forma de um clico de \textit{feedback}. O elemento básico de mudança disponível no ambiente monitorado é o evento gerado por várias aplicações e dispositivos registrados em arquivos de log. Eles fornecem um contexto primitivo sobre ``quem, quando, onde e o que'' provoca uma mudança e contém informações importantes, como data, origem, destino, atividade do usuário, níveis de gravidade, entre outras, necessárias para detectar situações de risco associadas a um evento. Um modelo de referência é apresentado na Figura \ref{edas-reference-model}, a qual inclui três principais componentes \textit{Monitor}, \textit{Analyzer} e \textit{Adaptor}.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/edas-reference-model.png}
-\caption{EDAS - modelo de referência}
-\label{edas-reference-model}
-\end{figure}
-
-O componente \textit{Monitor}, prototipado por meio do OSSIM Agent, coleta, filtra e normaliza eventos de diferentes dispositivos da IoT. Para a coleta, o EDAS faz uso tanto da bordagem com agente quanto sem agente (conhecida como \textit{agent-less}), neste caso explorando protocolos como Syslog e SNMP. No que diz respeito aos dispositivos da IoT, os autores adotaram um agente baseado no \textit{MQ Telemetry Transport} (MQTT), um protocolo de transporte de mensagens \textit{Machine-To-Machine} M2M projetado especificamente para IoT independente de plataforma. O cliente do MQTT conecta-se à API de eventos do dispositivo para coletar eventos de segurança gerados e os transporta para o OSSIM Agent, onde eles são armazenados em um arquivo de log específico.
-
-A filtragem de eventos é realizadas através dos \textit{plugins}, concebidos para fontes de eventos individuais. Escrever estes \textit{plugins} requer algum conhecimento da fonte e dos eventos que estão sendo analisados. O \textit{plugin}, identificado por um ID exclusivo e outros parâmetros necessários, é um arquivo de configuração que determina quais eventos da fila devem ser tratados e quais deles precisam ser filtrados. A OSSIM utiliza um mecanismo de lista branca (do inglês \textit{white-listing}) baseado em expressões regulares onde apenas eventos de interesse são enviados para posterior processamento. Quando ocorre uma correspondência com as expressões um identificador único de segurança (SID) é atribuído ao evento, o qual é geralmente utilizado na correlação de eventos.
-
-A normalização é realizada pois diferentes dispositivos da IoT produzem eventos em diferentes formatos. Logo, é necessário transformá-los em um único formato comum para correlação e análise. Este processo é realizado durante a extração de SIDs e visa também extrair atributos importantes de um evento. Os atributos variam de evento para evento dependendo do contexto primitivo que eles possuem.
-
-O componente \textit{Analyzer} é prototipado por meio do OSSIM Server. Inicialmente, antes dos eventos serem correlacionados, uma pontuação de risco é atribuída à eles. A OSSIM usa três métricas para calcular o risco do evento em tempo de execução:
 
 \begin{itemize}
-\item Valor do ativo (\textit{asset value}): determina a importância da origem ou do destino dos eventos dentro do escopo monitorado. Varia de 0 a 5.
-\item Prioridade (\textit{priority}): especifica o impacto do evento. Varia de 0 a 5.
-\item Confiabilidade (\textit{reliability}): determina a probabilidade ou a confiança de que o evento corresponderá a um comprometimento do ativo. A confiabilidade varia entre 0-10.
-
+	\item \textbf{Motivação e Justificativa do Trabalho:} O uso de dispositivos IoT multimídia tem aumentado consideravelmente (uso de câmeras para monitorar o trafego de uma cidade por exemplo), desta forma os tipos dos eventos criados na IoT estão também mudando, onde estes eventos multimédia geram dados não estruturados, gerando uma procura crescente na utilização eficiente do processamento de fluxos de eventos multimídia. No entanto, os mecanismos de processamento de eventos atuais têm suporte limitado ou inexistente para tipos de evento não estruturados.
+	
+	\item \textbf{Solução Apresentada:} É proposto um sistema genérico para manipular eventos da Internet das Coisas Multimídia (IoMT) como um tipo de evento nativo em ferramentas de processamento de eventos com alta eficiência. O sistema proposto estende as linguagens de processamento de eventos com a introdução de operadores para análise multimídia de eventos não estruturados (eventos multimídia) e aproveita um combinador de eventos baseado em rede neural convolucional profunda para processamento de eventos de imagem, para extrair recursos.
+	
+	\item \textbf{Avaliação e Resultados da Proposta:} O sistema desenvolvido foi otimizado usando uma abordagem de seleção de classificador baseada em restrições de assinatura. Os resultados obtidos mostram que a ferramenta atinge uma taxa de transferência média de 110 quadros/segundo com uma precisão aproximada de 66,34\% em eventos do mundo real de várias aplicações de cidades inteligentes. Foi apresentado ainda um teste de desempenho com o aumento do numero de classes por classificador, onde os resultados obtidos mostram uma taxa de transferência estável para um classificador de uma classe, porem com o aumento do numero de classes a taxa de transferência cai continuamente.  
+	
 \end{itemize}
 
-Com isto, para cada evento X o risco é quantificado na função:
-
-\begin{center}
-\begin{math}
-Risk(X) = (Priority \times AssetV alue \times Reliability)/25 
-\end{math}
-\end{center}
-
-A divisão de 25 é feita para manter os valores de risco no intervalo de 0 a 10, o que reflete o nível de risco de cada evento. Esses valores são atribuídos à medida que chegam no mecanismo \textit{Risk Scoring}, e são armazenados no banco de dados mantendo a relação com cada SID, podendo ser alterados manualmente conforme necessário. Já os valores de prioridade e confiabilidade podem ter valores diferentes configurados nas diretivas de correlação.
-
-Na sequência, o mecanismo de correlação analisa os eventos usando diretrizes de correlação armazenadas em XML. A correlação é disparada quando um SID específico é encontrado e, portanto, um novo evento é gerado com um novo valor de confiabilidade. O motor aumenta e diminui esse valor com os respectivos atributos definidos dentro das diretivas. Portanto, o risco é avaliado dinamicamente quando os SIDs são correlacionados ao longo do tempo. A correlação de eventos produz eventos de alto nível que vão para uma correlação detalhada ou são marcados como alarmes a serem gerenciados. Os alarmes são eventos correlacionados com o nível de risco acima do limite de aceitação de risco. As informações carregadas por um alarme incluem IDs de origem e de destino, o usuário envolvido, o nível de risco, os detalhes da ameaça e a diretiva de correlação responsável por gerá-lo. Esta informação é utilizada durante o processo de adaptação onde o risco confrontado é mitigado.
-
-Para utilizar o conhecimento disponível de forma precisa e adaptar as configurações de segurança de forma otimizada, a ontologia de adaptação proposta é empregada. Para operar em tempo de execução, a ontologia considera todas as entidades e seus relacionamentos necessários para uma segurança adaptativa otimizada. O modelo proposto é utilizado em um cenário de \textit{eHealth} habilitado para IoT, onde um paciente é gerenciado remotamente pela internet ou rede celular. Para isso, três contextos diferentes foram estabelecidos na ontologia proposta, conforme mostrado na Figura \ref{edas-ontology}.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/edas-ontology.png}
-\caption{EDAS - ontologia para segurança adaptativa}
-\label{edas-ontology}
-\end{figure}
-
-
-O \textit{User Context} corresponde às preferências do paciente e da equipe médica que devem ser consideradas antes da adaptação Cada usuário possui ou utiliza um conjunto de aplicativos, como o aplicativo \textit{eHealth}, o Skype para comunicação paciente-médico, entre outros, e dispositivos, como sensores corporais, dispositivos inteligentes ou \textit{desktop}/notebook, no escopo da infraestrutura da IoT-eHealth. As informações correspondentes, por exemplo, tipo, valor de ativos, etc., juntamente com suas capacidades, estão contidas em \textit{Asset Context}. As entidades e as configurações associadas necessárias para a adaptação de segurança otimizada são agrupadas no \textit{Security Adaptation Context}.
-
-Uma ação de mitigação ideal é selecionada a partir do conjunto de ações seguindo o procedimento mostrado na Figura \ref{edas-adaptation-process}. O mecanismo de resposta (\textit{Response engine}) envia uma mensagem usando o MQTT para um atuador (cliente MQTT instalado no dispositivo monitorado) com os detalhes da ação fornecida pelo mecanismo de adaptação. O atuador é conectado à API do dispositivo, por exemplo uma API de autenticação, e encaminha a mensagem como variáveis a serem reconfiguradas.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/edas-adaptation-process.png}
-\caption{EDAS - processo de segurança adaptativa}
-\label{edas-adaptation-process}
-\end{figure}
-
-Uma função de predição escolhe a ação de adaptação com o máximo de utilidade. Os pesos subjetivos são atribuídos a métricas afetadas para cada propriedade, os quais correspondem à utilidade geral da propriedade (para ser usada na ação adaptada) para um usuário específico. As métricas refletem parâmetros, como usabilidade, confiabilidade, custo do serviço, etc., que podem ser influenciados negativamente ou positivamente por uma propriedade de segurança selecionada. As métricas são agrupadas em três categorias, \textit{User}, QoS e \textit{Security}, para capturar influências sobre preferências de usuários, QoS e confiabilidade de segurança.
-
-Os autores descrevem um cenário da IoT-eHealth no qual um paciente residindo em casa, está equipado com vários sensores corporais. Seus sinais vitais são monitorados através desses sensores e são transmitidos através de uma rede sem fio ou celular para um local remoto do hospital para posterior diagnóstico. O paciente freqüentemente usa seu \textit{smartphone}, parte dessa infraestrutura, instalado com um aplicativo de eHealth para acompanhar o estado de saúde, bem como para pagamentos de cobranças diversas além do uso pessoal. Com isto, um situação adversa é descrita onde um adversário com acesso ao  \textit{smartphone} tenta se autenticar no aplicativo de \textit{eHealth}. Desta forma, a EDAS deve levar em consideração os diferentes contextos para escolha da melhor opção de mitigação.
-% No artigo não ocorre a prototipação e testes, mas na tese acredito que sim.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Managing Context Information for Adaptive Security in IoT environments} % 2015
-
-Para abordar os desafios de modelagem e desenvolvimento de mecanismos de segurança cientes de contexto para a IoT, os autores deste trabalho definiram dois objetivos. Por um lado, o trabalho visa fornecer uma visão geral das implicações de segurança para os estágios do ciclo de vida do gerenciamento de contexto na IoT. Por outro lado, com base em um \textit{framework} de segurança para IoT proposto em \cite{bernabe14}, busca-se apresentar como as informações contextuais podem ser usadas por outros componentes deste \textit{framework} para capacitar objetos inteligentes com ciência de contexto ao tomar decisões de segurança \cite{ramos15}.
-
-
-A Figura \ref{arm-framework} apresenta o \textit{framework} de segurança para IoT concebido em \cite{bernabe14}, no qual o grupo funcional de segurança é detalhado. Por um lado, o \textit{framework} amplia os componentes de segurança da \textit{Architecture Reference Model} (ARM) (ou seja, \textit{Authentication}, \textit{Authorization}, \textit{KEM}, \textit{Identity Management}, e \textit{Trust \&\& Reputation}) com a inclusão do \textit{Group Manager} e do \textit{Context Manager}. O primeiro pretende lidar com mecanismos de compartilhamento de dados mais flexíveis em que um grupo de objetos inteligentes podem ser envolvidos, enquanto a segurança e a privacidade são preservadas. O último é proposto para permitir a concepção de mecanismos de segurança cientes ao contexto para IoT, bem como para considerar as implicações de segurança durante as diferentes etapas do ciclo de vida do gerenciamento de contexto. Por outro lado, o \textit{framework} de segurança propõe as principais interações entre esses componentes de segurança, de modo a permitir a modelagem de mecanismos de segurança inovadores e adequados, a serem explorados em cenários da IoT.
-
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/arm-framework.png}
-\caption{Framework de segurança ciente de contexto para IoT}
-\label{arm-framework}
-\end{figure}
-
-Este trabalho tem como foco o Gerenciador de Contexto (\textit{Context Manager}), bem como as principais interações com outros componentes de segurança, a fim de tornar as decisões de segurança de objetos inteligentes cientes de contexto. Além disso, são propostos diferentes estágios para o ciclo de vida do gerenciamento de contexto, bem como um conjunto de diretrizes sobre implicações de segurança durante essas fases.
-
-A Figura \ref{context-manager-overview} mostra os principais estágios considerados para o Gerenciador de Contexto do \textit{framework} de segurança. Essas etapas são extraídas das fases do ciclo de vida do contexto, que são propostas em \cite{perera14}. Antes de descrever essas etapas, deve-se destacar que o Gerenciador de Contexto pode ser instanciado de maneira diferente dependendo da entidade da IoT que está sendo considerada. Por exemplo, enquanto os \textit{smartphones} atuais podem ser capazes de implantar toda a funcionalidade das diferentes etapas, outros dispositivos da IoT com mais restrições de recursos, só poderiam implementar um subconjunto. No caso de sensores ou atuadores, eles podem implantar um subcomponente do comunicador de contexto, mas não a funcionalidade de raciocínio.
- 
- \begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/context-manager-overview.png}
-\caption{Visão geral do Gerenciador de Contexto}
-\label{context-manager-overview}
-\end{figure}
-
-
-O Gerenciador de Contexto é dividido em quatro etapas principais. Em primeiro lugar, durante a fase de aquisição, o \textit{Context Acquirer} obtém informações de contexto a serem processadas. Esses dados podem ser provenientes de outras entidades internas (por exemplo, um acelerômetro no caso de um \textit{smartphone}) ou de outros objetos inteligentes no ambiente monitorado (por exemplo, um sensor de temperatura). Nesse caso, as informações de contexto podem ser adquiridas através de diferentes protocolos de comunicação empregados na IoT, como o \textit{Constrained Application Protocol} (CoAP), \textit{Extensible Messaging and Presence Protocol} (XMPP) ou \textit{Message Queue Telemetry Transport} (MQTT). Essas comunicações podem ser realizadas entre dispositivos com restrições de recursos, e precisam ser protegidas para que o Gerenciador de Contexto somente processe informações provenientes de objetos inteligentes legítimos. Enquanto alguns destes protocolos fornecem opções de segurança por meio de diferentes mecanismos (por exemplo, \textit{Datagram Transport Layer Security} (DTLS) no caso do CoAP), atualmente, a implementação de mecanismos de segurança para esses protocolos é um tópico de pesquisa. 
- 
-Depois que a informação contextual é adquirida, o conjunto de dados brutos é encaminhado para o componente \textit{Context Modeller} para serem interpretados e modelados de acordo com um modelo de contexto comum. Para esse fim, o subcomponente  \textit{Context formatter} é responsável por traduzir dados brutos para um formato comum que pode ser interpretado pelas camadas superiores do Gerenciador de Contexto. Para a modelagem das informações contextuais nos ambientes da IoT, é necessário considerar um balanço entre o grau de expressividade do modelo e a viabilidade a ser implantada em certos tipos de dispositivos. Portanto, para o Gerenciador de Contexto proposto, foi selecionado o \textit{Sensor Model Language} (SensorML) \cite{ocg18} (na versão \textit{JavaScript Object Notation} (JSON)) como uma alternativa flexível e gerenciável para a representação de informações contextuais em dispositivos da IoT. SensorML fornece modelagem de informações com base em pares chave-valor e e marcações, o que permite uma representação simples de dados de contexto. Desta forma, uma vez que a informação contextual é modelada, o subcomponente \textit{Context organizer} é responsável por validar o conjunto de dados modelados e adicioná-los ao repositório de informações contextuais do objeto inteligente.
-
-Na próxima etapa, o \textit{Context Reasoner} é responsável por deduzir informações de contexto de alto nível sobre os dados modelados fornecidos pela etapa anterior. Para isso, são realizadas três tarefas principais. Em primeiro lugar, os dados modelados são enviados para o \textit{Context Pre-processer} que irá descartar dados ambíguos e imprecisos, ou provenientes de entidades não confiáveis e atribuir menor prioridade aos dados de contexto provenientes de objetos inteligentes com uma reputação questionável. 
-
-Uma vez que os dados de contexto foram pré-pré-processados, a informação contextual é combinada pelo \textit{Context combiner} com dados de diferentes entidades levando em consideração a prioridade dos dados contextuais para criar uma visão de contexto mais completa. 
-
-Finalmente, durante a fase de inferência, o conjunto de dados combinados é usado para produzir informações de contexto de alto nível através do \textit{Context inferer}. Este processo também pode estar ciente das preferências de segurança e privacidade do objeto inteligente. Existe uma ampla gama de técnicas de raciocínio de contexto que podem ser aplicadas, como por exemplo, regras, lógica difusa, ontologias ou lógica probabilística. Nesse sentido, dado o alto grau de dinamismo e ubiquidade da IoT, a tecnologia de Processamento de Eventos Complexos, do inglês \textit{Complex Event Processing} (CEP), fornece meios para processar eventos derivados de informações contextuais provenientes de diferentes entidades. Especificamente, fornece um procedimento apropriado para filtrar, agregar e mesclar dados de diferentes fontes em tempo de execução. A CEP é uma tecnologia bem conhecida baseada em regras, fácil de estender e de menor uso de recursos do que outras técnicas de raciocínio (por exemplo, ontologias), o que favorece sua adoção para o paradigma da IoT.
-
-Durante a última etapa, informações contextuais de alto nível são enviadas para outras entidades (por exemplo, outros objetos inteligentes, servidores ou nuvem para processamento posterior), usando o \textit{Context Communicator}. Neste caso, as considerações de segurança do \textit{Context acquirer} também devem ser levadas em consideração por este componente para proteger as informações que estão sendo disseminadas. Além disso, a comunicação de informações contextuais de alto nível deve basear-se nas especificações NGSI-9 e NGSI-10 \cite{oma12}, permitindo uma interface comum para troca de dados de contexto com outras entidades. Outras considerações de segurança podem ser levadas em consideração quanto à freqüência ou granularidade desses dados, pois isso pode prejudicar a privacidade do objeto inteligente (ou do proprietário). Além das interfaces de comunicação externas, o comunicador de contexto mantém uma interface de comunicação interna para enviar informações de contexto de alto nível para outros componentes do \textit{framework} de segurança. Essas interações destinam-se a criar uma visão de segurança adaptativa para o paradigma da IoT.
-
-Após a descrição dos componentes do Gerenciador de Contexto, conforme observa-se na Figura \ref{context-aware-adaptive-security}, os autores apresentam as principais interações projetadas entre o gerenciador e outros componentes de segurança para gerar as decisões de segurança sobre os objetos inteligentes promovendo a segurança adaptativa. 
-
- \begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/context-aware-adaptive-security.png}
-\caption{Interações do \textit{framework} para mecanismos de segurança adaptativa cientes de contexto}
-\label{context-aware-adaptive-security}
-\end{figure}
-
-O componente \textit{Identity Management} (IdM) é responsável por gerenciar as identidades de um objeto inteligente de forma a preservar a privacidade. O \textit{Authorization} é baseado em uma combinação de modelos e técnicas de controle de acesso sendo implantado para gerar tokens de autorização. O componente \textit{Trust \&\& Reputation} permite estabelecer um ambiente de IoT seguro e confiável, onde os usuários podem interagir com os serviços da IoT com segurança. Enquanto o \textit{Group Manager} baseia-se no uso do esquema de criptografia \textit{Ciphertext Policy Attribute Based Encryption} (CP-ABE) para permitir um mecanismo seguro de compartilhamento de dados com grupos de objetos inteligentes.
- 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{An Ontology-based Security framework for Decision-making in Industrial Systems} % 2016
-
-Este trabalho propõe uma arquitetura para \textit{framework} de segurança adaptativa (vide Figura \ref{iotsec-architecture}) baseada no modelo MAPEK utilizando uma ontologia para a tomada de decisões visando melhorar a segurança da informação em sistemas industriais \cite{mozzaquatro16}. A ontologia IoTSec \cite{mozzaquatro15} empregada na base de conhecimento contribui para sustentar o sistema usando consultas de informações contextuais coletadas no ambiente. A principal contribuição desta abordagem é validada como uma integração com o projeto \textit{Cloud Collaborative Manufacturing Networks} (C2NET\footnote{http://c2net-project.eu/}) para garantir propriedades de segurança em alguns cenários críticos.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/iotsec-architecture.png}
-\caption{Uma arquitetura para \textit{framework} de segurança adaptativa baseada em ontologia integrada com a plataforma C2NET.}
-\label{iotsec-architecture}
-\end{figure}
-
-A IoTSec, aprensetada na Figura \ref{iotsec-ontology}, é uma ontologia de referência para a segurança na IoT proposta em \cite{mozzaquatro15} para explorar aspectos das relações entre os componentes básicos da análise de risco da ISO/IEC 13335-1:2004 e da \textit{National Institute of Standards and Technology} (NIST) \textit{Special Publication} 800-12, como: \textit{Assets}, \textit{Threats}, \textit{SecurityMechanism}, \textit{Vulnerability} and \textit{Risk}. A Figura \ref{iotsec-ontology} apresenta um arranjo de classes de alto nível para modelar a IoTSec.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/iotsec-ontology.png}
-\caption{Ontologia de referência para segurança na IoT \cite{mozzaquatro15}}
-\label{iotsec-ontology}
-\end{figure}
-
-A plataforma colaborativa C2NET tem como base a computação na nuvem permitindo que pequenas e médias empresas otimizem os seus recursos logísticos e de produção com base em dinâmicas colaborativas de procura, produção ou expedição. Um dos principais problemas das cadeias de abastecimento tradicionais está relacionado à centralização das abordagens de tomada de decisão, o que dificulta a reação das empresas considerando a dinamicidade dos mercados atuais. De acordo com isso, a plataforma C2NET é proposta para contribuir em vários aspectos da fabricação industrial, explorando a coleta de dados de dispositivos da IoT presentes nas empresas. No entanto, esses dispositivos são vulneráveis a várias ameaças e precisam ser abordados usando mecanismos de segurança. Além disso, alguns desses dispositivos usam diferentes tecnologias da IoT e a plataforma C2NET explora a interoperabilidade baseada em tecnologias da web semântica.
-
-O \textit{framework} de segurança é proposto com duas abordagens para melhorar os problemas de segurança da plataforma C2NET: modelagem e tempo de execução. A abordagem de modelagem explora os conhecimentos anteriores para adoção de novas tecnologias ou produtos considerando questões de segurança. Esta opção impacta nas empresas, pois o responsável pelas compras geralmente não possui experiência em segurança da informação e a compra de produtos é realizada sem análise de segurança.
-
-%On the other hand, run time approach monitors IoT devices based on security metrics and attributes to identify malicious behaviors in the smart environ- ment. Consequently, configurations and/or rules need to be adapted according the knowledge base, when alerts are triggered by security tools. For that, IoT ontology contributes to identify relations between threat, asset, vulnerability, security mechanism and security property. Nevertheless, the adapter infers in new information on knowledge base to deploy new approaches for specifics situations or malicious behaviors.
-% [ric] está estranho este paragrafo, tentar entender lendo o texto
-Por outro lado, a abordagem em tempo de execução monitora os dispositivos da IoT com base em métricas e atributos de segurança para identificar comportamentos maliciosos no ambiente. Conseqüentemente, as configurações e/ou regras precisam ser adaptadas de acordo com a base de conhecimento, quando os alertas são acionados por ferramentas de segurança. Para isso, a ontologia contribui para identificar as relações entre ameaça, ativos, vulnerabilidades, mecanismos de segurança e propriedades de segurança. No entanto, o adaptador infere novas informações sobre a base de conhecimento para implantar novas abordagens para situações específicas ou comportamentos maliciosos.
-
-Para validação da proposta dois cenários foram desenvolvidos sobre o setor metalúrgico buscando aplicar a estrutura de segurança baseada em ontologia para melhorar os problemas de segurança entre os dispositivos da IoT e a plataforma C2NET. Os autores observam que o trabalho considera que os cenários são vulneráveis apenas à ameaças digitais, como divulgação de informações, ataques de repetição, \textit{spoofing} e outros ataques a dispositivos inteligentes.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Efficient Security Adaptation framework for Internet of Things} % 2016
-
-Neste artigo os autores destacam que de acordo com Shnitko (2004)\nocite{shnitko04}, os problemas principais e típicos da segurança em sistemas complexos são: o uso ineficiente e inadequado de métodos e ferramentas de segurança disponíveis e a dispersão de recursos ao tentar resolver diversos problemas de segurança ao mesmo tempo. Com isso, eles assumem que esses problemas precisam de soluções eficientes, o que leva à demanda por métodos de segurança adaptativos. Desta forma, o artigo apresenta um \textit{framework} genérico denominado \textit{Security Adaptation Reference Monitor} (SARM) como uma proposta para solução destes problemas, visto que ele emprega o paradigma autonômico e é desenvolvido especialmente para ambientes suportados por redes sem fio altamente dinâmicas \cite{elmaliki16}.
-
-O SARM realiza os ajustes dos parâmetros de segurança levando em consideração o risco do ambiente atual e o desempenho do sistema, especialmente no que se refere à otimização do seu consumo de energia. Isto ocorre sob as políticas e as restrições de intervenção em tempo de execução dos usuários. Assim, de acordo com os autores, o \textit{framework} se difere dos outros por:
-
-\begin{itemize}
-\item utilizar um sistema de controle de feedback de segurança autônoma;
-\item empregar mecanismos de segurança dinâmicos e em evolução relacionados ao monitoramento de contextos;
-\item realizar o gerenciamento de energia explícita;
-\item lidar com a mobilidade dos atacantes.
-\end{itemize}
-
-O foco principal deste trabalho é a adaptação de segurança em ambientes de comunicação móvel e sem fio. Além disso, de acordo com autores, a melhor maneira de implementar o \textit{framework} para cada programa de comunicação seria integrá-lo no \textit{kernel} e, consequentemente, ter o controle geral da segurança do ambiente. Assim, todos os programas de comunicação teriam que interagir com o SARM para obter acesso aos recursos de comunicação.
-
-O SARM foi proposto como um \textit{framework} genérico pois os autores consideram que implementar e escolher um sistema de segurança adaptativa depende de alguns fatores que estão correlacionados, como: o custo de aquisição; custo de manutenção; usabilidade, e; eficiência. Com isto, a proposta foi concebida seguindo uma metodologia de construção modular de blocos de modo a facilitar a integração e ocultar a complexidade interna do sistema. Além disso, essa abordagem permite uma expansão gradual para atender aos novos requisitos da IoT devido sua constante evolução. Para reagir em tempo real a qualquer ameaça, o SARM baseia-se em informação de feedback buscando reduzir a intervenção humana.
-
-Três componentes principais do sistema autônomo, disposto na Figura \ref{sarm-description} foram identificados no projeto: o primeiro é uma unidade funcional, o qual desempenha funções operacionais, sendo responsável por selecionar parâmetros de segurança adequados, como acesso eficiente à rede; o segundo é uma unidade de gerenciamento, que controla a unidade funcional; e o componente final consiste em entradas e saídas. Os parâmetros de segurança são definidos como qualquer algoritmo ou mecanismo que possa aprimorar a segurança, mas que também tenha a capacidade de não tomar medidas de segurança, a menos que seja realmente necessário. Isto inclui a escolha do acesso adequado à rede, uma vez que algumas tecnologias de comunicação de rede são mais seguras, porém com maiores níveis de consumo de energia, enquanto outras são menos seguras, e consequentemente possuem menores níveis de consumo de energia.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/sarm-description.png}
-\caption{SARM - descrição do sistema autônomo}
-\label{sarm-description}
-\end{figure}
-
-
-Os componentes mencionados foram estendidos com base na arquitetura de segurança adaptativa. Desta forma, o \textit{framework} foi descrito como uma quintupla: AS = (A,X,Q,Up,Uf). A é composto por componentes do sistema e um conjunto de propriedades. Esses componentes pertencem a informações relacionadas ou não (como QoS, por exemplo) à segurança.  O contexto X refere-se à circunstância de qualquer interação entre um usuário e o sistema. As dimensões de adaptividade Q são relacionadas à QoS ou segurança, e fornecem uma visão de alto nível dos usuários do sistema. As preferências do usuário, representadas pela sigla Up, expressam restrições e requisitos dos usuários. A função de utilidade (Uf) expressa a qualidade da adaptação para um usuário ou rede.
-
-Após definir explicitamente os elementos de um sistema adaptativo, os autores realizam o mapeamento dos mesmos em um sistema autônomo, conforme observa-se na Figura \ref{sarm-framework}. Para a unidade funcional, foram adicionadas as preferências de usuários e os parâmetros de segurança. Depois disso, foi adicionado um elemento sensorial para levar em consideração o contexto. Para a unidade de gerenciamento, fora definidas as políticas e logs para segurança de curto e longo prazo  ou para análises de segurança e monitoramento de QoS.  Os blocos de risco, vulnerabilidades e desempenho foram baseados no módulo de gerenciamento de risco.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.7\textwidth]{imagens/sarm-framework.png}
-\caption{SARM - fundamentos do \textit{framework} genérico para segurança adaptativa}
-\label{sarm-framework}
-\end{figure}
-
-Os parâmetros de segurança são definidos como qualquer algoritmo ou mecanismo que possa aprimorar a segurança, mas que também tenha a capacidade de não tomar medidas de segurança, a menos que seja realmente necessário. Também inclui a escolha do acesso adequado à rede, uma vez que algumas tecnologias de comunicação de rede são mais seguras, com maiores níveis de consumo de energia, enquanto outras são menos seguras, com menores níveis de consumo de energia.
-
-% [ric] Acho que posso detalhar mais aqui, sem entrar em detalhes mas descrevendo um pouco o cenário
-Os detalhes de implementação e experimentação do SARM junto à uma série de simulações e avaliações incluindo as métricas de avaliação, especialmente referentes ao consumo de energia, são expostas em \cite{elmaliki14}.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Discussão dos Trabalhos Relacionados}
 
