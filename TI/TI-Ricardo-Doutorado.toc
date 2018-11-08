@@ -13,10 +13,11 @@
 \contentsline {chapter}{\numberline {3}Estado da Arte}{22}{chapter.3}
 \contentsline {section}{\numberline {3.1}Mapeamento Sistem\IeC {\'a}tico da Literatura}{22}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Crit\IeC {\'e}rios de Inclus\IeC {\~a}o e Exclus\IeC {\~a}o}{24}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Trabalhos Relacionados}{28}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Towards a Generalized Approach for Deep Neural Network based Event Processing for the Internet of Multimedia Things}{28}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}A Web-based Approach using Reactive Programming for Complex Event Processing in Internet of Things Applications}{28}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{29}{section.3.3}
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{32}{section.3.4}
-\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{33}{chapter.4}
-\contentsline {chapter}{Refer{\^e}ncias}{35}{chapter.4}
+\contentsline {section}{\numberline {3.2}Trabalhos Relacionados}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Towards a Generalized Approach for Deep Neural Network based Event Processing for the Internet of Multimedia Things}{29}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}A Web-based Approach using Reactive Programming for Complex Event Processing in Internet of Things Applications}{29}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Semantic IoT Middleware-enabled Mobile Complex Event Processing for Integrated Pest Management}{30}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{31}{section.3.3}
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{34}{section.3.4}
+\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{35}{chapter.4}
+\contentsline {chapter}{Refer{\^e}ncias}{37}{chapter.4}
