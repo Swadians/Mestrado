@@ -17,7 +17,8 @@
 \contentsline {subsection}{\numberline {3.2.1}Towards a Generalized Approach for Deep Neural Network based Event Processing for the Internet of Multimedia Things}{29}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}A Web-based Approach using Reactive Programming for Complex Event Processing in Internet of Things Applications}{29}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Semantic IoT Middleware-enabled Mobile Complex Event Processing for Integrated Pest Management}{30}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{31}{section.3.3}
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{34}{section.3.4}
-\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{35}{chapter.4}
-\contentsline {chapter}{Refer{\^e}ncias}{37}{chapter.4}
+\contentsline {subsection}{\numberline {3.2.4}Predictive Analytics for Complex IoT Data Streams}{31}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{33}{section.3.3}
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{36}{section.3.4}
+\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{37}{chapter.4}
+\contentsline {chapter}{Refer{\^e}ncias}{39}{chapter.4}
