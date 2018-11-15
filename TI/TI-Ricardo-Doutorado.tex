@@ -512,7 +512,21 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 	
 \end{itemize}
 
+\subsection{TrustCEP: Adopting a Trust-Based Approach for Distributed Complex Event Processing}
 
+
+\begin{itemize}
+	\item \textbf{Motivação e Justificativa do Trabalho:} O avanço da Internet das Coisas(IoT), com o uso de sensores modernos e dispositivos moveis capazes de capturar grandes quantidades de informações, estimulou o desenvolvimento de aplicativos aptos a trabalhar com essa nova grande avalanche de informações. Uma técnica eficaz que surgiu com o objetivo de extrair informações contextuais de alto nível deste grande fluxo de dados foi o CEP(\textit{Complex Event Processing}), facilitando a analise de dados em tempo real provenientes de fontes heterogêneas e distribuídas. Considerando que o contexto dos usuários pode ser de informações sensíveis, a preservação da privacidade destes dados é critica, tendo em vista que o processamento do contexto do usuário pode ocorrer em vários dispositivos (possivelmente maliciosos), especialmente em cenários colaborativos. Os trabalhos atuais sobre processamento de eventos complexos geralmente negligenciam o nível de privacidade dos dados do contexto de seus usuários onde estes são processados e diferentes dispositivos, muitas vezes com níveis de segurança desconhecidos. 
+	
+	
+	\item \textbf{Solução Apresentada:} Para solucionar o problema de controle de privacidade, os autores propõem uma abordagem baseada em confiança, onde usam esta métrica de confiança definida para o posicionamento e a execução de operadores CEP em ambientes distribuídos, atribuindo o processamento de dados sensíveis para dispositivos que tenham um nível de confiança mais alto. Para a definição deste valor, a ferramenta pode usar o histórico de interação entre os dispositivos, ou ainda usar uma funcionalidade de recomendações de confiança, a qual faz uma verificação de similaridade baseada em cosseno, evitando assim ataques de collusion e on-off. Como as fontes de informações em um ambiente IoT são decentralizadas o modelo do sistema construído escolhido pelos autores foi entorno de uma rede device to device(D2D).
+	
+	
+	\item \textbf{Avaliação e Resultados da Proposta:} Para a validação da proposta, um sistema CEP foi desenvolvido de forma distribuída baseado em SmartPhones, o qual da a possibilidade dos usuários se comunicarem com o uso do Bluetooth e processar gráficos de maneira distribuída, esta ferramenta foi chamada de TrustCEP a qual foi usado para avaliar a abordagem. Para medir as relações de confiança, foi gerado um histórico de interações entre usuários em canais síncronos e assíncronos, os quais representam aspectos comportamentais da confiança dos usuários. Como métricas de comparação foram usado o consumo médio de energia e a troca de dados na rede, onde os autores observaram que com a implementação da proposta os SmartPhones usados para os testes apresentaram um leve aumento de 2-6\% no consumo de energia, se comparado a abordagens quem não levam em consideração a privacidade dos dados, em contra partida o modelo proposto se mostra robusto contra ataques collusion e on-off.
+	Os autores citam como principais contribuições de seu trabalho: o desenvolvimento de um modelo de gestão de confiança (descentralizada) para adaptar a disseminação de eventos e a colocação de operadores para o CEP distribuído; Foi introduzido um modelo de gestão de confiança baseado nas relações do usuário e no histórico de interação de comunicação; Foi apresentado um esquema de recomendação de confiança robusto usando a medida de similaridade de cosseno.
+	
+	
+\end{itemize}
 
 \section{Discussão dos Trabalhos Relacionados}
 
