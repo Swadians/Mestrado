@@ -501,6 +501,19 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 \end{itemize}
 
 
+\subsection{DRESS: A Rule Engine on Spark for Event Stream Processing}
+
+\begin{itemize}
+	\item \textbf{Motivação e Justificativa do Trabalho:} Nos últimos anos o numero de dispositivo conectados a rede vem aumentando, com esse crescimento, a quantidade de fluxos de dados, aumenta simultaneamente, gerando a necessidade de sistemas capazes de reagir automaticamente a determinados eventos desencadeados por estes fluxos de dados. Tais sistemas se baseiam em um conjunto de regras pre definidas, onde através da análise dos fluxos de informações, executam determinadas ações que satisfação a alguma das regras deste conjunto. Nas últimas três décadas, sistemas como estes têm sido amplamente empregados em empresas, governos e organizações. Porem com o aumento crescente no tamanho dos fluxos de dados, como o grande numero de fluxos produzidos por eventos de dispositivos da Internet of Things (IoT), fazem com que os atuais sistemas baseados em regras enfrentem sérios desafios em termos de velocidade, escalabilidade e tolerância a falhas.
+	
+	\item \textbf{Solução Apresentada:} O artigo apresenta a proposta de adaptar sistemas baseados em regras para trabalhar em conjunto com o Spark Streaming visando desta forma melhorar seu desempenho. Foi apresentado uma Transformação do algoritmo Rete, que está por trás de muitos dos \textit{Rule based systems} (RBSs) atuais, esta transformação faz com que o algorítimo funcione como um mecanismo de regras no ambiente do Spark. Também foi introduzido juntamente com um novo sistema de mensagens baseado em Kafka o DRESS (\textit{Distributed Rule Engine no Spark Streaming}) onde foi demonstrado uma forma automatizada de transformar regras escritas no estilo do Apache Drools para serem executadas no DRESS, tornando fácil para os atuais usuários do Drools mover seus sistemas para o DRESS sem esforço, este método de transformação de regras é baseada em técnicas MDA e na biblioteca de usuários SiTra.
+	
+	\item \textbf{Avaliação e Resultados da Proposta:} O sistema proposto foi avaliado com a ajuda de um estudo de caso, onde foi simulado um sistema bancário para a execução dos testes. Os autores usaram o DRESS para transformar as regras CEP definidas para o ambiente de estuo, em código Scala e assim executá-lo no Spark Streaming, um gerador de dados foi criado com o intuito de produzir informação aleatoriamente para a simulação do ambiente bancário, incluindo fluxos de caixa, contas e períodos contábeis com um parâmetro de escala. Durante os testes o DRESS demonstrou uma melhora significativa de desempenho e escalabilidade se em comparação ao Drools, demonstrando ser capaz de lidar com grandes volumes de dados, em contra partida, o Drools não demonstrou esta mesma capacidade. Além  da alta capacidade de processamento, o DRESS se demonstrou mais flexível em termos de gerenciamento de memória, mesmo nos testes executados em uma única máquina, este pode processar um conjuntos de dados maiores que o Drools e em menos tempo. Assim os autores destacam que com os dados coletados pelo estudo de caso, se pode demonstrar que o DRESS tem potencial para resolver muitos dos problemas de processamento de grande fluxo de dados presentes nas RBSs.
+	
+\end{itemize}
+
+
+
 \section{Discussão dos Trabalhos Relacionados}
 
 Conforme destacado na introdução deste trabalho, de acordo com a literatura (em especial alguns ``\textit{surveys}''), inclusive com os trabalhos identificados no estado da arte, os seguintes aspectos foram identificados como problemas relacionados as pesquisas em arquiteturas/modelos de segurança adaptativa:
