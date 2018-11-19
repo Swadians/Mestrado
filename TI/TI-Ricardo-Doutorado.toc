@@ -21,7 +21,8 @@
 \contentsline {subsection}{\numberline {3.2.5}DRESS: A Rule Engine on Spark for Event Stream Processing}{33}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}TrustCEP: Adopting a Trust-Based Approach for Distributed Complex Event Processing}{34}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Anaysis of Controller Based IEEE 802.11 System with Similarity Measure Clustering}{35}{subsection.3.2.7}
-\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{36}{section.3.3}
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{39}{section.3.4}
-\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{40}{chapter.4}
-\contentsline {chapter}{Refer{\^e}ncias}{42}{chapter.4}
+\contentsline {subsection}{\numberline {3.2.8}Parallel big data processing system for security monitoring in Internet of Things networks*}{36}{subsection.3.2.8}
+\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{38}{section.3.3}
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{41}{section.3.4}
+\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{42}{chapter.4}
+\contentsline {chapter}{Refer{\^e}ncias}{44}{chapter.4}
