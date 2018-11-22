@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {3.2.1}Towards a Generalized Approach for Deep Neural Network based Event Processing for the Internet of Multimedia Things}{30}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}A Web-based Approach using Reactive Programming for Complex Event Processing in Internet of Things Applications}{30}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Semantic IoT Middleware-enabled Mobile Complex Event Processing for Integrated Pest Management}{31}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Predictive Analytics for Complex IoT Data Streams}{32}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Predictive Analytics for Complex IoT Data Streams}{33}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}DRESS: A Rule Engine on Spark for Event Stream Processing}{34}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}TrustCEP: Adopting a Trust-Based Approach for Distributed Complex Event Processing}{35}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Anaysis of Controller Based IEEE 802.11 System with Similarity Measure Clustering}{36}{subsection.3.2.7}
