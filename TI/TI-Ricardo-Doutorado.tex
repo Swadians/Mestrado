@@ -331,8 +331,50 @@ No que tange a segurança adaptativa, caso os contextos relevantes para a identi
 Inicialmente neste capítulo foi apresentada a definição de IoT, sendo destacado que a segurança adaptativa é considerado um desfio importante e atual. Posteriormente a segurança adaptativa foi discutida, sendo exposto que o uso de um clico de \textit{feedback} se faz necessário para apoiar a implantação deste conceito. Também foi descrito que a ciência de contexto é um atributo fundamental para a adaptação. Com isto, na seção seguinte foi analisada a ciência de contexto descrevendo como ela pode ser aplicada neste âmbito.
 
 
+\chapter{Embasamento Teórico}
+Para fornecer um embasamento teórico ao leitor sobre a Ciência de Situação que será discutida no capitulo \ref{cap:Estado_da_Arte} será abordado nas seções seguintes deste capitula as definições assumidas neste documento para evento, processamento de evento, processamento de fluxo de eventos e processamento de eventos complexos respectivamente.
+
+\section{Definição de Evento}
+A definição de evento considerada neste documento é definida como a ocorrência de uma determinada ação dentro de um ambiente, que geralmente envolve uma tentativa de mudança de estado do sistema. A qual inclui normalmente a noção de tempo, localidade e detalhes pertencentes ao evento ou a anomalia que desencadeou determinado evento que visam ajudar a compreender as causas ou efeitos desencadeadores do evento \cite{fitzgerald2010common}.
+Um evento também pode ser separado em campos que descrevem suas propriedades, como por exemplo um evento em uma rede IoT pode incluir quatro atributos: eventID, eventName, eventTime e recordTime. EventID e eventName são normalmente definidos como registros básicos e são armazenados no data center, eventTime e recordTime expressam o conceito de tempo no evento descrevendo sua hora de ocorrência e de captura respectivamente \cite{minbo2013information}. 
+
+Tais eventos podem ser aplicados em diversos sistemas para se atingir determinados fins, como por exemplo o uso em ferramentas de monitoramento onde estes eventos são utilizados para representar mudanças em situações \cite{etzion2011event}. Estes sistemas monitorados podem ser representados por conjuntos de sensores, onde por exemplo, em aplicações na agricultura de precisão são usados para o monitoramento da umidade e acidez do solo, de forma que tais valores emitidos por estes sensores podem ser vistos como mudanças de estado do ambiente, como uma mudança brusca na acidez do solo ou em sua umidade, as quais podem ser representadas como uma mudança de situação de interesse \cite{garcia2011wireless}.
+
+\section{Definição de Processamento de Evento}
+O processamento de eventos (\textit{Event processing} - EP) pode ser visto como um paradigma onde fluxos de eventos são analisados continuamente com o objetivo de extrair informações uteis de alto nível destes dados analisados. Existem diversas áreas que possuem características com potencial de serem exploradas pelo processamento de eventos, dentre estas podemos citar os setores da saúde com o monitoramento do status da saúde dos paciente onde os diversos eventos precisam ser processados e analisados \cite{weiner2008health}; o setor da agricultura de precisão o qual emprega diversos sensores para o monitoramento de plantas, gerando grandes fluxos de eventos que necessitam ser processados \cite{garcia2011wireless} e o setor de energia fazendo uso de eventos para o monitoramento do consumo excessivo de energia visando atingir uma eficiência energética melhor \cite{vijayaraghavan2010automated}. 
+
+Apesar do processamento de eventos ser aplicado para resolver problemas em áreas totalmente distintas, existem alguns requisitos exigidos por estes que são normalmente semelhantes, tais como a necessidade de processar em tempo de execução grandes volumes de dados. Um setor em constante  crescimento que tem gerado grandes interesses no processamento de eventos é a Internet das Coisas(\textit{Internet of Things} - IOT) onde processamento de eventos tem se aplicado visando solucionar problemas de tomadas de decisão a partir da analise de grandes volumes de dados gerados por estas redes, diversas ferramentas foram desenvolvidas para o processamento de eventos, visando auxiliar na analise desse grande volume de dados, dentre estas podemos citar o Apache Storm, Apache Spark e Apache Flink.
+
+O processamento de eventos é uma grande área de pesquisa, onde podemos dividir esta em outras duas principais subáreas: Processamento de fluxo de eventos(\textit{event stream processing} - ESP), a qual tem a capacidade de executar operações continuas sob fluxos de dados como filtros, agregações, classificações e junções; Processamento de eventos complexos (\textit{complex event processing} - CEP) usa padrões pré definidos, sobre sequencias de eventos simples, para fazer a detecção de eventos compostos (\cite{dayarathna2018recent}), a figura \ref{fig:ConjuntoProcessamento} ilustra esta associação entre estas classes de eventos.
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=.6\textwidth]{imagens/ConjuntoProcessamento.png}
+	\caption{Conjunto de associação de processamento.}
+	\label{fig:ConjuntoProcessamento}
+\end{figure}
+
+
+\section{Definição de Processamento de Fluxo de Eventos}
+
+Para termos uma melhor e simples compreensão do significado de processamento de fluxo de eventos (\textit{Event Stream Processing} - ESP) podemos separar esta classe em outras três subclasses menores:
+\begin{enumerate}
+\item  \textbf{Evento -} podemos definir evento neste contexto como qualquer ação que aconteça com um tempo claramente definido, onde o mesmo pode ser mensurado.  
+
+\item  \textbf{Fluxo -} é definido como um sequencia constante e continuo de eventos disparados por dispositivos, onde esta corrente de eventos são claramente ordenados pelo tempo.
+
+\item  \textbf{Processamento} - é basicamente a ação final de executar a analise sobre o conjunto de informações capturadas.
+\end{enumerate}
+Desta forma com a combinação destes três subtermos podemos dizer que o processamento de fluxo de eventos nada mais é que processo de analisar em tempo de execução fluxo de eventos disparados por dispositivos assim que estes são criados. 
+
+O processamento de fluxo de dados trada da identificação de padrões ou relacionamentos significativos entre os fluxos de dados analisados afim de detectar determinados padrões como a correlação de eventos, causalidade ou tempo.
+Características presentes em sistemas com aplicabilidade de processamento de fluxo de eventos são a necessidade de analisar grandes fluxos de dados correlacionando estas informações, aplicando filtros em tempo de execução e dando uma resposta de forma imediata.
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \chapter{Estado da Arte} 
+\label{cap:Estado_da_Arte}
 
 Neste capítulo será apresentado o estado da arte das pesquisas que tem como tema processamento de eventos complexos e internet das coisas. Na seção seguinte será apresentado o protocolo seguido para a execução do mapeamento sistemático assim como todos os passos executados que levaram a escolha dos trabalhos de interesse. Por fim será apresentado uma discussão sobre as soluções abordadas nos trabalhos de interesse selecionados.    
 

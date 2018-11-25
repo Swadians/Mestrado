@@ -51,6 +51,10 @@
   Engineering for Self-Adaptive Systems}. Berlin, Heidelberg: Springer-Verlag,
   2009. p.48--70.
 
+\bibitem[DAYARATHNA; PERERA(2018)DAYARATHNA; PERERA]{dayarathna2018recent}
+  DAYARATHNA, M.; PERERA, S\@. Recent advancements in event processing.
+  \textbf{ACM Computing Surveys (CSUR)}, [S.l.], v.51, n.2, p.33, 2018.
+
 \bibitem[DEY(2001)DEY]{dey01} DEY, A.~K\@. Understanding and Using Context.
   \textbf{Personal and Ubiquitous Computing}, [S.l.], v.5, p.4--7, 2001.
 
@@ -70,6 +74,10 @@
   \textbf{Proceedings{\ldots}} IEEE Computer Society, 2007. p.16--. (SEAMS
   '07).
 
+\bibitem[ETZION; NIBLETT; LUCKHAM(2011)ETZION; NIBLETT;
+  LUCKHAM]{etzion2011event} ETZION, O.; NIBLETT, P.; LUCKHAM, D.~C\@.
+  \textbf{Event processing in action}. [S.l.]: Manning Greenwich, 2011.
+
 \bibitem[EVESTI; OVASKA(2013)EVESTI; OVASKA]{evesti13b} EVESTI, A.; OVASKA,
   E\@. Comparison of adaptive information security approaches. \textbf{ISRN
   Artificial Intelligence}, [S.l.], v.2013, 2013.
@@ -82,6 +90,10 @@
 \bibitem[EVESTI; TUTKIMUSKESKUS(2013)EVESTI; TUTKIMUSKESKUS]{evesti13a} EVESTI,
   A.; TUTKIMUSKESKUS, V.~teknillinen. \textbf{Adaptive Security in Smart
   Spaces}. [S.l.]: VTT, 2013. (VTT science).
+
+\bibitem[FITZGERALD et~al.(2010)FITZGERALD; CHUVAKIN; HEINBOCKEL; KARG;
+  MARTY]{fitzgerald2010common} FITZGERALD, E. et~al\@. Common Event Expression
+  (CEE) Overview. \textbf{Report of the CEE Editorial Board}, [S.l.], 2010.
 
 \bibitem[GHORBANI; LU; TAVALLAEE(2010)GHORBANI; LU; TAVALLAEE]{ghorbani10}
   GHORBANI, A.; LU, W.; TAVALLAEE, M\@. \textbf{Network Intrusion Detection and
@@ -145,6 +157,10 @@
   Gartner - Build Adaptive Security Architecture Into Your Organization. Acesso
   em janeiro de 2018.
 
+\bibitem[MINBO; ZHU; GUANGYU(2013)MINBO; ZHU; GUANGYU]{minbo2013information}
+  MINBO, L.; ZHU, Z.; GUANGYU, C\@. Information service system of agriculture
+  IoT. \textbf{automatika}, [S.l.], v.54, n.4, p.415--426, 2013.
+
 \bibitem[MIORANDI et~al.(2012)MIORANDI; SICARI; PELLEGRINI;
   CHLAMTAC]{miorandi12} MIORANDI, D.; SICARI, S.; PELLEGRINI, F.~D.; CHLAMTAC,
   I\@. Internet of things: Vision, applications and research challenges.
@@ -200,6 +216,12 @@
   n.10, p.2266 -- 2279, 2013. Towards a Science of Cyber Security Security and
   Identity Architecture for the Future Internet.
 
+\bibitem[SANCHEZ(2011)SANCHEZ]{garcia2011wireless} SANCHEZ, G\@. Wireless
+  sensor network deployment for integrating video-surveillance and
+  data-monitoring in precision agriculture over distributed crops.
+  \textbf{Computers and Electronics in Agriculture}, [S.l.], v.75, n.2,
+  p.288--303, 2011.
+
 \bibitem[SHANKAR(2014)SHANKAR]{infosecnirvana14} SHANKAR, V\@. Clash of the
   titans - Arcsight vs QRadar. Dispon{\'\i}vel em:
   \url{<http://infosecnirvana.com/clash-titans-arcsight-vs-qradar/>}, acesso
@@ -231,9 +253,19 @@
   [S.l.]: Springer Berlin Heidelberg, 2004. p.92--104. (Lecture Notes in
   Computer Science, v.3198).
 
+\bibitem[VIJAYARAGHAVAN; DORNFELD(2010)VIJAYARAGHAVAN;
+  DORNFELD]{vijayaraghavan2010automated} VIJAYARAGHAVAN, A.; DORNFELD, D\@.
+  Automated energy monitoring of machine tools. \textbf{CIRP annals}, [S.l.],
+  v.59, n.1, p.21--24, 2010.
+
 \bibitem[WEBER(2010)WEBER]{weber10} WEBER, R.~H\@. Internet of Things – New
   security and privacy challenges. \textbf{Computer Law and Security Review},
   [S.l.], v.26, n.1, p.23 -- 30, 2010.
+
+\bibitem[WEINER et~al.(2008)WEINER; ADAMS; FO; LEE; BAKER;
+  PETERSEN]{weiner2008health} WEINER, H.~S. et~al\@. \textbf{Health care
+  patient status event processing and reporting}. [S.l.]: Google Patents, 2008.
+  US Patent 7,439,856.
 
 \bibitem[WEISER(1991)WEISER]{weiser91} WEISER, M\@. The Computer for the 21st
   Century. \textbf{Scientific American}, [S.l.], v.265, n.3, p.66--75,
