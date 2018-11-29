@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.10)  28 NOV 2018 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.10)  29 NOV 2018 20:52
 entering extended mode
 **./TI.tex
 (TI.tex
@@ -899,10 +899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--73
 [2
 
 
-] (TI.lof
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
-)
+] (TI.lof)
 \tf@lof=\write5
 \openout5 = `TI.lof'.
 
@@ -914,7 +911,10 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 
  [4
 
-] [5
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 83.
+ [5
 
 ] (TI.toc
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
@@ -932,23 +932,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
  []  
  []
 
 [6
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
- []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
- []  
- []
-
-)
+])
 \tf@toc=\write7
 \openout7 = `TI.toc'.
 
@@ -960,152 +955,122 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
  [10] [11] [12] [13
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 183.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 177.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 177.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 177.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<imagens/ConjuntoProcessamento.png, id=359, 292.09125pt x 198.7425pt>
+File: imagens/ConjuntoProcessamento.png Graphic file (type png)
+<use imagens/ConjuntoProcessamento.png>
+Package pdftex.def Info: imagens/ConjuntoProcessamento.png  used on input line 
+184.
+(pdftex.def)             Requested size: 273.14923pt x 185.8718pt.
+ [14] [15 <./imagens/ConjuntoProcessamento.png>] [16] [17
+
+]
+<imagens/tabela_string_busca.png, id=410, 953.36176pt x 237.88875pt>
+File: imagens/tabela_string_busca.png Graphic file (type png)
+<use imagens/tabela_string_busca.png>
+Package pdftex.def Info: imagens/tabela_string_busca.png  used on input line 24
+8.
+(pdftex.def)             Requested size: 455.24411pt x 113.59361pt.
+<imagens/GrafPizPubAno.png, id=417, 510.10574pt x 311.36325pt>
+File: imagens/GrafPizPubAno.png Graphic file (type png)
+<use imagens/GrafPizPubAno.png>
+Package pdftex.def Info: imagens/GrafPizPubAno.png  used on input line 259.
+(pdftex.def)             Requested size: 409.71692pt x 250.08864pt.
+<imagens/GrafBarraPubAno.png, id=418, 1156.32pt x 650.43pt>
+File: imagens/GrafBarraPubAno.png Graphic file (type png)
+<use imagens/GrafBarraPubAno.png>
+Package pdftex.def Info: imagens/GrafBarraPubAno.png  used on input line 266.
+(pdftex.def)             Requested size: 409.71692pt x 230.46262pt.
+<imagens/grafPublicaAno.png, id=421, 439.04025pt x 267.399pt>
+File: imagens/grafPublicaAno.png Graphic file (type png)
+<use imagens/grafPublicaAno.png>
+Package pdftex.def Info: imagens/grafPublicaAno.png  used on input line 276.
+(pdftex.def)             Requested size: 409.71692pt x 249.54349pt.
+ [18 <./imagens/tabela_string_busca.png>]
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 284.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
- [14] [15] [16]
-<imagens/generic-feedback-loop.png, id=435, 821.0675pt x 523.9575pt>
-File: imagens/generic-feedback-loop.png Graphic file (type png)
-<use imagens/generic-feedback-loop.png>
-Package pdftex.def Info: imagens/generic-feedback-loop.png  used on input line 
-219.
-(pdftex.def)             Requested size: 364.19667pt x 232.40483pt.
-
-[17 <./imagens/generic-feedback-loop.png>] [18]
-<imagens/mape-k-model.png, id=470, 344.0052pt x 233.673pt>
-File: imagens/mape-k-model.png Graphic file (type png)
-<use imagens/mape-k-model.png>
-Package pdftex.def Info: imagens/mape-k-model.png  used on input line 247.
-(pdftex.def)             Requested size: 364.19667pt x 247.38911pt.
- [19 <./imagens/mape-k-model.png>] [20] [21] [22] [23
-
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 346.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 346.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 346.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-<imagens/ConjuntoProcessamento.png, id=559, 292.09125pt x 198.7425pt>
-File: imagens/ConjuntoProcessamento.png Graphic file (type png)
-<use imagens/ConjuntoProcessamento.png>
-Package pdftex.def Info: imagens/ConjuntoProcessamento.png  used on input line 
-353.
-(pdftex.def)             Requested size: 273.14923pt x 185.8718pt.
-[24] [25 <./imagens/ConjuntoProcessamento.png>] [26] [27
-
-]
-<imagens/tabela_string_busca.png, id=610, 953.36176pt x 237.88875pt>
-File: imagens/tabela_string_busca.png Graphic file (type png)
-<use imagens/tabela_string_busca.png>
-Package pdftex.def Info: imagens/tabela_string_busca.png  used on input line 41
-0.
-(pdftex.def)             Requested size: 455.24411pt x 113.59361pt.
-<imagens/GrafPizPubAno.png, id=617, 510.10574pt x 311.36325pt>
-File: imagens/GrafPizPubAno.png Graphic file (type png)
-<use imagens/GrafPizPubAno.png>
-Package pdftex.def Info: imagens/GrafPizPubAno.png  used on input line 421.
-(pdftex.def)             Requested size: 409.71692pt x 250.08864pt.
-<imagens/GrafBarraPubAno.png, id=618, 1156.32pt x 650.43pt>
-File: imagens/GrafBarraPubAno.png Graphic file (type png)
-<use imagens/GrafBarraPubAno.png>
-Package pdftex.def Info: imagens/GrafBarraPubAno.png  used on input line 428.
-(pdftex.def)             Requested size: 409.71692pt x 230.46262pt.
-<imagens/grafPublicaAno.png, id=621, 439.04025pt x 267.399pt>
-File: imagens/grafPublicaAno.png Graphic file (type png)
-<use imagens/grafPublicaAno.png>
-Package pdftex.def Info: imagens/grafPublicaAno.png  used on input line 438.
-(pdftex.def)             Requested size: 409.71692pt x 249.54349pt.
- [28 <./imagens/tabela_string_busca.png>] [29 <./imagens/GrafPizPubAno.png>] [3
-0 <./imagens/GrafBarraPubAno.png>] [31 <./imagens/grafPublicaAno.png>]
-<imagens/FluxoTriagemInicial.png, id=650, 1212.53pt x 682.55pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 284.
+ [19 <./imagens/GrafPizPubAno.png>] [20 <./imagens/GrafBarraPubAno.png>] [21 <.
+/imagens/grafPublicaAno.png>]
+<imagens/FluxoTriagemInicial.png, id=451, 1212.53pt x 682.55pt>
 File: imagens/FluxoTriagemInicial.png Graphic file (type png)
 <use imagens/FluxoTriagemInicial.png>
-Package pdftex.def Info: imagens/FluxoTriagemInicial.png  used on input line 48
-7.
+Package pdftex.def Info: imagens/FluxoTriagemInicial.png  used on input line 32
+5.
 (pdftex.def)             Requested size: 773.91359pt x 435.65364pt.
 
-Overfull \hbox (71.13051pt too wide) in paragraph at lines 487--488
+Overfull \hbox (71.13051pt too wide) in paragraph at lines 325--326
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 4.90952pt on input line 490.
+LaTeX Warning: Float too large for page by 4.90952pt on input line 328.
 
-[32 <./imagens/FluxoTriagemInicial.png (PNG copy)>] [33
+[22 <./imagens/FluxoTriagemInicial.png (PNG copy)>] [23
 
 
-] [34] [35] [36]
-[37] [38] [39] [40] [41] [42] [43] [44]
-<imagens/comparacaoArtigos.png, id=728, 964.5636pt x 584.9052pt>
+] [24] [25] [26]
+[27] [28] [29] [30] [31] [32] [33] [34] [35]
+<imagens/comparacaoArtigos.png, id=530, 393.26926pt x 458.31226pt>
 File: imagens/comparacaoArtigos.png Graphic file (type png)
 <use imagens/comparacaoArtigos.png>
-Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 650.
+Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 500.
 
-(pdftex.def)             Requested size: 273.14923pt x 165.63763pt.
- [45 <./imagens/comparacaoArtigos.png>]
-[46] [47
+(pdftex.def)             Requested size: 455.24411pt x 530.55862pt.
 
-] (TI.bbl [48] [49
 
-] [50]
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36] [37 <./imagens/comparacaoArtigos.png>] [38
+
+] (TI.bbl [39] [40
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 []\T1/phv/m/n/12 HP. Dis-po-ní-vel em: []$\T1/cmtt/m/n/12 <[]http : / / files .
  asset . microfocus . com / 4aa5-[]4759 / en /
  []
 
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 173--178
-[]\T1/phv/m/n/12 MEULEN, R. van der. Dis-po-ní-vel em: []$\T1/cmtt/m/n/12 <[]ht
-tps : / / www . gartner . com /
- []
-
-
-Overfull \hbox (35.46179pt too wide) in paragraph at lines 173--178
-\T1/cmtt/m/n/12 smarterwithgartner / build-[]adaptive-[]security-[]architecture
--[]into-[]your-[]organization /
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 197--202
+[41]
+Underfull \hbox (badness 1796) in paragraph at lines 139--144
 []\T1/phv/m/n/12 PANETTA, K. Dis-po-ní-vel em: []$\T1/cmtt/m/n/12 <[]https : / 
 / www . gartner . com / smarterwithgartner /
  []
 
-
-Underfull \hbox (badness 1796) in paragraph at lines 203--208
-[]\T1/phv/m/n/12 PANETTA, K. Dis-po-ní-vel em: []$\T1/cmtt/m/n/12 <[]https : / 
-/ www . gartner . com / smarterwithgartner /
- []
-
-[52] [53]) 
+[42]) 
 AED: lastpage setting LastPage
-[54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 697.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 697.
+[43]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 542.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 542.
  (TI.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 697.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 697.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 542.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 542.
 Package rerunfilecheck Info: File `TI.out' has not changed.
-(rerunfilecheck)             Checksum: B79E44F185AD3990A977D326A7327405;10049.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 697.
+(rerunfilecheck)             Checksum: 601371C35D26396E8D7F52AEA3DA74D5;8918.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 542.
  ) 
 Here is how much of TeX's memory you used:
- 22687 strings out of 492970
- 403379 string characters out of 3135827
- 478311 words of memory out of 3000000
- 25981 multiletter control sequences out of 15000+200000
+ 22582 strings out of 492970
+ 401692 string characters out of 3135827
+ 477170 words of memory out of 3000000
+ 25912 multiletter control sequences out of 15000+200000
  35740 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,76p,1803b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,76p,1803b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\WeslenSchiavon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
 c\dpi600\ectt1200.pk> <C:\Users\WeslenSchiavon\AppData\Local\MiKTeX\2.9\fonts\p
 k\ljfour\jknappen\ec\dpi600\ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/
@@ -1113,9 +1078,9 @@ dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on TI.pdf (55 pages, 828211 bytes).
+Output written on TI.pdf (44 pages, 507002 bytes).
 PDF statistics:
- 946 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 727 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 

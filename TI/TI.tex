@@ -476,24 +476,15 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 \end{itemize}
 
 \section{Discussão dos Trabalhos Relacionados}
- A figura \ref{fig:comparacaoArtigos} apresenta uma analise comparativa entre os trabalhos selecionados pelo mapeamento sistemático realizado por este trabalho, onde os campos selecionados para a comparação foram:
-
+ A figura \ref{fig:comparacaoArtigos} apresenta uma analise comparativa entre os trabalhos selecionados pelo mapeamento sistemático realizado por este trabalho, onde os campos selecionados para a comparação foram: 
+ 
 \begin{itemize}
-	\item \textbf{Tecnologia de Processamento de Eventos:} dentre os artigos selecionados durante o mapeamento identificou-se que apenas dois destes, \cite{art1aslam2018towards} e \cite{art5chen2016dress} trabalhavam com ESP, todos os demais trabalhos aplicam de alguma forma em suas soluções o CEP. 
 	
+	\item \textbf{Tecnologia de Processamento de Eventos:}
+	apresenta qual tipo de tecnologia de processamento de eventos o artigo emprega em sua proposta, esta coluna pode apresentar dois valores CEP ou ESP. 
+		
 	
-	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{imagens/comparacaoArtigos.png}
-		\caption{Comparativo entre os artigos selecionados.}
-		\label{fig:comparacaoArtigos}
-	\end{figure}
-	
-	
-	
-	
-	\item \textbf{Uso de Tecnologia em Inteligencia Artificial:} das propostas analisadas, quatro destas implementaram alguma  técnica de aprendizado de maquina para solucionar os problemas abordados, os quais foram \cite{art1aslam2018towards}, \cite{art4akbar2017predictive}, \cite{art9kousiouris2018integrated} e \cite{art10soto2016ceml}. Esta coluna pode apresentar somente dois valores: Sim que se refere ao uso de alguma técnica qualquer de aprendizado de maquina e - onde o autor não fez uso de nenhuma técnica de inteligencia artificial. 
+	\item \textbf{Uso de Tecnologia em Inteligencia Artificial:} Esta coluna pode apresentar somente dois valores: Sim que se refere ao uso de alguma técnica qualquer de aprendizado de maquina e - onde o autor não fez uso de nenhuma técnica de inteligencia artificial. 
 	
 	\item \textbf{Ferramentas:} nesta coluna é mostrado na figura \ref{fig:comparacaoArtigos} quais foram as principais ferramentas citadas nos documentos de cada uma das propostas analisadas.
 	
@@ -504,15 +495,25 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
   
 \end{itemize}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{imagens/comparacaoArtigos.png}
+	\caption{Comparativo entre os artigos selecionados.}
+	\label{fig:comparacaoArtigos}
+\end{figure}
 
 
 
 
 
+
+A partir da analise da figura \ref{fig:comparacaoArtigos} percebemos identificou-se que dentre os artigos selecionados durante o mapeamento apenas dois destes, \cite{art1aslam2018towards} e \cite{art5chen2016dress} trabalhavam com ESP, todos os demais trabalhos aplicam CEP de alguma forma em suas soluções. As técnicas de aprendizado de maquina também não foram usadas por muitos dos artigos selecionados, apenas quatro documentos fizeram uso desta tecnologia para solucionar os problemas abordados, os quais foram \cite{art1aslam2018towards}, \cite{art4akbar2017predictive}, \cite{art9kousiouris2018integrated} e \cite{art10soto2016ceml}. 
+
+Um grande problema identificado dentre os Dez documentos selecionados foi a questão de reusabilidade, apenas \cite{art2zimmerle2018web} apresentou uma solução passível de reimplementação e reutilização completa, as demais não demonstraram detalhamento suficiente em suas propostas para que terceiros pudessem  fazer a reimplementação de suas abordagens e a remontagem das validações executados, demonstrando que as soluções não podem ser verificável e observável algo imprecisável em um documento cientifico. 
 
 \section{Considerações do Capítulo}
 
-Este capítulo apresentou os trabalhos identificados como estado da arte em arquiteturas ou \textit{frameworks} genéricos de segurança adaptativa para IoT. O processo para esta análise seguiu o mapeamento sistemático da literatura. Os trabalhos foram descritos em termos do modelo proposto, buscando detalhar as estratégias de concepção e prototipação. Finalmente, foi realizada uma comparação entre os mesmos seguindo características consideradas oportunas considerando as críticas e desafios identificados durante esta revisão. 
+Neste capítulo foi executado um mapeamento sistemático com o objetivo de  identificar o estado da arte em processamento de eventos para redes IoT. Como resultado deste mapeamento identificou-se alguns trabalhos de interesse onde foi elaborado um detalhamento de suas motivações e justificativas para a elaboração do mesmo, também foi detalhado a solução que cada um destes trabalhos propuseram e por ultimo foi apresentado os resultados que os autores obtiveram com o desenvolvimento destes trabalhos. Por fim foi demonstrada uma comparação entre as tecnologias empregadas em cada um destes trabalhos e apresentando criticas e desafios identificados durante esta revisão. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
