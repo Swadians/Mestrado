@@ -30,6 +30,6 @@
 \contentsline {subsection}{\numberline {4.2.9}An integrated information lifecycle management framework for exploiting social network data to identify dynamic large crowd concentration events in smart cities applications}{42}{subsection.4.2.9}
 \contentsline {subsection}{\numberline {4.2.10}CEML: Mixing and moving complex event processing and machine learning to the edge of the network for IoT}{44}{subsection.4.2.10}
 \contentsline {section}{\numberline {4.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{45}{section.4.3}
-\contentsline {section}{\numberline {4.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{48}{section.4.4}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{49}{chapter.5}
-\contentsline {chapter}{Refer{\^e}ncias}{51}{chapter.5}
+\contentsline {section}{\numberline {4.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{46}{section.4.4}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{47}{chapter.5}
+\contentsline {chapter}{Refer{\^e}ncias}{49}{chapter.5}

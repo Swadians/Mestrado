@@ -558,7 +558,7 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 \begin{itemize}
 	\item \textbf{Motivação e Justificativa do Trabalho:} Nos últimos anos o número de dispositivo conectados a rede vem aumentando, com esse crescimento, a quantidade de fluxos de dados aumenta simultaneamente, gerando a necessidade de sistemas capazes de reagir automaticamente a determinados eventos desencadeados por fluxos de dados. Tais sistemas se baseiam em um conjunto de regras pre definidas, onde através da análise dos fluxos de informações, executam determinadas ações que satisfação a alguma das regras deste conjunto. Nas últimas três décadas, sistemas como estes têm sido amplamente empregados em empresas, governos e organizações. Porém o aumento crescente no tamanho dos fluxos de dados, como o grande número de fluxos produzidos por eventos de dispositivos da Internet of Things (IoT), faz com que os atuais sistemas baseados em regras enfrentem sérios desafios em termos de velocidade, escalabilidade e tolerância a falhas.
 	
-	\item \textbf{Solução Apresentada:} O artigo apresenta a proposta de adaptar sistemas baseados em regras para trabalhar em conjunto com o Spark Streaming visando melhorar seu desempenho. Foi apresentado uma Transformação do algoritmo Rete, que está por trás de muitos dos \textit{Rule based systems} (RBSs) atuais, esta transformação faz com que o algorítimo funcione como um mecanismo de regras no ambiente do Spark. Também foi introduzido juntamente com um novo sistema de mensagens baseado em Kafka o DRESS (\textit{Distributed Rule Engine no Spark Streaming}) onde foi demonstrado uma forma automatizada de transformar regras escritas no estilo do Apache Drools para serem executadas no DRESS, tornando fácil para os atuais usuários do Drools mover seus sistemas para o DRESS sem esforço, este método de transformação de regras é baseada em técnicas MDA e na biblioteca de usuários SiTra.
+	\item \textbf{Solução Apresentada:} O artigo apresenta a proposta de adaptar sistemas baseados em regras para trabalhar em conjunto com o Spark Streaming visando melhorar seu desempenho. Foi apresentado uma Transformação do algoritmo Rete, que está por trás de muitos dos \textit{Rule based systems} (RBSs) atuais, esta transformação faz com que o algorítimo funcione como um mecanismo de regras no ambiente do Spark. Também foi introduzido juntamente com um novo sistema de mensagens baseado em Kafka o DRESS (\textit{Distributed Rule Engine no Spark Streaming}) onde foi demonstrado uma forma automatizada de transformar regras escritas no estilo do Apache Drools para serem executadas no DRESS, tornando fácil para os atuais usuários do Drools mover seus sistemas para o DRESS sem esforço, este método de transformação de regras é baseada em técnicas MDA e na biblioteca de usuários SiTra (\textit{Simple Transformer}).
 	
 	\item \textbf{Avaliação e Resultados da Proposta:} O sistema proposto foi avaliado com a ajuda de um estudo de caso, onde foi simulado um sistema bancário para a execução dos testes. Os autores usaram o DRESS para transformar as regras CEP definidas para o ambiente de estudo, em código Scala e assim executá-lo no Spark Streaming. Um gerador de dados foi criado com o intuito de produzir informação aleatoriamente para a simulação do ambiente bancário, incluindo fluxos de caixa, contas e períodos contábeis com um parâmetro de escala. Durante os testes o DRESS demonstrou uma melhora significativa de desempenho e escalabilidade em comparação ao Drools, demonstrando ser capaz de lidar com grandes volumes de dados, em contra partida, o Drools não demonstrou esta mesma capacidade. Além  da alta capacidade de processamento, o DRESS se demonstrou mais flexível em termos de gerenciamento de memória, mesmo nos testes executados em uma única máquina, este pode processar um conjuntos de dados maiores que o Drools e em menos tempo. Assim os autores destacam que com os dados coletados pelo estudo de caso, se pode demonstrar que o DRESS tem potencial para resolver muitos dos problemas de processamento de grande fluxo de dados presentes nos RBSs.
 	
@@ -617,7 +617,7 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 \begin{itemize}
 	\item \textbf{Motivação e Justificativa do Trabalho:} Com o advento de novas tecnologias, como a Internet das Coisas e o processamento em nuvem, há uma grande diversidade de fontes de dados e serviços distintos disponíveis. O que nos leva a questão de como pode-se identificar maneiras inteligentes, abstratas e adaptativas de correlacionar e combinar os vários níveis de informações disponíveis gerados por estas novas tecnologias. Com o cenário tecnológico atual podemos destacar que o maior desafio dentre as questões levantadas é o de combinar diferentes fontes de dados heterogêneas de maneira inteligente, integrando e raciocinando sobre este fluxo de informação para inferir a consciência situacional, transformando desta forma o conjunto de dados brutos e sem significado para o nível de conhecimento e sabedoria dando um sentido semântico para estas informações. Para lidar com estes desafios, há necessidade do desenvolvimento de uma estrutura de \textit{big data} de analise concisa capaz de analisar e lidar com o grande fluxo de dados gerado por ambientes IoT.	
 	
-	\item \textbf{Solução Apresentada:} O objetivo do trabalho é o desenvolvimento de uma plataforma \textit{Smart Transportation} capaz de identificar eventos de interesse do usuário em uma determinada área (como grandes eventos públicos com alta concentração de pessoas que possam afetar a jornada do usuário), a fim de enriquecer as informações no nível de aplicação com a identificação de eventos relacionados que podem permitir ações mais sofisticadas em nome deste usuário, a identificação é baseada na observação dos picos de atividade do Twitter em comparação com os dados históricos em um tempo dinâmico e local de interesse. O sistema proposto inclui os seguintes aspectos: integração entre dados de cidades inteligentes, proveniente de um sistema específico de monitorização de passageiros da cidade de Madrid e dados de redes sociais provenientes do Twitter, para alertar passageiros com necessidades especiais e seus cuidadores sobre Grandes Concentrações de Multidões ao longo de sua jornada; Ingestão de dados integrados em soluções escaláveis baseadas em nuvem (OpenStack Swift) e integradas com ferramentas de análise de dados (Apache Spark) para trabalhar diretamente nos conjuntos de dados adquiridos e atuando com o processamento de eventos complexos (CEP), a fim de monitorar e emitir alertas de dados de fluxo. Ainda a solução deverá ser capaz de se adaptar a dados heterogêneos ajustando ao modelo Apache AVRO; Conexão de todos esses sistemas com uma lógica baseada em aplicações, obtida através de uma camada de \textit{middleware} baseada no NodeRED, a fim de orquestrar as ações necessárias no fluxo de dados previsto e fornecer as adaptações necessárias em termos de protocolos e formatos de dados.	
+	\item \textbf{Solução Apresentada:} O objetivo do trabalho é o desenvolvimento de uma plataforma \textit{Smart Transportation} capaz de identificar eventos de interesse do usuário em uma determinada área (como grandes eventos públicos com alta concentração de pessoas que possam afetar a jornada do usuário), a fim de enriquecer as informações no nível de aplicação com a identificação de eventos relacionados que podem permitir ações mais sofisticadas em nome deste usuário, a identificação é baseada na observação dos picos de atividade do Twitter em comparação com os dados históricos em um tempo dinâmico e local de interesse. O sistema proposto inclui os seguintes aspectos: integração entre dados de cidades inteligentes, proveniente de um sistema específico de monitoramento de passageiros da cidade de Madrid e dados de redes sociais provenientes do Twitter, para alertar passageiros com necessidades especiais e seus cuidadores sobre Grandes Concentrações de Multidões ao longo de sua jornada; Ingestão de dados integrados em soluções escaláveis baseadas em nuvem (OpenStack Swift) e integradas com ferramentas de análise de dados (Apache Spark) para trabalhar diretamente nos conjuntos de dados adquiridos e atuando com o processamento de eventos complexos (CEP), a fim de monitorar e emitir alertas de dados de fluxo. Ainda a solução deverá ser capaz de se adaptar a dados heterogêneos ajustando ao modelo Apache AVRO; Conexão de todos esses sistemas com uma lógica baseada em aplicações, obtida através de uma camada de \textit{middleware} baseada no NodeRED, a fim de orquestrar as ações necessárias no fluxo de dados previsto e fornecer as adaptações necessárias em termos de protocolos e formatos de dados.	
 	
 	\item \textbf{Avaliação e Resultados da Proposta:} Para validação do sistema proposto, a ferramenta foi aplicada em um experimento de dois meses na cidade de Madri, em torno de dois locais de eventos públicos, atuando na identificação de eventos de grandes concentrações de pessoas como eventos esportivos e analisando várias abordagens com relação à definição de limiares necessários como: estrutura integrada e automatizada, incluindo serviços da plataforma \textit{Smart City} e Twitter. Com este estudo de caso os autores obtiveram 49 erros de 2042 casos de avaliação, onde destes erros existiram apenas 4 falsos negativos. Porém como o sistema é flexível, este pode ser ajustado para especificações mais rígidas objetivando diminuir falsos positivos ou falsos negativos dependendo da preferencia do usuário.
 	Ainda os autores citam como principais contribuições do trabalho: o desenvolvimento de um \textit{middleware} para adaptação e sincronização necessária do sistema, a execução de um experimento de 2 meses na cidade de Madri, o desenvolvimento de um sistema de identificação detalhado da concentração  de multidões por meio da localização dada com o uso de dados de redes sociais (Twiter), a identificação de limiares ideais para ignorar intervalos de tempo baseando-se em limites gerais de funções de distribuição cumulativas (CDF).
@@ -638,50 +638,33 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 \end{itemize}
 
 \section{Discussão dos Trabalhos Relacionados}
-
-Conforme destacado na introdução deste trabalho, de acordo com a literatura (em especial alguns ``\textit{surveys}''), inclusive com os trabalhos identificados no estado da arte, os seguintes aspectos foram identificados como problemas relacionados as pesquisas em arquiteturas/modelos de segurança adaptativa:
-
-\begin{enumerate}
-\item  se concentram em apenas um serviço/objetivo de segurança, como a autenticação \cite{aman14}, \cite{elkhodary07};
-\item as abordagens existentes não definem todo o ciclo de adaptação MAPE \cite{yuan12}.
-\item fornecem uma arquitetura genérica sem detalhar os métodos usados em cada componente  \cite{aman14}, \cite{yuan12};
-\item a falta de detalhes nas arquiteturas genéricas dificulta a reutilização e extensibilidade das abordagens propostas \cite{yuan12};
-\end{enumerate}
-
-No que diz respeito ao primeiro e segundo problemas elencados, o mapeamento sistemático buscou filtrar esta questão, sendo selecionados apenas artigos onde as arquiteturas/modelos concebidos podem ser aplicados em diferentes objetivos de segurança e que contemplam o ciclo MAPE por inteiro. Já quanto ao terceiro e quarto tópicos levantados, é possível observar que o primeiro trabalho apresentado neste capítulo \cite{habtamu12} - o qual é concebido por uma das referências na área (Abie Habtamu) - possui tal limitação, a qual é tratada apenas em alguns dos demais trabalhos.
-
-Tendo estas observações em vista, a tabela \ref{comparacao-estado-da-arte} busca apresentar algumas das características consideradas para comparação entre os trabalhados identificados como estado da arte em segurança adaptativa para IoT. O sinal de hífen (``-'') na tabela representa a falta de informações ou limitação por parte do trabalho quanto a referida característica. A seguir é apresentada uma breve descrição das características selecionadas:
+ A figura \ref{fig:comparacaoArtigos} apresenta uma analise comparativa entre os trabalhos selecionados pelo mapeamento sistemático realizado por este trabalho, onde os campos selecionados para a comparação foram:
 
 \begin{itemize}
-\item coleta: uma dos desafios na IoT diz respeito a coleta de eventos de dispositivos com recursos limitados, logo, esta característica busca identificar se são destacados no trabalho os detalhes para coleta dos eventos;
-\item normalização: uma vez que o foco é na IoT, a heterogeneidade e a consequente diversidade no formato dos eventos produzidos deve ser tratada, sendo assim, este tópico identifica se a proposta detalha a estratégia utilizada para normalização;
-\item correlação: estratégia utilizada para correlação dos diferentes contextos identificados para identificação de situações de interesse;
-\item armazenamento: determina a tecnologia de armazenamento do conhecimento empregada, sendo relevante por fatores de expressividade, escalabilidade e usabilidade;
-\item implementação: visa caracterizar o nível de detalhamento do protótipo desenvolvido para validação do trabalho, podendo ser 
-``Não'', ``Parcial'' e ``Sim'';
-\item extensibilidade: representa a possibilidade de extensão da arquitetura/modelo proposto;
-\item reusabilidade: busca evidenciar se o trabalho descreve detalhes suficientes que permitem o reuso da proposta, sendo passível de replicação dos testes realizados;
-\item maturidade: descreve o nível de maturidade da abordagem em função da validação desenvolvida e da comunidade em torno das tecnologias empregadas;
-\item cenário: caracteriza a área de estudo do cenário de avaliação;
-\item escalabilidade: procura identificar limitações ou competências quanto a escalabilidade da proposta uma vez que na IoT o volume de dados tratados em função da quantidade de dispositivos adquirindo contextos é um desafio a ser considerado.
+	\item \textbf{Tecnologia de Processamento de Eventos:} dentre os artigos selecionados durante o mapeamento identificou-se que apenas dois destes, \cite{art1aslam2018towards} e \cite{art5chen2016dress} trabalhavam com ESP, todos os demais trabalhos aplicam de alguma forma em suas soluções o CEP. 
+	
+	
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=.6\textwidth]{imagens/comparacaoArtigos.png}
+		\caption{Comparativo entre os artigos selecionados.}
+		\label{fig:comparacaoArtigos}
+	\end{figure}
+	
+	
+	
+	
+	\item \textbf{Tecnologia de Inteligencia Artificial:} das propostas analisadas, quatro destas implementaram alguma  técnica de aprendizado de maquina para solucionar os problemas abordados, os quais foram \cite{art1aslam2018towards}, \cite{art4akbar2017predictive}, \cite{art9kousiouris2018integrated} e \cite{art10soto2016ceml}.
+	
+	\item \textbf{Ferramentas:} nesta coluna mostrada na figura \ref{fig:comparacaoArtigos} foram selecionados as principais ferramentas citadas nos documentos de cada uma das propostas analisadas.
+	
+    \item \textbf{Cenário:} os artigos selecionados são separados pelas áreas que este estes propuseram uma solução das quais foram identificadas IoT Multimídia, Big Data, Agricultura de Precisão, Aprendizado de Maquina, Smart Cities e Segurança.
+    
+     \item \textbf{Reusabilidade:} demonstra se o trabalho apresenta detalhes suficientes que
+      permitem a reimplementação da proposta, sendo passível de replicação dos testes realizados; 
+  
 \end{itemize}
-
-\begin{table}[ht]
-\centering
-\caption{Tabela comparativa entre os trabalhos identificados como estado da arte em segurança adaptativa}
-\includegraphics[width=1.0\textwidth]{imagens/comparacao-estado-da-arte.png}
-\label{comparacao-estado-da-arte}
-\end{table}
-
-Em \cite{evesti13c}, exceto no que tange o emprego da ontologia, os detalhes de implementação identificados por este autor são considerados superficiais e as tecnologias adotadas (como por exemplo, Qt C++) são fortemente dependentes da plataforma empregada. Também não são descritos de forma clara as tecnologias envolvidas para coleta e normalização de eventos. Com isso, apesar do autor Antti Evesti ressaltar a sua abordagem como extensível e reutilizável, para o autor deste trabalho, esta afirmação pode ser aplicada apenas no que tange a ontologia, porém não no seu trabalho de maneira geral.
-
-De forma geral, o quesito maturidade, a maior parte dos trabalhos apresentou cenários para validação da proposta, porém, as tecnologias envolvidas possuem restrição quanto à sua adoção pela comunidade, em especial pela utilização de ontologias, que apesar de ser um tópico importante de pesquisa em desafios de segurança da informação, não é possível afirmar que a sua adoção vem sendo praticada na área.
-
-Percebe-se também que a adoção de ontologias por parte dos trabalhos \cite{evesti13c}, \cite{aman14} e \cite{mozzaquatro16} implica em dificuldades de escalabilidade, sendo em geral uma problemática levantada como limitações em seus trabalhos ou teses derivadas. Além disso, em \cite{aman14}, a tecnologia OSSIM empregada é reconhecida por possuir problemas de estabilidade e escalabilidade \cite{gartner15}, \cite{infosecnirvana14}.
-
-O trabalho \cite{ramos15}, por sua vez, apresenta um modelo genérico, sem detalhar os modelos e tecnologias empregadas. Assim assim, ele destaca alguns dos protocolos geralmente envolvidos para coleta de eventos na IoT, como o \textit{Constrained Application Protocol} (CoAP), \textit{Extensible Messaging and Presence Protocol} (XMPP) ou \textit{Message Queue Telemetry Transport} (MQTT).
-
-El-Maliki apresenta em sua tese \cite{elmaliki14} uma série de testes e simulações realizadas para validação, avaliando em especial a latência decorrente do uso da criptografia e o consumo de energia, os quais evidenciam estratégias de implementação em diferentes cenários da IoT. Apesar disso, o protótipo é fortemente associado ao estudo de caso, não sendo uma abordagem voltada para eventos, consequentemente não possuindo detalhes sobre a coleta de eventos, sua normalização, correlação, armazenamento, bem como estratégia empregada na adaptação. Além disso, não é uma característica a possibilidade de extensão e reuso da proposta.
 
 \section{Considerações do Capítulo}
 

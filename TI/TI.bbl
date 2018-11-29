@@ -7,6 +7,11 @@
   Sciences: Social-Informatics and Telecommunications Engineering), 2012.
   p.269--275. (BodyNets '12).
 
+\bibitem[AKBAR et~al.(2017)AKBAR; KHAN; CARREZ;
+  MOESSNER]{art4akbar2017predictive} AKBAR, A.; KHAN, A.; CARREZ, F.; MOESSNER,
+  K\@. Predictive analytics for complex IoT data streams. \textbf{IEEE Internet
+  of Things Journal}, [S.l.], v.4, n.5, p.1571--1582, 2017.
+
 \bibitem[ALABA et~al.(2017)ALABA; OTHMAN; HASHEM; ALOTAIBI]{alaba17} ALABA,
   F.~A.; OTHMAN, M.; HASHEM, I. A.~T.; ALOTAIBI, F\@. Internet of Things
   security: A survey. \textbf{Journal of Network and Computer Applications},
@@ -16,11 +21,6 @@
   Internet of Things}. 2016. Tese (Doutorado em Ci{\^e}ncia da
   Computa{\c{c}}{\~a}o) --- Norwegian University of Science and Technology,
   Trondheim, Norway.
-
-\bibitem[AMAN; SNEKKENES(2014)AMAN; SNEKKENES]{aman14} AMAN, W.; SNEKKENES,
-  E\@. Event driven adaptive security in internet of things. \textbf{UBICOMM
-  2014 - 8th International Conference on Mobile Ubiquitous Computing, Systems,
-  Services and Technologies}, [S.l.], p.7--15, 2014. cited By 6.
 
 \bibitem[AMAN; SNEKKENES(2015)AMAN; SNEKKENES]{aman15} AMAN, W.; SNEKKENES,
   E\@. EDAS: An Evaluation Prototype for Autonomic Event-Driven Adaptive
@@ -34,6 +34,11 @@
 
 \bibitem[ASHTON(2009)ASHTON]{ashton09} ASHTON, K\@. {That 'Internet of Things'
   Thing}. \textbf{RFID Journal}, [S.l.], June~2009.
+
+\bibitem[ASLAM; CURRY(2018)ASLAM; CURRY]{art1aslam2018towards} ASLAM, A.;
+  CURRY, E\@. Towards a Generalized Approach for Deep Neural Network Based
+  Event Processing for the Internet of Multimedia Things. \textbf{IEEE Access},
+  [S.l.], v.6, p.25573--25587, 2018.
 
 \bibitem[BELLAVISTA et~al.(2012)BELLAVISTA; CORRADI; FANELLI;
   FOSCHINI]{bellavista12} BELLAVISTA, P.; CORRADI, A.; FANELLI, M.; FOSCHINI,
@@ -56,6 +61,12 @@
   Engineering for Self-Adaptive Systems}. Berlin, Heidelberg: Springer-Verlag,
   2009. p.48--70.
 
+\bibitem[CHEN; BORDBAR(2016)CHEN; BORDBAR]{art5chen2016dress} CHEN, Y.;
+  BORDBAR, B\@. Dress: A rule engine on spark for event stream processing. In:
+  IEEE/ACM INTERNATIONAL CONFERENCE ON BIG DATA COMPUTING, APPLICATIONS AND
+  TECHNOLOGIES, 3., 2016. \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 2016.
+  p.46--51.
+
 \bibitem[DAYARATHNA; PERERA(2018)DAYARATHNA; PERERA]{dayarathna2018recent}
   DAYARATHNA, M.; PERERA, S\@. Recent advancements in event processing.
   \textbf{ACM Computing Surveys (CSUR)}, [S.l.], v.51, n.2, p.33, 2018.
@@ -67,10 +78,6 @@
   MASSACCI; NIXON; SAFFRE; SCHMIDT; ZAMBONELLI]{dobson06} DOBSON, S. et~al\@. A
   Survey of Autonomic Communications. \textbf{ACM Trans. Auton. Adapt. Syst.},
   New York, NY, USA, v.1, n.2, p.223--259, Dec.~2006.
-
-\bibitem[EL~MALIKI(2014)EL~MALIKI]{elmaliki14} EL~MALIKI, T\@. \textbf{Security
-  adaptation in highly dynamic wireless networks}. 2014. Tese (Doutorado em
-  Ci{\^e}ncia da Computa{\c{c}}{\~a}o) --- Université de Genève.
 
 \bibitem[ELKHODARY; WHITTLE(2007)ELKHODARY; WHITTLE]{elkhodary07} ELKHODARY,
   A.; WHITTLE, J\@. A Survey of Approaches to Adaptive Application Security.
@@ -86,11 +93,6 @@
 \bibitem[EVESTI; OVASKA(2013)EVESTI; OVASKA]{evesti13b} EVESTI, A.; OVASKA,
   E\@. Comparison of adaptive information security approaches. \textbf{ISRN
   Artificial Intelligence}, [S.l.], v.2013, 2013.
-
-\bibitem[EVESTI; SUOMALAINEN; OVASKA(2013)EVESTI; SUOMALAINEN;
-  OVASKA]{evesti13c} EVESTI, A.; SUOMALAINEN, J.; OVASKA, E\@. Architecture and
-  Knowledge-Driven Self-Adaptive Security in Smart Space. \textbf{Computers},
-  [S.l.], v.2, n.1, p.34--66, 2013.
 
 \bibitem[EVESTI; TUTKIMUSKESKUS(2013)EVESTI; TUTKIMUSKESKUS]{evesti13a} EVESTI,
   A.; TUTKIMUSKESKUS, V.~teknillinen. \textbf{Adaptive Security in Smart
@@ -143,6 +145,13 @@
   K\@. Detecting Attacks Against The Internet of Things. \textbf{SANS
   Institute. InfoSec Reading Room}, [S.l.], 2017.
 
+\bibitem[KOUSIOURIS et~al.(2018)KOUSIOURIS; AKBAR; SANCHO; TA-SHMA; PSYCHAS;
+  KYRIAZIS; VARVARIGOU]{art9kousiouris2018integrated} KOUSIOURIS, G. et~al\@.
+  An integrated information lifecycle management framework for exploiting
+  social network data to identify dynamic large crowd concentration events in
+  smart cities applications. \textbf{Future Generation Computer Systems},
+  [S.l.], v.78, p.516--530, 2018.
+
 \bibitem[LAMPRECHT(2012)LAMPRECHT]{lamprecht12} LAMPRECHT, C.~J\@.
   \textbf{Adaptive Security}. 2012. Tese (Doutorado em Ci{\^e}ncia da
   Computa{\c{c}}{\~a}o) --- Newcastle University. School of Computing Science.
@@ -176,13 +185,6 @@
   I\@. Internet of things: Vision, applications and research challenges.
   \textbf{Ad Hoc Networks}, [S.l.], v.10, n.7, p.1497 -- 1516, 2012.
 
-\bibitem[MOZZAQUATRO et~al.(2016)MOZZAQUATRO; MELO; AGOSTINHO;
-  JARDIM-GONCALVES]{mozzaquatro16} MOZZAQUATRO, B.~A.; MELO, R.; AGOSTINHO, C.;
-  JARDIM-GONCALVES, R\@. An ontology-based security framework for
-  decision-making in industrial systems. In: INTERNATIONAL CONFERENCE ON
-  MODEL-DRIVEN ENGINEERING AND SOFTWARE DEVELOPMENT (MODELSWARD), 2016., 2016.
-  \textbf{Anais{\ldots}} [S.l.:~s.n.], 2016. p.779--788.
-
 \bibitem[ONWUBIKO(2012)ONWUBIKO]{onwubiko12} ONWUBIKO, C\@. \textbf{Situational
   Awareness in Computer Network Defense}: Principles, Methods and Applications:
   Principles, Methods and Applications. [S.l.]: Information Science Reference,
@@ -211,15 +213,6 @@
   \textbf{Proceedings{\ldots}} BCS Learning \& Development Ltd., 2008.
   p.68--77. (EASE'08).
 
-\bibitem[RAMOS; BERNABE; SKARMETA(2015)RAMOS; BERNABE; SKARMETA]{ramos15}
-  RAMOS, J. L.~H.; BERNABE, J.~B.; SKARMETA, A.~F\@. Managing Context
-  Information for Adaptive Security in IoT Environments. In: {AINA} WORKSHOPS,
-  2015. \textbf{Anais{\ldots}} {IEEE} Computer Society, 2015. p.676--681.
-
-\bibitem[ROCHFORD; KAVANAGH(2015)ROCHFORD; KAVANAGH]{gartner15} ROCHFORD, O.;
-  KAVANAGH, K.~M\@. \textbf{Magic Quadrant for Security Information and Event
-  Management}. [S.l.]: Gartner Group, 2015.
-
 \bibitem[ROMAN; ZHOU; LOPEZ(2013)ROMAN; ZHOU; LOPEZ]{roman13} ROMAN, R.; ZHOU,
   J.; LOPEZ, J\@. On the features and challenges of security and privacy in
   distributed internet of things. \textbf{Computer Networks}, [S.l.], v.57,
@@ -232,15 +225,17 @@
   \textbf{Computers and Electronics in Agriculture}, [S.l.], v.75, n.2,
   p.288--303, 2011.
 
-\bibitem[SHANKAR(2014)SHANKAR]{infosecnirvana14} SHANKAR, V\@. Clash of the
-  titans - Arcsight vs QRadar. Dispon{\'\i}vel em:
-  \url{<http://infosecnirvana.com/clash-titans-arcsight-vs-qradar/>}, acesso
-  em: 04 fev 2018.
-
 \bibitem[SICARI et~al.(2015)SICARI; RIZZARDI; GRIECO; COEN-PORISINI]{sicari15}
   SICARI, S.; RIZZARDI, A.; GRIECO, L.; COEN-PORISINI, A\@. Security, privacy
   and trust in Internet of Things: The road ahead. \textbf{Computer Networks},
   [S.l.], v.76, p.146 -- 164, 2015.
+
+\bibitem[SOTO et~al.(2016)SOTO; JENTSCH; PREUVENEERS;
+  ILIE-ZUDOR]{art10soto2016ceml} SOTO, J. A.~C.; JENTSCH, M.; PREUVENEERS, D.;
+  ILIE-ZUDOR, E\@. CEML: Mixing and moving complex event processing and machine
+  learning to the edge of the network for IoT applications. In: INTERNATIONAL
+  CONFERENCE ON THE INTERNET OF THINGS, 6., 2016. \textbf{Proceedings{\ldots}}
+  [S.l.:~s.n.], 2016. p.103--110.
 
 \bibitem[SUNDMAEKER et~al.(2010)SUNDMAEKER; GUILLEMIN; FRIESS; WOELFFL{\'E};
   INFORMATION~SOCIETY; MEDIA]{sundmaeker10} SUNDMAEKER, H. et~al\@.
