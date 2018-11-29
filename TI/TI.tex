@@ -154,183 +154,6 @@ Este trabalho foi organizado em 4 capítulos. Neste primeiro capítulo foi apres
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\chapter{Metodologia de Pesquisa}
-%Dedutiva
-%Indutiva
-%Abdutiva
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Segurança Adaptativa para a Internet das Coisas}
-
-Para fornecer uma visão coerente sobre segurança adaptativa para IoT primeiramente é abordado neste capítulo a IoT, incluindo suas características e desafios para segurança. Na sequência são apresentados os conceitos em torno da segurança adaptativa. Finalmente, discuti-se aspectos sobre a ciência de contexto apresentando um exemplo de como ela pode ser aplicada para o provimento da segurança adaptativa.
-
-%[ric] senti falta de uma classificação, alguma figura, porem as que encontrei nao pareceram interessantes
-\section{Internet das Coisas}
-
-% [ric] achei uma figura de "circulos" que dividem a definicao de IoT, mas nao me pareceu util
-A Internet das Coisas, popularmente conhecida como IoT (proveniente do termo em inglês \textit{Internet of Things}), consiste da onipresença de vários objetos ou coisas, incluindo tecnologias de sensores e dispositivos móveis físicos, sem fio e com fio, que interagem uns com os outros para cumprir objetivos comuns \cite{giusto10}. Semanticamente, a IoT pode ser percebida como uma combinação de dois conceitos, ou seja, a internet e as coisas, e uma interligação mundial de objetos exclusivamente identificáveis com base em protocolos padrões de comunicação. A IoT é entendida como um ambiente inteligente que pode reagir às mudanças ou eventos que ela percebe em seu ecossistema. 
-
-Quanto a definição de ``coisas'' adotada-se neste texto a elaborada pelo \textit{Cluster of European Research Projects on the Internet of Thing} (CERP-IoT), o qual define as ``coisas'' como participantes ativos em negócios, informações e processos sociais onde eles estão habilitados a interagir e se comunicar entre si e com o meio ambiente, trocando dados e informações sensoriados, enquanto reagem de forma autônoma aos eventos do ``mundo real/físico'', influenciando a execução de processos que desencadeiam ações e criam serviços com ou sem intervenção humana direta \cite{sundmaeker10}. 
-
-A  IoT, ao menos na teoria, visa tornar o cotidiano das pessoas mais simples, prática e produtiva, o que justifica a sua crescente popularidade. Embora, RFID permaneça uma das principais tecnologias no âmbito da IoT, uma infinidade de outros sensores e objetos móveis são introduzidos para ampliar a visão da IoT. Para exemplificar alguns dos dispositivos associados à esta afirmação é possível citar os relógios inteligentes, carros, cafeteiras, geladeiras, robôs aspiradores, entre outros. Este ambiente permite uma integração dos objetos físicos, móveis e de sensoriamento na infraestrutura tradicional, criando assim, novas oportunidades de negócio. A eHealth (uso de tecnologia da informação para saúde), edifícios inteligentes, redes inteligentes e sensores de meio ambiente são alguns exemplos de serviços e aplicações habilitadas pela IoT em diferentes campos \cite{aman16}.
-
-Para fornecer suporte a este ambiente dinâmico, considerando o escopo deste trabalho, em especial a necessidade de segurança em torno da IoT, os seguintes recursos devem ser almejados \cite{miorandi12}:
-
-\begin{itemize}
-
-\item Heterogeneidade de dispositivos: a IoT é caracterizada por uma considerável heterogeneidade de dispositivos, os quais apresentam capacidades diferentes dos pontos de vista computacional e de comunicação. O gerenciamento dessa heterogeneidade deve ser suportado em diferentes níveis da arquitetura (protocolos, eventos, aplicação). Adicionalmente, para transformar a quantidade considerável de dados produzidos pela IoT em informações úteis e para garantir a interoperabilidade entre diferentes aplicativos, é necessário fornecer dados com formatos adequados e padronizados. Isso permitirá que aplicações da IoT ofereçam suporte ao processamento de eventos.
-
-\item Escalabilidade: a medida que os objetos se conectam a uma infraestrutura de informação global, os problemas de escalabilidade surgem em diferentes níveis, incluindo: (i) endereçamento e nomeação devido ao tamanho do sistema resultante, (ii) comunicação de dados e rede em razão do alto nível de interconexão entre um grande número de entidades, (iii) gerenciamento de informações e conhecimento pela possibilidade de construir uma base para qualquer entidade e/ou fenômenos e (iv) provisionamento e gerenciamento de serviços em função da quantidade de serviços que podem estar disponíveis e a necessidade de lidar com recursos heterogêneos.
-
-\item Troca de dados baseada em redes sem fio: por sua comunicação ser fortemente baseada pelas tecnologias de comunicação sem fio, isto pode representar problemas em termos de disponibilidade de espectro, ocasionando interferências e consequentemente erros de comunicação e indisponibilidade de serviço.
-
-\item Autonomia: a complexidade, a dinâmica e as especificidades que muitos cenários da IoT apresentam implica na necessidade que os dispositivos (ou parte deles) sejam capazes de reagir de maneira autônoma à diferentes situações, buscando minimizar a intervenção humana. Isso inclui a capacidade de executar a descoberta automática de dispositivos, recursos e serviços por eles oferecidos, além da necessidade de reação em casos adversos como falhas ou lentidões, bem como a realização de ajustes do comportamento de protocolos, em especial os de segurança, para adaptação ao contexto atual.
-
-% flexibilidade?
-
-\end{itemize}
-
-Apesar do valor econômico aliado ao potencial de gerar impacto significativo na evolução e inovação da indústria, algumas questões ainda não foram abordadas para alcançar benefícios consistentes na IoT, como a visibilidade global, o gerenciamento autônomo em tempo real, a regularização, a padronização, a interoperabilidade dos sistemas, o consumo de recursos, a distribuição, o suporte à QoS, a privacidade dos dados e a segurança \cite{weber10, miorandi12}. Algumas dessas preocupações, como as questões de QoS e os consumos de recursos, são, em última instância, um problema de segurança, pois influenciam ou são influenciados direta ou indiretamente. 
-
-Assim, pode-se estabelecer que a segurança é um dos problemas críticos que precisam ser adequadamente abordados \cite{miorandi12, roman13, sicari15}. Fornecer segurança na IoT é uma tarefa desafiadora, uma vez que a rede é composta por diferentes dispositivos de detecção, computação e comunicação. Esta heterogeneidade, embora ofereça extensões de serviço e novos modelos de negócios, também introduz novos meios e oportunidades para que os adversários explorem ativos em diferentes níveis de uma arquitetura de serviço. Esses desafios, visões e vantagens impulsiona a investigação por soluções de segurança efetivas para proteger a IoT das ameaças emergentes, uma vez que os atuais controles de segurança tradicionais são ineficientes e insuficientes para proteger essa rede inteligente em desenvolvimento.
-
-\section{Segurança Adaptativa}
-
-% Definição
-A adaptação
-%, dinâmica ou em tempo de execução, 
- consiste na capacidade de um sistema monitorar 
- %\AY{A adaptação consiste na capacidade de um sistema monitorar ... (evitar o uso de um adjetivo que não é mais empregado)} - feito
- e regular de forma autônoma seu comportamento de acordo com as situações de interesse ou alterações sob observação. Esta característica auxilia na complexidade dos ambientes computacionais compostos pela IoT utilizando a tecnologia para gerenciar a tecnologia buscando-se minimizar a necessidade de intervenção humana. Com isto, a segurança adaptativa é a capacidade de um sistema observar continuamente os ambientes sob sua gerência, analisar quaisquer potenciais ameaças de segurança e responder de forma autônoma aos riscos que estas representam e as falhas dos sistemas que compõem o ambiente, visando reduzir seus possíveis impactos. Além disso, devem ser observados os requisitos funcionais e não funcionais (como tempo de resposta e desempenho) em conjunto com parâmetros estabelecidos pelo usuário \cite{aman15}.
-
-Muitas equipes de segurança da informação dedicam uma parte considerável de seus esforços na prevenção de ataques cibernéticos. Com isso, elas operam sob um comportamento alinhado à ``resposta a incidentes'', o que é importante para área. No entanto, com os atuais ambientes computacionais, em especial devido as mudanças consequentes da IoT, é necessário operar seguindo uma ``resposta contínua'', onde os sistemas são assumidos como comprometidos e exigem monitoramento e correção contínua, em tempo de execução. Uma arquitetura de segurança adaptativa é uma estrutura útil para auxiliar as organizações a classificar a segurança existente e os potenciais investimentos para garantir uma abordagem equilibrada \cite{gartneradaptsec17}. 
-
-% introducao?
-O conceito de segurança adaptativa foi elencado pela Gartner como uma das principais tendências de tecnologia estratégica, sendo um elemento vital de um negócio digital moderno \cite{gartnerttrends17}. A adaptação dos controles e parâmetros de segurança considerando a avaliação do risco de maneira contínua permite a tomada de decisão em tempo de execução, executando respostas que modificam o ambiente computacional promovendo a segurança e consequentemente habilitando as empresas a expandirem e manterem seus negócios em operação \cite{gartnerttrends18}.
-
-Algumas das características da IoT como a heterogeneidade, dinamicidade, espontaneidade, volatilidade e invisibilidade de como ocorre a comunicação nestes sistemas, implicam em uma maior complexidade do que tange a segurança da informação \cite{langheinrich10}. Isso torna a utilização dos conceitos e mecanismos de adaptação um requisito importante para auxiliar no auto-gerenciamento deste ambiente. Além disso, considerando uma perspectiva evolutiva alinhada com o que percebe-se na indústria da IoT, a segurança adaptativa é um atributo a ser explorado visto o crescimento atual e potencial dos vetores de ataque e ameaças. Este panorama dificulta a integração das abordagens de segurança tradicionais nos cenários de IoT, pois elas possuem uma visibilidade limitada e geralmente os mecanismos de resposta são manuais ou específicos \cite{yang12, zhao13, alaba17}. Logo, a flexibilidade é uma propriedade associada a segurança adaptativa relevante para a IoT, permitindo a integração das soluções de segurança em diferentes ambientes.
-  
-Para fornecer evidências de que as mudanças nas situações do ambiente monitorado satisfaçam os objetivos de segurança de um sistema a literatura defende o uso de métodos formais \cite{lamprecht12, aman15}. Uma abordagem promissora para segurança adaptativa considerando os ambientes da IoT é o emprego de um clico de \textit{feedback}. Um clico de \textit{feedback} (vide Figura \ref{generic-feedback-loop}) normalmente envolve quatro atividades principais: coletar, analisar, decidir e agir. Sensores coletam dados do ambiente e informações contextuais sobre seu estado atual. Os dados acumulados são então normalizados e finalmente armazenados para referência futura.  A análise é então executada sobre os dados para inferir tendências e identificar sintomas. Posteriormente, de acordo com as situações identificadas ocorre a decisão sobre como atuar no sistema em execução por meio dos atuadores. 
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.8\textwidth]{imagens/generic-feedback-loop.png}
-\caption{Ciclo de \textit{feedback} genérico \cite{dobson06}}
-\label{generic-feedback-loop}
-\end{figure}
-
-Um exemplo da aplicação do clico de \textit{feedback} é discutido em \cite{brun09}. Os autores consideram que para manter os serviços Web em funcionamento durante um longo período de tempo requer a coleta de informações que reflitam o estado atual do sistema, analisando essas informações para diagnosticar problemas de desempenho ou para detectar falhas, decidindo como resolver o problema (por exemplo, via balanceamento dinâmico de carga ou corrigindo falhas), e agindo para efetuar as decisões tomadas.
-
-Ao conceber um sistema adaptativo, algumas questões sobre essas atividades tornam-se importantes. Estas questões relativas aos laços de feedback devem ser explicitamente identificadas, registradas e resolvidas durante o desenvolvimento de um sistema adaptativo. A seguir serão apresentadas as questões levantas em \cite{brun09, lamprecht12}:
-
-\begin{itemize}
-
-\item O ciclo de \textit{feedback} começa com a coleta de dados relevantes de sensores disponíveis no ambiente e outras fontes que auxiliam na compreensão do estado atual do sistema. Algumas das questões que precisam ser respondidas aqui são: Qual é a taxa de amostragem necessária? Quão confiável é o dado do sensor? Existe um formato de evento comum entre os sensores? Os sensores fornecem informações suficientes para a identificação do sistema?;
-
-\item Na sequência, o sistema analisa os dados coletados. Nesta etapa existem inúmeras abordagens para estruturar e raciocinar sobre os dados brutos (por exemplo, usando modelos, teorias e regras). Algumas das questões aplicáveis aqui são: Como o estado atual do sistema é inferido? Qual a quantidade/tempo de situações passadas podem ser necessárias no futuro? Quais dados precisam ser arquivados para validação, verificação e/ou conformidade? Quão fiel será o modelo ao mundo real e se um modelo adequado pode ser obtido a partir dos dados de sensores disponíveis? Quão estável será o modelo ao longo do tempo?;
-
-\item Em seguida, uma decisão deve ser tomada para adaptar o sistema objetivando alcançar um estado desejável. Abordagens como análise de risco ajudam na escolha entre várias alternativas. Para esta atividade, as questões importantes são: Como o estado futuro do sistema é inferido? Como é alcançada uma decisão? Quais são as prioridades para a auto-adaptação em vários clicos de \textit{feedback} e em um único clico de \textit{feedback}?;
-
-\item Finalmente, para implementar a decisão, o sistema deve agir por meio dos atuadores disponíveis. As questões importantes que surgem aqui são: Quando a adaptação deve e pode ser realizada com segurança? Como os ajustes de diferentes clicos de feedback interferem um ao outro? Os feedbacks centralizados ou descentralizados ajudam a atingir o objetivo global? Uma importante questão aplicável adicional é se o sistema de controle tem autoridade de comando suficiente sobre o processo, ou seja, se os atuadores disponíveis são suficientes para conduzir o sistema nas direções desejadas.
-
-\end{itemize}
-
-O modelo genérico de um clico de \textit{feedback} ilustrado na Figura \ref{generic-feedback-loop}, muitas vezes referido como o clico de controle autonômico, enfatiza as atividades que realizam feedback. Embora este modelo forneça um ponto de partida sobre os clicos de feedback, ele não detalha o fluxo de dados e o controle em torno do clico \cite{dobson06}. Ainda que esses clicos de feedback tenham tido muito sucesso em diferentes ramos de engenharia, como na teoria de controle, ainda não está claro se os princípios gerais desta disciplina podem ser aplicados diretamente em sistemas adaptativos. Diferentemente da teoria de controle, os cenários da IoT possuem uma estrutura não totalmente conhecida \cite{lamprecht12}.
-
-
-Em uma tentativa de lidar com as complexidades dos sistemas modernos de computação a \textit{International Business Machines} (IBM) assumiu os desafios mencionados e sugeriu o modelo \textit{Monitor-Analyze-Plan-Execute plus Knowledge} (MAPE-K), conforme apresentado na Figura \ref{mape-k-model}. O MAPE-K utiliza as atividades Monitorar, Analizar, Planejar e Executar empregando um clico de controle em conjunto com o componente Conhecimento que fornece as informações necessárias para realizar a adaptação \cite{aman15}. O componente Monitor coleta os dados apropriados dos recursos gerenciados por meio dos sensores. Os dados são correlacionados, filtrados e/ou agregados e o sintoma descoberto é passado para o componente Analisar. Sintomas e outros dados também podem ser armazenados em uma base de conhecimento compartilhada. O analisador determina se uma mudança precisa ser feita com base no conhecimento compartilhado (potencialmente uma política) e nos sintomas. Caso pertinente, uma solicitação de mudança no ambiente é passada para o componente Planejar. O planejador gera os comandos ou fluxos de trabalho necessários na forma de um plano de alteração que é passado para o componente Executar. O executor aplica o plano de mudança no recurso de gerenciamento usando os atuadores. Caso necessário, a base de conhecimento pode ser atualizada, fornecendo dados do impacto da adaptação para serem aplicados como feedback para o próximo clico \cite{lamprecht12}.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.8\textwidth]{imagens/mape-k-model.png}
-\caption{MAPE-K - Modelo para sistema adaptativos \cite{iglesia15}}
-\label{mape-k-model}
-\end{figure}
-
-
-De acordo com a IBM, um sistema autonômico deve ter os seguintes auto-atributos \cite{kephart03, iglesia15}: 
-
-\begin{itemize}
-
-\item Autoconfiguração (\textit{self-configuration}): o sistema deve se configurar automaticamente de acordo com as políticas de alto nível pré-definidas. Este atributo também contempla a facilidade de se adaptar às mudanças causadas por configurações automáticas. A integração, instalação e configuração de dispositivos e softwares devem ser feitos eficientemente. Caso a nova configuração não proporcione para a rede o desempenho esperado, há a possibilidade de restauração da mesma.
-
-\item Auto-otimização (\textit{self-optimization}): consiste da habilidade do sistema controlar os recursos e os parâmetros de segurança para melhorar o desempenho e a eficiência, consequentemente aprimorando a qualidade dos serviços (QoS).
-
-\item Autocura (\textit{self-healing}): é a capacidade do sistema detectar, diagnosticar e reparar falhas automaticamente sem que isto afete o funcionamento do sistema. A auto-cura é determinante na disponibilidade e confiabilidade do sistema.
-
-\item Autoproteção (\textit{self-protection}): este atributo envolve dois aspectos: a defesa contra ataques e antecipação de ataques. A defesa deve ser realizada com o objetivo de protejer o sistema de ataques maliciosos ou falhas que não foram tratadas corretamente pela auto-cura. A antecipação de ataques é feita baseando-se em relatórios de sensores e, com essas informações, medidas devem ser adotadas para minimizar os problemas.
-
-\end{itemize}
-
-Em \cite{evesti13b}, os autores mencionam outros dois atributos, a autoconsciência (\textit{self-awareness}) e a ciência de contexto (\textit{context awareness}). A autoconsciência é a capacidade do sistema em conhecer seu próprio estado, seus componentes, capacidades, limites, recursos e comportamento. Já a ciência do contexto, consiste do conhecimento sobre o ambiente operacional ao qual o sistema está inserido. 
-
-
-% gartner The Four Stages of an Adaptive Security Architecture???
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Ciência de Contexto na Segurança Adaptativa}
-
-A ciência de contexto está presente nas pesquisas relacionadas a UbiComp, sendo um dos grandes desafios no desenvolvimento de aplicações nesta área.  Para entender o seu significado, primeiramente é necessário definir contexto, que de acordo com Dey (2001)\nocite{dey01} é qualquer informação que pode ser usada para caracterizar a situação de uma entidade (pessoa, local ou objeto) que é considerada relevante para a interação entre o usuário e a aplicação, incluindo o próprio usuário e a aplicação.
-
-Contexto pode ser considerado também como uma descrição complexa de conhecimento compartilhado sobre circunstâncias físicas, sociais, históricas, entre outras, onde ações ou eventos ocorrem, percebendo assim a relação existente entre contexto e eventos. Contexto é o que contribui para a correta interpretação de uma ação ou evento, sem, no entanto, ser parte dessa ação/evento. Também pode ser considerado como sendo uma coleção de condições relevantes e influências que tornam uma situação única e compreensível \cite{brezillon99, li15}.
-
-Existem seis questões básicas que podem ser realizadas para facilitar a compreensão do contexto, elas são conhecidas como 5W+1H \cite{vieira04}. No entanto, para determinadas aplicações algumas são mais importantes que outras. A seguir as seis questões são apresentadas:
-
-
-\begin{itemize}
-
-\item quem (\textit{who}): informação de presença e disponibilidade dos indivíduos no grupo, e de identificação dos participantes envolvidos num evento ou numa ação;
-
-\item o quê (\textit{what}): informação sobre a ocorrência de um evento de interesse;
-
-\item quando (\textit{when}): informação temporal sobre o evento, o momento em que o evento ocorreu;
-
-\item onde (\textit{where}): informação espacial, de localização, o local onde o evento ocorreu;
-
-\item por que (\textit{why}): informação subjetiva sobre as intenções e motivações que levaram à ocorrência do evento;
-
-\item como (\textit{how}): informação sobre a maneira com que o evento ocorreu.
-
-\end{itemize}
-
-O contexto é relativo a um foco, onde foco pode ser uma tarefa ou um passo na resolução de um problema ou em uma tomada de decisão \cite{brezillon05}. Dessa forma, o foco determina onde está o contexto e o que pode ser considerado como importante, pois nem tudo que é contexto de uma situação é relevante para tal. 
- 
-As áreas da UbiComp e Inteligência Artificial foram as pioneiras nos estudos e utilização do conceito de contexto e, com isso, foram as que demonstraram o potencial da aplicação desse conceito nos sistemas computacionais. Ultimamente, a ciência de contexto vem sendo foco de um grande número de pesquisas dentro da UbiComp. Dessa forma, neste texto entende-se por ciência de contexto a capacidade de um sistema em usar o contexto para prover serviços e/ou informações relevantes para o usuário \cite{dey01}.
-
-Ao se construir e executar aplicações ubíquas cientes de contexto há uma série de funcionalidades que devem ser providas, envolvendo desde a aquisição de informações contextuais, a partir do conjunto de fontes heterogêneas e distribuídas, até a representação dessas informações, seu processamento, armazenamento, e a realização de inferências para seu uso em tomadas de decisão \cite{bellavista12}. Tais tarefas se alinham ao clico de feedback empregado na formalização da segurança adaptativa.
-
-Os sistemas cientes de contexto devem ser flexíveis, se adaptarem, e serem capazes de atuar automaticamente para ajudar o usuário na realização de suas atividades, o que está diretamente associado às necessidades das soluções para segurança da informação. Algumas motivações para usar a ciência de contexto são: 
-
-\begin{itemize}
-
-\item auxilia na compreensão da realidade;
-
-\item facilita na adaptação de sistemas;
-
-\item auxilia no processo de transformação dos dados em informação;
-
-\item apoia a compreensão de eventos e de situações.
-
-\end{itemize}
-
-Em \cite{heimerl12},  é discutida a importância de contexto à segurança da informação. Inicialmente, ele defende a ideia de que informação sem contexto é simplesmente um dado, e não informação. Logo, dados são mais valiosos quando contextualizados.  Um cenário que exemplifica isto é apresentado em \cite{aman15}, onde é descrito um médico, atualmente em férias, usando seu smartphone. O mesmo recebe autorização por um Sistema de Controle de Acesso Baseado em Função, do inglês \textit{Role-Based Access Control} (RBAC), para acessar informações pessoais do paciente de um lugar incomum, em um fim de semana. Do ponto de vista do RBAC, esta atividade parece ser legítima, e o sistema deve conceder acesso. No entanto, se for analisado todo o contexto, isto é, o local incomum, o estado atual e a data de acesso, pode-se concluir que existe um risco envolvido se o acesso for concedido, ou seja, o smartphone pode ter sido comprometido. Portanto, para prover segurança adaptativa com eficiência deve-se avaliar a situação em um contexto holístico.
-
-% Talvez colocar um outro exemplo
-%\citealp{heimerl12} apresenta um exemplo, onde o autor considera uma solução de segurança relatando que o endereço IP 192.161.0.12 está passando por uma varredura de portas, no entanto, isto consiste simplesmente de uma parte dos dados. Ainda é  necessário descobrir o que esses dados significam ao analista de segurança, se seriam importantes ou somente ruído, logo, ele necessita identificar o contexto. Por exemplo, o alerta, que antes consistia apenas de um ``dado'' recebe um novo significado, o endereço IP 192.161.0.12 hipoteticamente pode ser o sistema que mantém o banco de dados dos cartões de créditos dos alunos de uma universidade, ou pode ser  um site interno que não tem valor real para a instituição.
-
-%Embora, o contexto do alerta tenha sido aprimorado, ainda é possível supor que o servidor que está sendo atacado é chamado de ``sentinela'', e é um Windows Server 2008 R2 SP1, rodando Oracle 11g Enterprise, que está localizado em Pelotas, Rio Grande do Sul, Brasil, na linha 3 do \textit{data center}, prateleira A12, e que detém todos os registros de pacientes clínicos, abrangendo assim as normas \textit{Health Insurance Portability and Accountability Act} (HIPAA) e \textit{Health Information Technology for Economic and Clinical Health} (HITECH). Percebe-se que a contextualização dos dados é importante no processo de aquisição de informação, e que possui uma grande diferença na maneira como a informação é gerenciada e protegida, tornando-se relevante para segurança da informação.
-
-No que tange a segurança adaptativa, caso os contextos relevantes para a identificação das situações a serem avaliadas não sejam adequadamente levadas em consideração, pode haver uma influência adversa no ambiente impactando nos serviços oferecidos. Observa-se que a segurança adaptativa, é fortemente dependente do ambiente monitorado e da visão holística sobre o mesmo. Em outras termos, a contextualização deve ocorrer em diferentes níveis arquiteturas (desde a coleta do evento, passando pela normalização, análise de risco e assim por diante). A ciência de contexto é especialmente crítica nos cenários da IoT, em particular na adaptação, pois esta consiste de uma comunicação máquina para máquina, a priori sem a inteligência (envolvimento direto) dos humanos. Caso sejam levados em consideração contextos irrelevantes, incorretos ou insuficientes, a adaptação pode não ser eficiente \cite{aman15}.
-
-
-
-\section{Considerações sobre o Capítulo}
-
-Inicialmente neste capítulo foi apresentada a definição de IoT, sendo destacado que a segurança adaptativa é considerado um desfio importante e atual. Posteriormente a segurança adaptativa foi discutida, sendo exposto que o uso de um clico de \textit{feedback} se faz necessário para apoiar a implantação deste conceito. Também foi descrito que a ciência de contexto é um atributo fundamental para a adaptação. Com isto, na seção seguinte foi analisada a ciência de contexto descrevendo como ela pode ser aplicada neste âmbito.
-
-
 \chapter{Embasamento Teórico}
 Para fornecer um embasamento teórico ao leitor sobre a Ciência de Situação que será discutida no capitulo \ref{cap:Estado_da_Arte} será abordado nas seções seguintes deste capitula as definições assumidas neste documento para evento, processamento de evento, processamento de fluxo de eventos e processamento de eventos complexos respectivamente.
 
@@ -645,9 +468,9 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 	
 	
 	
-	\begin{figure}[ht]
+	\begin{figure}[h]
 		\centering
-		\includegraphics[width=.6\textwidth]{imagens/comparacaoArtigos.png}
+		\includegraphics[width=1\textwidth]{imagens/comparacaoArtigos.png}
 		\caption{Comparativo entre os artigos selecionados.}
 		\label{fig:comparacaoArtigos}
 	\end{figure}
@@ -655,16 +478,22 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
 	
 	
 	
-	\item \textbf{Tecnologia de Inteligencia Artificial:} das propostas analisadas, quatro destas implementaram alguma  técnica de aprendizado de maquina para solucionar os problemas abordados, os quais foram \cite{art1aslam2018towards}, \cite{art4akbar2017predictive}, \cite{art9kousiouris2018integrated} e \cite{art10soto2016ceml}.
+	\item \textbf{Uso de Tecnologia em Inteligencia Artificial:} das propostas analisadas, quatro destas implementaram alguma  técnica de aprendizado de maquina para solucionar os problemas abordados, os quais foram \cite{art1aslam2018towards}, \cite{art4akbar2017predictive}, \cite{art9kousiouris2018integrated} e \cite{art10soto2016ceml}. Esta coluna pode apresentar somente dois valores: Sim que se refere ao uso de alguma técnica qualquer de aprendizado de maquina e - onde o autor não fez uso de nenhuma técnica de inteligencia artificial. 
 	
-	\item \textbf{Ferramentas:} nesta coluna mostrada na figura \ref{fig:comparacaoArtigos} foram selecionados as principais ferramentas citadas nos documentos de cada uma das propostas analisadas.
+	\item \textbf{Ferramentas:} nesta coluna é mostrado na figura \ref{fig:comparacaoArtigos} quais foram as principais ferramentas citadas nos documentos de cada uma das propostas analisadas.
 	
-    \item \textbf{Cenário:} os artigos selecionados são separados pelas áreas que este estes propuseram uma solução das quais foram identificadas IoT Multimídia, Big Data, Agricultura de Precisão, Aprendizado de Maquina, Smart Cities e Segurança.
+    \item \textbf{Cenário:} os artigos selecionados são separados pelas áreas que este estes propuseram uma solução das quais foram identificadas: IoT-Multimídia soluções para fluxos de dados de eventos não estruturados; IoT-Big Data soluções para lidar com o grande fluxo de dados gerado pelas redes IoT; Agricultura de Precisão soluções que são aplicadas de alguma forma a algum meio da agronomia; IoT-ML soluções que aplicam aprendizado de maquina para solucionar e oferecer ferramentas novas a redes IoT; \textit{Smart Citie} soluções que são aplicadas em cidades inteligentes; Segurança soluções que usam processamento de evento para resolver algum problema de segurança genérico. 
     
      \item \textbf{Reusabilidade:} demonstra se o trabalho apresenta detalhes suficientes que
-      permitem a reimplementação da proposta, sendo passível de replicação dos testes realizados; 
+      permitem a reimplementação da proposta, sendo passível de replicação dos testes realizados. Esta coluna pode ter três valores: - não é possível fazer a reimplementação da proposta; Sim onde e possível fazer a re implementação da proposta e dos testes executados pelo autor; Parcial onde é possível fazer a reimplementação da proposta porem os testes não são passíveis de reimplementação.
   
 \end{itemize}
+
+
+
+
+
+
 
 \section{Considerações do Capítulo}
 
