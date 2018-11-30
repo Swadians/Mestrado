@@ -7,6 +7,10 @@
   Sciences: Social-Informatics and Telecommunications Engineering), 2012.
   p.269--275. (BodyNets '12).
 
+\bibitem[AGRAWAL; VIEIRA(2013)AGRAWAL; VIEIRA]{agrawal2013survey} AGRAWAL, S.;
+  VIEIRA, D\@. A survey on Internet of Things. \textbf{Abakos}, [S.l.], v.1,
+  n.2, p.78--95, 2013.
+
 \bibitem[AKBAR et~al.(2017)AKBAR; KHAN; CARREZ;
   MOESSNER]{art4akbar2017predictive} AKBAR, A.; KHAN, A.; CARREZ, F.; MOESSNER,
   K\@. Predictive analytics for complex IoT data streams. \textbf{IEEE Internet
@@ -73,6 +77,11 @@
   GHORBANI, A.; LU, W.; TAVALLAEE, M\@. \textbf{Network Intrusion Detection and
   Prevention}: Concepts and Techniques. [S.l.]: Springer, 2010. (Advances in
   Information Security).
+
+\bibitem[GON{\c{C}}ALVES(2017)GON{\c{C}}ALVES]{gonccalves2017research}
+  GON{\c{C}}ALVES, A. R. S.~M\@. \textbf{Research of the internet of things
+  business models in Portugal}. 2017. Tese (Doutorado em Ci{\^e}ncia da
+  Computa{\c{c}}{\~a}o) --- .
 
 \bibitem[HP(2015)HP]{hpiot15} HP. Dispon\'{i}vel em:
   \url{<http://files.asset.microfocus.com/4aa5-4759/en/4aa5-4759.pdf>}, Hewlett
@@ -202,6 +211,11 @@
   RIZVI, S\@. High-performance complex event processing over streams. In: ACM
   SIGMOD INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, 2006., 2006.
   \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 2006. p.407--418.
+
+\bibitem[XAVIER(2016)XAVIER]{xavier2016smart} XAVIER, M. S. R. d.~B\@.
+  \textbf{Smart Homes no mercado downstream de Oil \& Gas}. 2016.
+  Disserta{\c{c}}{\~a}o (Mestrado em Ci{\^e}ncia da Computa{\c{c}}{\~a}o) ---
+  FEUC.
 
 \bibitem[YUAN; MALEK(2012)YUAN; MALEK]{yuan12} YUAN, E.; MALEK, S\@. A taxonomy
   and survey of self-protecting software systems. In: INTERNATIONAL SYMPOSIUM
