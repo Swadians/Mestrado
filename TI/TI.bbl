@@ -1,12 +1,5 @@
 \begin{thebibliography}{\hspace{\parindent}}
 
-\bibitem[ABIE; BALASINGHAM(2012)ABIE; BALASINGHAM]{habtamu12} ABIE, H.;
-  BALASINGHAM, I\@. Risk-based Adaptive Security for Smart IoT in eHealth. In:
-  INTERNATIONAL CONFERENCE ON BODY AREA NETWORKS, 7., 2012, ICST, Brussels,
-  Belgium, Belgium. \textbf{Proceedings{\ldots}} ICST (Institute for Computer
-  Sciences: Social-Informatics and Telecommunications Engineering), 2012.
-  p.269--275. (BodyNets '12).
-
 \bibitem[AGRAWAL; VIEIRA(2013)AGRAWAL; VIEIRA]{agrawal2013survey} AGRAWAL, S.;
   VIEIRA, D\@. A survey on Internet of Things. \textbf{Abakos}, [S.l.], v.1,
   n.2, p.78--95, 2013.
@@ -16,28 +9,10 @@
   K\@. Predictive analytics for complex IoT data streams. \textbf{IEEE Internet
   of Things Journal}, [S.l.], v.4, n.5, p.1571--1582, 2017.
 
-\bibitem[ALABA et~al.(2017)ALABA; OTHMAN; HASHEM; ALOTAIBI]{alaba17} ALABA,
-  F.~A.; OTHMAN, M.; HASHEM, I. A.~T.; ALOTAIBI, F\@. Internet of Things
-  security: A survey. \textbf{Journal of Network and Computer Applications},
-  [S.l.], v.88, p.10 -- 28, 2017.
-
-\bibitem[AMAN(2016)AMAN]{aman16} AMAN, W\@. \textbf{Adaptive Security in the
-  Internet of Things}. 2016. Tese (Doutorado em Ci{\^e}ncia da
-  Computa{\c{c}}{\~a}o) --- Norwegian University of Science and Technology,
-  Trondheim, Norway.
-
-\bibitem[AMAN; SNEKKENES(2015)AMAN; SNEKKENES]{aman15} AMAN, W.; SNEKKENES,
-  E\@. EDAS: An Evaluation Prototype for Autonomic Event-Driven Adaptive
-  Security in the Internet of Things. \textbf{Future Internet}, [S.l.], v.7,
-  n.3, p.225--256, 2015.
-
 \bibitem[APPEL et~al.(2013)APPEL; FRISCHBIER; FREUDENREICH;
   BUCHMANN]{appel2013event} APPEL, S.; FRISCHBIER, S.; FREUDENREICH, T.;
   BUCHMANN, A\@. Event stream processing units in business processes. In:
   \textbf{Business Process Management}. [S.l.]: Springer, 2013. p.187--202.
-
-\bibitem[ASHTON(2009)ASHTON]{ashton09} ASHTON, K\@. {That 'Internet of Things'
-  Thing}. \textbf{RFID Journal}, [S.l.], June~2009.
 
 \bibitem[ASLAM; CURRY(2018)ASLAM; CURRY]{art1aslam2018towards} ASLAM, A.;
   CURRY, E\@. Towards a Generalized Approach for Deep Neural Network Based
@@ -60,20 +35,9 @@
   processing. In: IEEE INTERNATIONAL CONFERENCE ON MOBILE DATA MANAGEMENT
   (MDM), 2017., 2017. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.30--39.
 
-\bibitem[ELKHODARY; WHITTLE(2007)ELKHODARY; WHITTLE]{elkhodary07} ELKHODARY,
-  A.; WHITTLE, J\@. A Survey of Approaches to Adaptive Application Security.
-  In: INTERNATIONAL WORKSHOP ON SOFTWARE ENGINEERING FOR ADAPTIVE AND
-  SELF-MANAGING SYSTEMS, 2007., 2007, Washington, DC, USA.
-  \textbf{Proceedings{\ldots}} IEEE Computer Society, 2007. p.16--. (SEAMS
-  '07).
-
 \bibitem[ETZION; NIBLETT; LUCKHAM(2011)ETZION; NIBLETT;
   LUCKHAM]{etzion2011event} ETZION, O.; NIBLETT, P.; LUCKHAM, D.~C\@.
   \textbf{Event processing in action}. [S.l.]: Manning Greenwich, 2011.
-
-\bibitem[EVESTI; TUTKIMUSKESKUS(2013)EVESTI; TUTKIMUSKESKUS]{evesti13a} EVESTI,
-  A.; TUTKIMUSKESKUS, V.~teknillinen. \textbf{Adaptive Security in Smart
-  Spaces}. [S.l.]: VTT, 2013. (VTT science).
 
 \bibitem[FITZGERALD et~al.(2010)FITZGERALD; CHUVAKIN; HEINBOCKEL; KARG;
   MARTY]{fitzgerald2010common} FITZGERALD, E. et~al\@. Common Event Expression
@@ -85,34 +49,15 @@
   In: DIGITAL FORENSIC AND SECURITY (ISDFS), 2017 5TH INTERNATIONAL SYMPOSIUM
   ON, 2017. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.1--6.
 
-\bibitem[GHORBANI; LU; TAVALLAEE(2010)GHORBANI; LU; TAVALLAEE]{ghorbani10}
-  GHORBANI, A.; LU, W.; TAVALLAEE, M\@. \textbf{Network Intrusion Detection and
-  Prevention}: Concepts and Techniques. [S.l.]: Springer, 2010. (Advances in
-  Information Security).
-
 \bibitem[GON{\c{C}}ALVES(2017)GON{\c{C}}ALVES]{gonccalves2017research}
   GON{\c{C}}ALVES, A. R. S.~M\@. \textbf{Research of the internet of things
   business models in Portugal}. 2017. Tese (Doutorado em Ci{\^e}ncia da
   Computa{\c{c}}{\~a}o) --- .
 
-\bibitem[HP(2015)HP]{hpiot15} HP. Dispon\'{i}vel em:
-  \url{<http://files.asset.microfocus.com/4aa5-4759/en/4aa5-4759.pdf>}, Hewlett
-  Packard Enterprise - Internet of things research study. Acesso em janeiro de
-  2018.
-
-\bibitem[HU et~al.(2014)HU; GAO; WANG; WU; MAYBANK]{hu14} HU, W. et~al\@.
-  Online Adaboost-Based Parameterized Methods for Dynamic Distributed Network
-  Intrusion Detection. \textbf{Cybernetics, IEEE Transactions on}, [S.l.],
-  v.44, n.1, p.66--82, Jan~2014.
-
 \bibitem[JUN; CHI(2014)JUN; CHI]{jun2014design} JUN, C.; CHI, C\@. Design of
   complex event-processing ids in internet of things. In: MEASURING TECHNOLOGY
   AND MECHATRONICS AUTOMATION (ICMTMA), 2014 SIXTH INTERNATIONAL CONFERENCE ON,
   2014. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2014. p.226--229.
-
-\bibitem[KLIARSKY; LEUNE(2017)KLIARSKY; LEUNE]{sans17} KLIARSKY, A.; LEUNE,
-  K\@. Detecting Attacks Against The Internet of Things. \textbf{SANS
-  Institute. InfoSec Reading Room}, [S.l.], 2017.
 
 \bibitem[KOTENKO; SAENKO; KUSHNEREVICH(2017)KOTENKO; SAENKO;
   KUSHNEREVICH]{art8kotenko2017parallel} KOTENKO, I.~V.; SAENKO, I.;
@@ -127,53 +72,15 @@
   smart cities applications. \textbf{Future Generation Computer Systems},
   [S.l.], v.78, p.516--530, 2018.
 
-\bibitem[LAMPRECHT(2012)LAMPRECHT]{lamprecht12} LAMPRECHT, C.~J\@.
-  \textbf{Adaptive Security}. 2012. Tese (Doutorado em Ci{\^e}ncia da
-  Computa{\c{c}}{\~a}o) --- Newcastle University. School of Computing Science.
-
-\bibitem[LANGHEINRICH(2010)LANGHEINRICH]{langheinrich10} LANGHEINRICH, M\@.
-  \textbf{{Privacy in Ubiquitous Computing}}. [S.l.]: J. Krumm, ed., CRC Press,
-  2010. 95-160p.
-
-\bibitem[LI et~al.(2015)LI; ECKERT; MARTINEZ; RUBIO]{li15} LI, X.; ECKERT, M.;
-  MARTINEZ, J.-F.; RUBIO, G\@. Context Aware Middleware Architectures: Survey
-  and Challenges. \textbf{Sensors}, [S.l.], v.15, n.8, p.20570, 2015.
-
-\bibitem[LIU; LIJUAN(2008)LIU; LIJUAN]{liu08} LIU, J.; LIJUAN, L\@. A
-  Distributed Intrusion Detection System Based on Agents. In: COMPUTATIONAL
-  INTELLIGENCE AND INDUSTRIAL APPLICATION, 2008. PACIIA '08. PACIFIC-ASIA
-  WORKSHOP ON, 2008. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2008. v.1,
-  p.553--557.
-
 \bibitem[MINBO; ZHU; GUANGYU(2013)MINBO; ZHU; GUANGYU]{minbo2013information}
   MINBO, L.; ZHU, Z.; GUANGYU, C\@. Information service system of agriculture
   IoT. \textbf{automatika}, [S.l.], v.54, n.4, p.415--426, 2013.
-
-\bibitem[MIORANDI et~al.(2012)MIORANDI; SICARI; PELLEGRINI;
-  CHLAMTAC]{miorandi12} MIORANDI, D.; SICARI, S.; PELLEGRINI, F.~D.; CHLAMTAC,
-  I\@. Internet of things: Vision, applications and research challenges.
-  \textbf{Ad Hoc Networks}, [S.l.], v.10, n.7, p.1497 -- 1516, 2012.
 
 \bibitem[NOCERA et~al.(2017)NOCERA; DI~NOIA; MONGIELLO;
   DI~SCIASCIO]{art3nocera2017semantic} NOCERA, F.; DI~NOIA, T.; MONGIELLO, M.;
   DI~SCIASCIO, E\@. Semantic IoT Middleware-enabled Mobile Complex Event
   Processing for Integrated Pest Management. In: CLOSER, 2017.
   \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.610--617.
-
-\bibitem[ONWUBIKO(2012)ONWUBIKO]{onwubiko12} ONWUBIKO, C\@. \textbf{Situational
-  Awareness in Computer Network Defense}: Principles, Methods and Applications:
-  Principles, Methods and Applications. [S.l.]: Information Science Reference,
-  2012.
-
-\bibitem[OWASP(2018)OWASP]{owaspiot18} OWASP. Dispon\'{i}vel em:
-  \url{<https://www.owasp.org/index.php/OWASP_Internet_of_Things_Project>},
-  OWASP Internet of Things Project. Acesso em janeiro de 2018.
-
-\bibitem[PANETTA(2017)PANETTA]{gartnerttrends17} PANETTA, K\@. Dispon\'{i}vel
-  em:
-  \url{<https://www.gartner.com/smarterwithgartner/gartners-top-10-technology-trends-2017/>},
-  Gartner - Top 10 Strategic Technology Trends for 2017. Acesso em janeiro de
-  2018.
 
 \bibitem[PETERSEN et~al.(2008)PETERSEN; FELDT; MUJTABA; MATTSSON]{petersen08}
   PETERSEN, K.; FELDT, R.; MUJTABA, S.; MATTSSON, M\@. Systematic Mapping
@@ -188,27 +95,12 @@
   \textbf{Computers and Electronics in Agriculture}, [S.l.], v.75, n.2,
   p.288--303, 2011.
 
-\bibitem[SICARI et~al.(2015)SICARI; RIZZARDI; GRIECO; COEN-PORISINI]{sicari15}
-  SICARI, S.; RIZZARDI, A.; GRIECO, L.; COEN-PORISINI, A\@. Security, privacy
-  and trust in Internet of Things: The road ahead. \textbf{Computer Networks},
-  [S.l.], v.76, p.146 -- 164, 2015.
-
 \bibitem[SOTO et~al.(2016)SOTO; JENTSCH; PREUVENEERS;
   ILIE-ZUDOR]{art10soto2016ceml} SOTO, J. A.~C.; JENTSCH, M.; PREUVENEERS, D.;
   ILIE-ZUDOR, E\@. CEML: Mixing and moving complex event processing and machine
   learning to the edge of the network for IoT applications. In: INTERNATIONAL
   CONFERENCE ON THE INTERNET OF THINGS, 6., 2016. \textbf{Proceedings{\ldots}}
   [S.l.:~s.n.], 2016. p.103--110.
-
-\bibitem[TORRES; WILLIAMS(2015)TORRES; WILLIAMS]{sansir15} TORRES, A.;
-  WILLIAMS, J\@. Maturing and Specializing: Incident Response Capabilities
-  Needed. \textbf{SANS Institute. SANS Analyst Program}, [S.l.], 2015.
-
-\bibitem[TWENEBOAH-KODUAH; SKOUBY; TADAYONI(2017)TWENEBOAH-KODUAH; SKOUBY;
-  TADAYONI]{tweneboah17} TWENEBOAH-KODUAH, S.; SKOUBY, K.~E.; TADAYONI, R\@.
-  Cyber Security Threats to IoT Applications and Service Domains.
-  \textbf{Wireless Personal Communications}, [S.l.], v.95, n.1, p.169--185,
-  Jul~2017.
 
 \bibitem[VIJAYARAGHAVAN; DORNFELD(2010)VIJAYARAGHAVAN;
   DORNFELD]{vijayaraghavan2010automated} VIJAYARAGHAVAN, A.; DORNFELD, D\@.
@@ -220,16 +112,9 @@
   patient status event processing and reporting}. [S.l.]: Google Patents, 2008.
   US Patent 7,439,856.
 
-\bibitem[WEISER(1991)WEISER]{weiser91} WEISER, M\@. The Computer for the 21st
-  Century. \textbf{Scientific American}, [S.l.], v.265, n.3, p.66--75,
-  January~1991.
-
-\bibitem[WEYNS et~al.(2012)WEYNS; IFTIKHAR; MALEK; ANDERSSON]{weyns12} WEYNS,
-  D.; IFTIKHAR, M.~U.; MALEK, S.; ANDERSSON, J\@. Claims and Supporting
-  Evidence for Self-adaptive Systems: A Literature Study. In: INTERNATIONAL
-  SYMPOSIUM ON SOFTWARE ENGINEERING FOR ADAPTIVE AND SELF-MANAGING SYSTEMS, 7.,
-  2012, Piscataway, NJ, USA. \textbf{Proceedings{\ldots}} IEEE Press, 2012.
-  p.89--98. (SEAMS '12).
+\bibitem[WEISER(1999)WEISER]{weiser1999computer} WEISER, M\@. The computer for
+  the 21st century. \textbf{Mobile Computing and Communications Review},
+  [S.l.], v.3, n.3, p.3--11, 1999.
 
 \bibitem[WU; DIAO; RIZVI(2006)WU; DIAO; RIZVI]{wu2006high} WU, E.; DIAO, Y.;
   RIZVI, S\@. High-performance complex event processing over streams. In: ACM
@@ -240,11 +125,6 @@
   \textbf{Smart Homes no mercado downstream de Oil \& Gas}. 2016.
   Disserta{\c{c}}{\~a}o (Mestrado em Ci{\^e}ncia da Computa{\c{c}}{\~a}o) ---
   FEUC.
-
-\bibitem[YUAN; MALEK(2012)YUAN; MALEK]{yuan12} YUAN, E.; MALEK, S\@. A taxonomy
-  and survey of self-protecting software systems. In: INTERNATIONAL SYMPOSIUM
-  ON SOFTWARE ENGINEERING FOR ADAPTIVE AND SELF-MANAGING SYSTEMS (SEAMS),
-  2012., 2012. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2012. p.109--118.
 
 \bibitem[ZIMMERLE; GAMA(2018)ZIMMERLE; GAMA]{art2zimmerle2018web} ZIMMERLE, C.;
   GAMA, K\@. A web-based approach using reactive programming for complex event

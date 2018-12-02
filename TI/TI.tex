@@ -80,23 +80,15 @@ One of Ubiquitous Computing most prominent materializations is the Internet of T
 
 %lista de abreviaturas e siglas
 \begin{listofabbrv}{SPMDRT}
-	\item[ARM] \textit{Adaptive Risk Management}
-        \item[CERP-IoT] \textit{Cluster of European Research Projects on the Internet of Thing}
-	\item[HP] \textit{Hewlett-Packard}
-        \item[IBM] \textit{International Business Machines}
-        \item[IDS] \textit{Intrusion Detection System}
-	\item[IoT] Internet das Coisas
-        \item[IP] \textit{Internet Protocol}
-        \item[ISMS] \textit{Information Security Management System}
-        \item[ISRM] \textit{Information Security Risk Management}
-        \item[MAPE-K] \textit{Monitor-Analyze-Plan-Execute plus Knowledge}
-        \item[OWASP] \textit{Open Web Application Security Project}
-        \item[PDCA] \textit{Plan-Do-Check-Act}
-        \item[QoS] \textit{Quality of Service}
-        \item[RBAC] \textit{Role-Based Access Control}
-        \item[RFID] \textit{Radio Frequency Identification}
+	
+       
 	\item[UbiComp] \textit{Ubiquitous Computing}
-        \item[WAF] \textit{Web Application Firewall} 
+	\item[IoT] \textit{Internet of Things}
+	\item[MQTT] \textit{Message Queuing Telemetry Transport}
+	\item[EP] \textit{Event Processing}
+	\item[CEP] \textit{Complex Event Processing}
+	\item[ESP] \textit{Event Streaming Processing}
+        
 \end{listofabbrv}
 
 %Sumario
@@ -106,7 +98,7 @@ One of Ubiquitous Computing most prominent materializations is the Internet of T
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Introdução}
 
-Um dos objetivos da computação ubiqua (Ubiquitous Computing - UbiComp) é disponibilizar a computação de forma integrada ao mundo físico tornando esta imperceptível aos usuários os quais não necessitam interagir com o gerenciamento da infraestrutura, fazendo apenas o uso da tecnologia sem quaisquer preocupações. Uma tecnologia emergente que tem se mostrado ser de certa forma uma materialização da computação ubiqua é a Internet das Coisas (Internt of Things - IOT), esta nova tecnologia consiste da integração de redes com dispositivos sem fio, computação em nuvem, dados analíticos, tecnologias interativas, bem como dispositivos inteligentes. 
+A computação ubiqua (Ubiquitous Computing - UbiComp) apresenta como um de seus objetivos  disponibilizar a computação de forma integrada ao mundo físico tornando esta imperceptível aos usuários os quais não necessitam interagir com o gerenciamento da infraestrutura, fazendo apenas o uso da tecnologia sem quaisquer preocupações. Uma tecnologia emergente que tem se mostrado ser de certa forma uma materialização da computação ubiqua é a Internet das Coisas (Internt of Things - IOT), esta nova tecnologia consiste da integração de redes com dispositivos sem fio, computação em nuvem, dados analíticos, tecnologias interativas, bem como dispositivos inteligentes \cite{weiser1999computer}. 
 
 A internet das coisas tem o potencial de mudar tudo ao nosso redor, adicionando "inteligência" aos mais variados itens do nosso dia a dia, visando  fornecer a seus usuários algum tipo de serviço. Para atingir este objetivo a ideia básica abordada pela IoT consiste em fazer com que diferentes tipos de dispositivos se comuniquem, interagindo e cooperando entre si para que deste modo, estes possam atingir um objetivo comum, como o fornecimento de um serviço qualquer para um usuário final. As áreas de aplicação para a IoT são das mais diversas possíveis, desde o uso em cidades grandes aplicando sensores visando fornecer diferentes tipos de serviços a sua população como por exemplo informações sobre o tráfego e eventos públicos, como o uso na agricultura com o intuito de executar um monitoramento preciso de  informações sobre as plantas e solo \cite{gonccalves2017research}.
 
@@ -463,16 +455,12 @@ foram selecionados dez trabalhos de interesse, os quais serão apresentados nas 
   
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]{imagens/comparacaoArtigos.png}
 	\caption{Comparativo entre os artigos selecionados.}
 	\label{fig:comparacaoArtigos}
 \end{figure}
-
-
-
-
 
 
 A partir da analise da figura \ref{fig:comparacaoArtigos} percebemos identificou-se que dentre os artigos selecionados durante o mapeamento apenas dois destes, \cite{art1aslam2018towards} e \cite{art5chen2016dress} trabalhavam com ESP, todos os demais trabalhos aplicam CEP de alguma forma em suas soluções. As técnicas de aprendizado de maquina também não foram usadas por muitos dos artigos selecionados, apenas quatro documentos fizeram uso desta tecnologia para solucionar os problemas abordados, os quais foram \cite{art1aslam2018towards}, \cite{art4akbar2017predictive}, \cite{art9kousiouris2018integrated} e \cite{art10soto2016ceml}. 
@@ -488,17 +476,7 @@ Neste capítulo foi executado um mapeamento sistemático com o objetivo de  iden
 \chapter{Considerações Finais}
 \label{cap:Consideracoes_Finais}
 
-O presente trabalho buscou apresentar uma revisão conceitual sobre segurança adaptativa para IoT. No decorrer da revisão foi possível perceber os diferentes desafios existentes na IoT que potencializam a segurança da informação enquanto estratégia para viabilização dos inúmeros benefícios decorrentes deste paradigma. 
-
-Com isso, foi encaminhada a necessidade de arquiteturas para segurança adaptativa que promovam a adaptação dinâmica dos mecanismos de segurança de forma que as mudanças aplicadas não prejudiquem a eficiência, flexibilidade, confiabilidade e segurança dos ambientes da IoT. Tendo em vista a natureza ubíqua,
-%\AY{ubíqua  - padronizar: ou pervasiva ou ubíqua} - feito
-distribuída e dinâmica da IoT, as informações contextuais devem ser um dos principais componentes para conduzir o comportamento dos dispositivos a fim de tornar as decisões de segurança adequadas ao ambiente. 
-
-Para a concepção dessas arquiteturas foi apresentado o ciclo de \textit{feedback} MAPE-K, o qual consiste de um método formal que estabelece as etapas a serem executadas para a adaptação. É importante salientar que para implementar cada umas destas etapas algumas questões devem ser respondidas. Além disso, um sistema adaptativo deve contemplar auto-atributos como: autoconfiguração, auto-otimização, autocura e autoproteção. Não obstante, pesquisas vem sendo desenvolvidas nessa área indicando a ciência de contexto como outro atributo a ser explorado.
-
-Desta forma, a segurança adaptativa baseada em contexto envolve a coleta de informações contextuais tanto do sistema como do meio ambiente, medindo o nível de segurança e as métricas, realizando o processamento dessas informações coletadas e respondendo às mudanças (i) ajustando parâmetros internos, como esquemas de criptografia, protocolos de segurança, políticas de segurança, algoritmos, diferentes mecanismos de autenticação e autorização, alterando a QoS e automatizando a reconfiguração dos mecanismos de proteção e/ou (ii) fazendo mudanças dinâmicas na estrutura do sistema de segurança \cite{habtamu12}.
-
-Atualmente, existem várias abordagens para segurança adaptativa \cite{elkhodary07, yuan12}. No entanto, conforme ressaltado no capítulo sobre o estado da arte, as abordagens existentes se concentram em objetivos de segurança específicos. Percebe-se também a falta no tratamento total do ciclo de \textit{feedback}, ou seja, as abordagens não definem todo o ciclo MAPE. Além disso, Yuan et al. observa que as arquiteturas genéricas não detalham os métodos usados em cada componente, o que dificulta a reutilização e extensibilidade das abordagens propostas. Com o mapeamento sistemático realizado neste trabalho, foi possível identificar que apesar dos avanços nas pesquisas em segurança adaptativa em diferentes frentes, os desafios mencionados continuam em aberto, existindo ainda poucas abordagens genéricas que detalhem a sua concepção, prototipação e estratégias de avaliação.
+O presente trabalho teve como objetivo fazer o levantamento dos trabalhos científicos elaborados sobre processamento de eventos aplicados a internet das coisas, onde para se atingir este objetivo foi executado um mapeamento sistemático o qual seguiu o algoritmo proposto por Petersen et al. (2008). Após a execução do mapeamento sistemático identificou-se dez trabalhos de interesse onde foi elaborada uma discussão comparando estes trabalhos entre si, onde identificou-se que a maioria dos autores destes trabalhos não se preocuparam com a reusabilidade de suas propostas oque dificulta a elaboração de novos trabalhos que façam uso ou mesmo que se baseiem nestas soluções.
 
 %\section{Perspectiva de Investigação}
 
