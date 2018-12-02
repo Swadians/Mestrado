@@ -54,6 +54,12 @@
   DAYARATHNA, M.; PERERA, S\@. Recent advancements in event processing.
   \textbf{ACM Computing Surveys (CSUR)}, [S.l.], v.51, n.2, p.33, 2018.
 
+\bibitem[DWARAKANATH et~al.(2017)DWARAKANATH; KOLDEHOFE; BHARADWAJ; NGUYEN;
+  EYERS; STEINMETZ]{art6dwarakanath2017trustcep} DWARAKANATH, R. et~al\@.
+  Trustcep: Adopting a trust-based approach for distributed complex event
+  processing. In: IEEE INTERNATIONAL CONFERENCE ON MOBILE DATA MANAGEMENT
+  (MDM), 2017., 2017. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.30--39.
+
 \bibitem[ELKHODARY; WHITTLE(2007)ELKHODARY; WHITTLE]{elkhodary07} ELKHODARY,
   A.; WHITTLE, J\@. A Survey of Approaches to Adaptive Application Security.
   In: INTERNATIONAL WORKSHOP ON SOFTWARE ENGINEERING FOR ADAPTIVE AND
@@ -72,6 +78,12 @@
 \bibitem[FITZGERALD et~al.(2010)FITZGERALD; CHUVAKIN; HEINBOCKEL; KARG;
   MARTY]{fitzgerald2010common} FITZGERALD, E. et~al\@. Common Event Expression
   (CEE) Overview. \textbf{Report of the CEE Editorial Board}, [S.l.], 2010.
+
+\bibitem[GAL; TERDIK(2017)GAL; TERDIK]{art7gal2017anaysis} GAL, Z.; TERDIK,
+  G\@. Anaysis of controller based IEEE 802.11 system with similarity measure
+  clustering: Evaluation of channel allocation efficiency by change detection.
+  In: DIGITAL FORENSIC AND SECURITY (ISDFS), 2017 5TH INTERNATIONAL SYMPOSIUM
+  ON, 2017. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.1--6.
 
 \bibitem[GHORBANI; LU; TAVALLAEE(2010)GHORBANI; LU; TAVALLAEE]{ghorbani10}
   GHORBANI, A.; LU, W.; TAVALLAEE, M\@. \textbf{Network Intrusion Detection and
@@ -101,6 +113,12 @@
 \bibitem[KLIARSKY; LEUNE(2017)KLIARSKY; LEUNE]{sans17} KLIARSKY, A.; LEUNE,
   K\@. Detecting Attacks Against The Internet of Things. \textbf{SANS
   Institute. InfoSec Reading Room}, [S.l.], 2017.
+
+\bibitem[KOTENKO; SAENKO; KUSHNEREVICH(2017)KOTENKO; SAENKO;
+  KUSHNEREVICH]{art8kotenko2017parallel} KOTENKO, I.~V.; SAENKO, I.;
+  KUSHNEREVICH, A\@. Parallel big data processing system for security
+  monitoring in Internet of Things networks. \textbf{JoWUA}, [S.l.], v.8, n.4,
+  p.60--74, 2017.
 
 \bibitem[KOUSIOURIS et~al.(2018)KOUSIOURIS; AKBAR; SANCHO; TA-SHMA; PSYCHAS;
   KYRIAZIS; VARVARIGOU]{art9kousiouris2018integrated} KOUSIOURIS, G. et~al\@.
@@ -135,6 +153,12 @@
   CHLAMTAC]{miorandi12} MIORANDI, D.; SICARI, S.; PELLEGRINI, F.~D.; CHLAMTAC,
   I\@. Internet of things: Vision, applications and research challenges.
   \textbf{Ad Hoc Networks}, [S.l.], v.10, n.7, p.1497 -- 1516, 2012.
+
+\bibitem[NOCERA et~al.(2017)NOCERA; DI~NOIA; MONGIELLO;
+  DI~SCIASCIO]{art3nocera2017semantic} NOCERA, F.; DI~NOIA, T.; MONGIELLO, M.;
+  DI~SCIASCIO, E\@. Semantic IoT Middleware-enabled Mobile Complex Event
+  Processing for Integrated Pest Management. In: CLOSER, 2017.
+  \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.610--617.
 
 \bibitem[ONWUBIKO(2012)ONWUBIKO]{onwubiko12} ONWUBIKO, C\@. \textbf{Situational
   Awareness in Computer Network Defense}: Principles, Methods and Applications:
