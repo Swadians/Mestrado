@@ -2,27 +2,27 @@
 \babel@toc {english}{}
 \babel@toc {brazilian}{}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{6}{chapter.1}
-\contentsline {chapter}{\numberline {2}Embasamento Te\IeC {\'o}rico}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Internet das Coisas}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Defini\IeC {\c c}\IeC {\~a}o de Evento}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Defini\IeC {\c c}\IeC {\~a}o de Processamento de Eventos}{10}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Defini\IeC {\c c}\IeC {\~a}o de Processamento de Fluxo de Eventos}{11}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Defini\IeC {\c c}\IeC {\~a}o de Processamento de Eventos Complexos}{12}{subsection.2.3.2}
-\contentsline {chapter}{\numberline {3}Estado da Arte}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Mapeamento Sistem\IeC {\'a}tico da Literatura}{14}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Crit\IeC {\'e}rios de Inclus\IeC {\~a}o e Exclus\IeC {\~a}o}{16}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Trabalhos Relacionados}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Towards a Generalized Approach for Deep Neural Network based Event Processing for the Internet of Multimedia Things}{20}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}A Web-based Approach using Reactive Programming for Complex Event Processing in Internet of Things Applications}{21}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Semantic IoT Middleware-enabled Mobile Complex Event Processing for Integrated Pest Management}{22}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Predictive Analytics for Complex IoT Data Streams}{23}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}DRESS: A Rule Engine on Spark for Event Stream Processing}{24}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}TrustCEP: Adopting a Trust-Based Approach for Distributed Complex Event Processing}{25}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Anaysis of Controller Based IEEE 802.11 System with Similarity Measure Clustering}{27}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Parallel big data processing system for security monitoring in Internet of Things networks*}{28}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}An integrated information lifecycle management framework for exploiting social network data to identify dynamic large crowd concentration events in smart cities applications}{29}{subsection.3.2.9}
-\contentsline {subsection}{\numberline {3.2.10}CEML: Mixing and moving complex event processing and machine learning to the edge of the network for IoT}{31}{subsection.3.2.10}
-\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{32}{section.3.3}
-\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{35}{section.3.4}
-\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{36}{chapter.4}
-\contentsline {chapter}{Refer{\^e}ncias}{37}{chapter.4}
+\contentsline {chapter}{\numberline {2}Embasamento Te\IeC {\'o}rico}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Internet das Coisas}{10}{section.2.1}
+\contentsline {section}{\numberline {2.2}Defini\IeC {\c c}\IeC {\~a}o de Evento}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Defini\IeC {\c c}\IeC {\~a}o de Processamento de Eventos}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Defini\IeC {\c c}\IeC {\~a}o de Processamento de Fluxo de Eventos}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Defini\IeC {\c c}\IeC {\~a}o de Processamento de Eventos Complexos}{13}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Estado da Arte}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mapeamento Sistem\IeC {\'a}tico da Literatura}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Crit\IeC {\'e}rios de Inclus\IeC {\~a}o e Exclus\IeC {\~a}o}{17}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Trabalhos Relacionados}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Towards a Generalized Approach for Deep Neural Network based Event Processing for the Internet of Multimedia Things}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}A Web-based Approach using Reactive Programming for Complex Event Processing in Internet of Things Applications}{22}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Semantic IoT Middleware-enabled Mobile Complex Event Processing for Integrated Pest Management}{23}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Predictive Analytics for Complex IoT Data Streams}{24}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}DRESS: A Rule Engine on Spark for Event Stream Processing}{25}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}TrustCEP: Adopting a Trust-Based Approach for Distributed Complex Event Processing}{26}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Anaysis of Controller Based IEEE 802.11 System with Similarity Measure Clustering}{28}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Parallel big data processing system for security monitoring in Internet of Things networks*}{29}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}An integrated information lifecycle management framework for exploiting social network data to identify dynamic large crowd concentration events in smart cities applications}{30}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}CEML: Mixing and moving complex event processing and machine learning to the edge of the network for IoT}{32}{subsection.3.2.10}
+\contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{33}{section.3.3}
+\contentsline {section}{\numberline {3.4}Considera\IeC {\c c}\IeC {\~o}es do Cap\IeC {\'\i }tulo}{36}{section.3.4}
+\contentsline {chapter}{\numberline {4}Considera\IeC {\c c}\IeC {\~o}es Finais}{37}{chapter.4}
+\contentsline {chapter}{Refer{\^e}ncias}{38}{chapter.4}
