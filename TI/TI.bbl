@@ -14,10 +14,19 @@
   BUCHMANN, A\@. Event stream processing units in business processes. In:
   \textbf{Business Process Management}. [S.l.]: Springer, 2013. p.187--202.
 
+\bibitem[ASHTON et~al.(2009)ASHTON et~al.]{ashton2009internet} ASHTON, K.
+  et~al\@. That ‘internet of things’ thing. \textbf{RFID journal}, [S.l.],
+  v.22, n.7, p.97--114, 2009.
+
 \bibitem[ASLAM; CURRY(2018)ASLAM; CURRY]{art1aslam2018towards} ASLAM, A.;
   CURRY, E\@. Towards a Generalized Approach for Deep Neural Network Based
   Event Processing for the Internet of Multimedia Things. \textbf{IEEE Access},
   [S.l.], v.6, p.25573--25587, 2018.
+
+\bibitem[BANDYOPADHYAY; SEN(2011)BANDYOPADHYAY; SEN]{bandyopadhyay2011internet}
+  BANDYOPADHYAY, D.; SEN, J\@. Internet of things: Applications and challenges
+  in technology and standardization. \textbf{Wireless Personal Communications},
+  [S.l.], v.58, n.1, p.49--69, 2011.
 
 \bibitem[CHEN; BORDBAR(2016)CHEN; BORDBAR]{art5chen2016dress} CHEN, Y.;
   BORDBAR, B\@. Dress: A rule engine on spark for event stream processing. In:

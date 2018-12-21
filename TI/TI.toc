@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {3.2.5}DRESS: A Rule Engine on Spark for Event Stream Processing}{25}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}TrustCEP: Adopting a Trust-Based Approach for Distributed Complex Event Processing}{26}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Anaysis of Controller Based IEEE 802.11 System with Similarity Measure Clustering}{27}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Parallel big data processing system for security monitoring in Internet of Things networks*}{28}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.8}Parallel big data processing system for security monitoring in Internet of Things networks}{28}{subsection.3.2.8}
 \contentsline {subsection}{\numberline {3.2.9}An integrated information lifecycle management framework for exploiting social network data to identify dynamic large crowd concentration events in smart cities applications}{30}{subsection.3.2.9}
 \contentsline {subsection}{\numberline {3.2.10}CEML: Mixing and moving complex event processing and machine learning to the edge of the network for IoT}{31}{subsection.3.2.10}
 \contentsline {section}{\numberline {3.3}Discuss\IeC {\~a}o dos Trabalhos Relacionados}{32}{section.3.3}
