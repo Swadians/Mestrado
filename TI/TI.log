@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.10)  7 JAN 2019 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.10)  7 JAN 2019 21:03
 entering extended mode
 **./TI.tex
 (TI.tex
@@ -959,7 +959,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 258.
  [9
 
- <./imagens/ConjuntoProcessamento.png>] [10] [11]
+ <./imagens/ConjuntoProcessamento.png>] [10]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 298.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -969,27 +969,27 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 298.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [12] [13] [14]
-[15
+) [11] [12] [13]
+[14] [15
 
 ]
-<imagens/tabela_string_busca.png, id=352, 953.36176pt x 237.88875pt>
+<imagens/tabela_string_busca.png, id=354, 953.36176pt x 237.88875pt>
 File: imagens/tabela_string_busca.png Graphic file (type png)
 <use imagens/tabela_string_busca.png>
 Package pdftex.def Info: imagens/tabela_string_busca.png  used on input line 41
 7.
 (pdftex.def)             Requested size: 455.24411pt x 113.59361pt.
-<imagens/GrafPizPubAno.png, id=359, 510.10574pt x 311.36325pt>
+<imagens/GrafPizPubAno.png, id=361, 510.10574pt x 311.36325pt>
 File: imagens/GrafPizPubAno.png Graphic file (type png)
 <use imagens/GrafPizPubAno.png>
 Package pdftex.def Info: imagens/GrafPizPubAno.png  used on input line 441.
 (pdftex.def)             Requested size: 409.71692pt x 250.08864pt.
-<imagens/GrafBarraPubAno.png, id=360, 1156.32pt x 650.43pt>
+<imagens/GrafBarraPubAno.png, id=362, 1156.32pt x 650.43pt>
 File: imagens/GrafBarraPubAno.png Graphic file (type png)
 <use imagens/GrafBarraPubAno.png>
 Package pdftex.def Info: imagens/GrafBarraPubAno.png  used on input line 455.
 (pdftex.def)             Requested size: 409.71692pt x 230.46262pt.
-<imagens/grafPublicaAno.png, id=363, 439.04025pt x 267.399pt>
+<imagens/grafPublicaAno.png, id=365, 439.04025pt x 267.399pt>
 File: imagens/grafPublicaAno.png Graphic file (type png)
 <use imagens/grafPublicaAno.png>
 Package pdftex.def Info: imagens/grafPublicaAno.png  used on input line 475.
@@ -1005,7 +1005,7 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 491.
  [17 <./imagens/GrafPizPubAno.png>] [18 <./imagens/GrafBarraPubAno.png>] [19 <.
 /imagens/grafPublicaAno.png>]
-<imagens/FluxoTriagemInicial.png, id=393, 1212.53pt x 682.55pt>
+<imagens/FluxoTriagemInicial.png, id=395, 1212.53pt x 682.55pt>
 File: imagens/FluxoTriagemInicial.png Graphic file (type png)
 <use imagens/FluxoTriagemInicial.png>
 Package pdftex.def Info: imagens/FluxoTriagemInicial.png  used on input line 57
@@ -1024,10 +1024,10 @@ LaTeX Warning: Float too large for page by 4.90952pt on input line 585.
 
 ] [22] [23] [24]
 [25] [26] [27] [28] [29] [30] [31] [32]
-<imagens/comparacaoArtigos.png, id=532, 390.258pt x 440.847pt>
+<imagens/comparacaoArtigos.png, id=533, 390.258pt x 440.847pt>
 File: imagens/comparacaoArtigos.png Graphic file (type png)
 <use imagens/comparacaoArtigos.png>
-Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 865.
+Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 867.
 
 (pdftex.def)             Requested size: 455.24411pt x 514.26193pt.
  [33] [34 <./imagens/comparacaoArtigos.png>] [35] (TI.bbl [36
@@ -1037,14 +1037,21 @@ Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 865.
 ] [38]) 
 AED: lastpage setting LastPage
 [39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 923.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 923.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 925.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 925.
  (TI.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 923.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 923.
-Package rerunfilecheck Info: File `TI.out' has not changed.
-(rerunfilecheck)             Checksum: 810A49C96E4D4CF178EB79D5D14C8EEA;8719.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 923.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 925.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 925.
+
+
+Package rerunfilecheck Warning: File `TI.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `TI.out':
+(rerunfilecheck)             Before: 810A49C96E4D4CF178EB79D5D14C8EEA;8719
+(rerunfilecheck)             After:  EB3FF0BAE01E42D06051C281816089AD;8411.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 925.
  ) 
 Here is how much of TeX's memory you used:
  22498 strings out of 492970
@@ -1053,16 +1060,16 @@ Here is how much of TeX's memory you used:
  25853 multiletter control sequences out of 15000+200000
  35427 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,76p,1913b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,76p,1824b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\WeslenSchiavon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
 c\dpi600\ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/helvetic/uhvro8a.pfb>
-Output written on TI.pdf (40 pages, 484564 bytes).
+Output written on TI.pdf (40 pages, 484731 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
+ 655 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)
  248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
