@@ -124,7 +124,7 @@
 
 \begin{abstract} 
 
-A computação ubíqua apresenta como um de seus objetivos disponibilizar a computação de forma totalmente transparente e integrada ao mundo físico tornando esta imperceptível aos usuários. Um paradigma emergente que tem se mostrado ser uma materialização da computação ubíqua é a Internet das Coisas. Porém, para que esta se torne efetivamente uma realidade para todos os tipos de usuários, é necessário ainda encontrar soluções para superar alguns desafios presentes nesse paradigma, podendo-se citar a heterogeneidade dos dispositivos, o grande volume de dados, as formas de configurar dispositivos nestas redes e a segurança das informações trafegadas. O objetivo deste trabalho é executar um levantamento bibliográfico sobre processamento de eventos aplicado à Internet das Coisas, onde para atingir este determinado fim, executou-se um mapeamento sistemático baseado em uma metodologia bem definida, onde foram identificados dez trabalhos de interesse, os quais faziam a aplicação de processamento de eventos sobre algum aspecto da Internet das Coisas. Por fim, executou-se uma análise comparativa entre os trabalhos de interesse identificados, onde levanta-se uma discussão sobre alguns aspectos destes documentos, dentre os quais pode-se citar a reusabilidade dos trabalhos, onde apenas um demonstrou uma proposta passível de reimplementação. 
+A computação ubíqua apresenta como um de seus objetivos disponibilizar a computação de forma totalmente transparente e integrada ao mundo físico tornando esta imperceptível aos usuários. Um paradigma emergente que tem se mostrado como uma materialização da computação ubíqua é a Internet das Coisas. Porém, para que esta se torne efetivamente uma realidade para todos os tipos de usuários, é necessário ainda encontrar soluções para superar alguns desafios presentes nesse paradigma, podendo-se citar a heterogeneidade dos dispositivos, o grande volume de dados, as formas de configurar dispositivos nestas redes e a segurança das informações trafegadas. O objetivo deste trabalho é executar um levantamento bibliográfico sobre processamento de eventos aplicado à Internet das Coisas, onde para atingir este determinado fim, executou-se um mapeamento sistemático baseado em uma metodologia bem definida, onde foram identificados dez trabalhos de interesse, os quais faziam a aplicação de processamento de eventos sobre algum aspecto da Internet das Coisas. Por fim, executou-se uma análise comparativa entre os trabalhos de interesse identificados, onde levanta-se uma discussão sobre alguns aspectos destes documentos, dentre os quais pode-se citar a reusabilidade dos trabalhos, onde apenas um demonstrou uma proposta passível de reimplementação. 
 
 \end{abstract} 
 
@@ -191,7 +191,7 @@ Ubiquitous computing presents as one of its objectives to make computing availab
 
   
 
-A Computação Ubíqua (\textit{Ubiquitous Computing} - UbiComp) apresenta como um de seus objetivos  disponibilizar a computação de forma totalmente transparente e integrada ao mundo físico tornando esta imperceptível aos usuários, proporcionando que estes não necessitem interagir com o gerenciamento da infraestrutura dos dispositivos presentes neste ambiente, sendo necessário apenas que as pessoas façam uso da tecnologia sem quaisquer preocupações \cite{weiser1999computer}. Um paradigma emergente que tem se mostrado ser uma materialização da computação ubíqua é a Internet das Coisas (\textit{Internet of Things} - IoT), este paradigma computacional consiste da integração de redes com dispositivos sem fio, computação em nuvem, dados analíticos, tecnologias interativas, bem como dispositivos inteligentes \cite{ashton2009internet}.  
+A Computação Ubíqua (\textit{Ubiquitous Computing} - UbiComp) apresenta como um de seus objetivos  disponibilizar a computação de forma totalmente transparente e integrada ao mundo físico tornando esta imperceptível aos usuários, sendo necessário apenas que as pessoas façam uso da tecnologia sem quaisquer tipo de preocupações \cite{weiser1999computer}. Um paradigma emergente que tem se mostrado ser uma materialização da computação ubíqua é a Internet das Coisas (\textit{Internet of Things} - IoT), este paradigma computacional consiste da integração de redes com dispositivos sem fio, computação em nuvem, dados analíticos, tecnologias interativas, bem como dispositivos inteligentes \cite{ashton2009internet}.  
 
   
 
@@ -199,7 +199,7 @@ A Internet das Coisas demonstra ter o potencial de mudar tudo ao redor das pesso
 
   
 
-Porém, para que a Internet das Coisas se torne efetivamente uma realidade, existente nos mais diferentes lugares e servindo a todos os tipos de usuários e não apenas a especialistas, a comunidade científica precisa encontrar soluções para superar alguns desafios presentes nesse novo paradigma, como a Heterogeneidade da rede, já que a IoT visa que os mais variados dispositivos com recursos e \textit{hardwares} distintos, que podem estar em uma rede trabalhando em conjunto. Há desafios presentes na forma como os dados gerados por esses diferentes dispositivos devem ser tratados, tendo em vista que estes são dispositivos potencialmente com hardwares e recursos totalmente distintos, o que pode fazer com que as informações geradas por estes sejam muito discrepantes, não havendo normalmente um padrão no formato dos dados \cite{agrawal2013survey}. Outro exemplo seria o grande volume de dados gerados por estas redes de dispositivos, já que potencialmente as redes poderão conter dezenas de milhares de dispositivos interconectados se comunicando constantemente e gerando dados continuamente, onde estes, na maior parte dos casos precisam ser processados e analisados. Assim como a configuração desses dispositivos, a qual deve ser feita de forma simplificada, já que usuários finais sem conhecimentos técnicos precisam ser capazes de adicionar e remover dispositivos e recursos de uma rede sempre que estes desejarem. Também podendo-se citar a segurança aplicada sobre estas redes, tendo em vista que soluções comuns de segurança não podem ser aplicadas sobre estas,  devido à grande variedade de dispositivos presentes, onde muitas destas ``coisas'' conectadas podem potencialmente apresentar hardwares simples de baixo poder computacional que não tem capacidade para executar técnicas de criptografias modernas \cite{agrawal2013survey}. 
+Porém, para que a IoT se torne efetivamente uma realidade, existente nos mais diferentes lugares e servindo a todos os tipos de usuários e não apenas a especialistas da área de tecnologia, a comunidade científica precisa encontrar soluções para superar alguns desafios presentes nesse novo paradigma, dos quais podemos citar: o tratamento das informações geradas pelos dispositivos, tendo em vista que estes podem apresentar hardwares e recursos totalmente distintos, o que pode fazer com que as informações geradas por estes sejam muito discrepantes, onde normalmente não há um padrão seguido para o formato dos dados gerados \cite{agrawal2013survey}; o processamento do grande volume de dados gerados por estas redes de dispositivos, já que potencialmente as redes poderão conter dezenas de milhares de dispositivos interconectados se comunicando constantemente e gerando dados continuamente, onde estes, na maior parte dos casos precisam ser processados e analisados; a configuração desses dispositivos, a qual deve ser feita de forma simplificada, já que usuários finais sem conhecimentos técnicos precisam ser capazes de adicionar e remover dispositivos e recursos de uma rede sempre que estes desejarem; a segurança aplicada sobre estas redes, tendo em vista que soluções comuns de segurança não podem ser aplicadas sobre estas,  devido à grande variedade de dispositivos presentes, onde muitas destas ``coisas'' conectadas podem potencialmente apresentar hardwares simples de baixo poder computacional que não tem capacidade para executar técnicas de criptografias modernas \cite{agrawal2013survey}. 
 
   
 
@@ -231,9 +231,7 @@ O restante deste trabalho está organizado da seguinte forma: O capítulo \ref{c
 
   
 
-Neste capítulo é apresentado o embasamento teórico sobre Internet das Coisas, apresentando seus principais objetivos e desafios a serem superados. Ainda neste capítulo é abordado o conceito de processamento de eventos uma grande área de pesquisa científica, a qual pode ser subdividida em outras duas principais áreas: o processamento de fluxo de eventos(\textit{event stream processing} - ESP), que se caracteriza por ter a capacidade de executar operações contínuas como filtros, agregações, classificações e junções, sob fluxos de dados; e o processamento de eventos complexos (\textit{complex event processing} - CEP) o qual faz uso de padrões pré definidos, aplicando-os sobre sequências de eventos simples, para assim fazer a detecção de eventos compostos \cite{dayarathna2018recent}. Na figura \ref{fig:ConjuntoProcessamento} é ilustrada a relação associativa entre estes três paradigmas, onde o processamento de eventos pode ser visto como um conceito mais genérico o qual engloba ESP que por sua vez engloba o CEP. 
-
-  
+Neste capítulo é apresentado o embasamento teórico sobre Internet das Coisas, apresentando seus principais objetivos e desafios a serem superados. Ainda neste capítulo é abordado o conceito de processamento de eventos uma grande área de pesquisa científica, a qual pode ser subdividida em outras duas principais áreas: o processamento de fluxo de eventos(\textit{event stream processing} - ESP) e o processamento de eventos complexos (\textit{complex event processing} - CEP).  
 
 Nas seções seguintes deste capítulo será apresentado ao leitor o embasamento teórico necessário sobre Internet das Coisas e processamento de Eventos, para que assim este possa ter uma melhor compreensão dos trabalhos apresentados no capítulo \ref{cap:Estado_da_Arte}. 
 
@@ -265,11 +263,11 @@ A tecnologia computacional vem avançando consideravelmente nos últimos anos, o
 
   
 
-A Internet das Coisas demonstra ter o potencial de mudar tudo ao redor das pessoas, adicionando ``inteligência'' aos mais variados itens do dia a dia, visando assim fornecer a seus usuários algum tipo de serviço. Para atingir este objetivo, o conceito básico abordada pela IoT consiste em fazer com que diferentes tipos de dispositivos se comuniquem, interagindo e cooperando entre si para que deste modo, estes possam atingir um objetivo comum, como o fornecimento de um serviço qualquer para um usuário final. As áreas de aplicação para a IoT são das mais diversas possíveis: desde o uso em cidades grandes aplicando sensores visando fornecer diferentes tipos de serviços a sua população, como por exemplo fornecer informações sobre o tráfego e eventos públicos; como o uso na agricultura com o intuito de executar um monitoramento preciso de  informações sobre as plantas e solo \cite{gonccalves2017research}. 
+A Internet das Coisas demonstra ter o potencial de mudar tudo ao redor das pessoas, adicionando ``inteligência'' aos mais variados itens do dia a dia, visando assim fornecer a seus usuários algum tipo de serviço \cite{bandyopadhyay2011internet}. Para atingir este objetivo, o conceito básico abordada pela IoT consiste em fazer com que diferentes tipos de dispositivos se comuniquem, interagindo e cooperando entre si para que deste modo, estes possam atingir um objetivo comum, como o fornecimento de um serviço qualquer para um usuário final. As áreas de aplicação para a IoT são das mais diversas possíveis: desde o uso em grandes cidades aplicando sensores visando fornecer diferentes tipos de serviços a sua população, como por exemplo fornecer informações sobre o tráfego e eventos públicos; como o uso na agricultura com o intuito de executar um monitoramento preciso de  informações sobre as plantas e solo \cite{gonccalves2017research}. 
 
   
 
-Porém para que a Internet das Coisas se torne efetivamente uma realidade, presente nos mais diferentes lugares e servindo a todos os tipos de usuários e não apenas a especialistas, a comunidade científica precisa encontrar soluções para superar alguns desafios presentes nesse novo paradigma, como a Heterogeneidade da rede, já que a IoT visa que os mais variados dispositivos com recursos e \textit{hardwares} distintos, que podem estar em uma rede trabalhando em conjunto. Há desafios presentes na forma como os dados gerados por esses diferentes dispositivos devem ser tratados, tendo em vista que estes são dispositivos potencialmente com hardwares e recursos totalmente distintos, o que pode fazer com que as informações geradas por estes sejam muito discrepantes, não havendo nenhum padrão no formato dos dados seguido atualmente \cite{agrawal2013survey}. Outro exemplo seria o grande volume de dados gerados por estas redes de dispositivos, já que potencialmente as redes poderão conter dezenas de milhares de dispositivos interconectados se comunicando constantemente e gerando dados continuamente, onde estes, na maior parte dos casos precisam ser processados e analisados. Assim como a configuração desses dispositivos, a qual deve ser feita de forma simplificada, já que usuários finais sem conhecimentos técnicos precisam ser capazes de adicionar e remover dispositivos e recursos de uma rede sempre que estes desejarem. Também podendo-se citar a segurança aplicada sobre estas redes, tendo em vista que soluções comuns de segurança não podem ser aplicadas sobre estas,  devido à grande variedade de dispositivos presentes, onde muitas destas ``coisas'' conectadas podem potencialmente apresentar hardwares simples de baixo poder computacional que não tem capacidade para executar técnicas de criptografias modernas \cite{agrawal2013survey}.
+Porém, para que a IoT se torne efetivamente uma realidade, existente nos mais diferentes lugares e servindo a todos os tipos de usuários e não apenas a especialistas da área de tecnologia, a comunidade científica precisa encontrar soluções para superar alguns desafios presentes nesse novo paradigma, dos quais podemos citar: o tratamento das informações geradas pelos dispositivos, tendo em vista que estes podem apresentar hardwares e recursos totalmente distintos, o que pode fazer com que as informações geradas por estes sejam muito discrepantes, onde normalmente não há um padrão seguido para o formato dos dados gerados \cite{agrawal2013survey}; o processamento do grande volume de dados gerados por estas redes de dispositivos, já que potencialmente as redes poderão conter dezenas de milhares de dispositivos interconectados se comunicando constantemente e gerando dados continuamente, onde estes, na maior parte dos casos precisam ser processados e analisados; a configuração desses dispositivos, a qual deve ser feita de forma simplificada, já que usuários finais sem conhecimentos técnicos precisam ser capazes de adicionar e remover dispositivos e recursos de uma rede sempre que estes desejarem; a segurança aplicada sobre estas redes, tendo em vista que soluções comuns de segurança não podem ser aplicadas sobre estas,  devido à grande variedade de dispositivos presentes, onde muitas destas ``coisas'' conectadas podem potencialmente apresentar hardwares simples de baixo poder computacional que não tem capacidade para executar técnicas de criptografias modernas \cite{agrawal2013survey}. 
 
   
 
@@ -279,11 +277,11 @@ Algumas previsões mostram que há um crescimento constante no número de dispos
 
   
 
-\section{Definição de Evento} 
+\section{Evento} 
 
-A definição de evento considerada neste documento é dada como a ocorrência de uma determinada ação dentro de um ambiente, que geralmente envolve uma tentativa de mudança de estado do sistema. Esta mudança inclui, normalmente, a noção de tempo, localidade e detalhes pertencentes ao evento ou a anomalia que desencadeou determinado evento que visam ajudar a compreender as causas ou efeitos desencadeadores deste \cite{fitzgerald2010common}. 
+A definição de evento considerada neste documento é dada como a ocorrência de uma determinada ação dentro de um ambiente, que geralmente envolve uma tentativa de mudança de estado do sistema. Esta mudança inclui, normalmente, a noção de tempo, localidade e detalhes pertencentes ao evento ou a anomalia que desencadeou determinado evento, as quais visam ajudar a compreender as causas ou efeitos desencadeadores deste \cite{fitzgerald2010common}. 
 
-Um evento também pode ser separado em campos que descrevem suas propriedades, como por exemplo um evento em uma rede IoT pode incluir quatro atributos: eventID, eventName, eventTime e recordTime. EventID e eventName são normalmente definidos como registros básicos e são armazenados no \textit{data center}. EventTime e recordTime expressam o conceito de tempo no evento, descrevendo sua hora de ocorrência e de captura respectivamente \cite{minbo2013information}.  
+Um evento pode ser separado em campos que descrevem suas propriedades, como por exemplo um evento em uma rede IoT pode incluir quatro atributos: eventID, eventName, eventTime e recordTime. EventID e eventName são normalmente definidos como registros básicos e são armazenados no \textit{data center}. EventTime e recordTime expressam o conceito de tempo no evento, descrevendo sua hora de ocorrência e de captura respectivamente \cite{minbo2013information}.  
 
   
 
@@ -291,31 +289,34 @@ Tais eventos podem ser aplicados em diversos sistemas para se atingir determinad
 
   
 
-\section{Definição de Processamento de Eventos} 
+\section{Processamento de Eventos} 
 
 O processamento de eventos pode ser visto como um paradigma onde fluxos de eventos são analisados continuamente com o objetivo de extrair informações úteis de alto nível destes dados analisados. Existem diversas áreas que possuem características com potencial de serem exploradas pelo processamento de eventos, dentre estas pode-se citar os setores da saúde com o monitoramento do status da saúde dos pacientes onde os diversos eventos precisam ser processados e analisados \cite{weiner2008health}; o setor da agricultura de precisão, o qual emprega diversos sensores para o monitoramento de plantas, gerando grandes fluxos de eventos que necessitam ser processados \cite{garcia2011wireless} e o setor de energia, fazendo uso de eventos para o monitoramento do consumo excessivo desta, visando atingir uma eficiência energética melhor \cite{vijayaraghavan2010automated}.  
 
   
 
-Apesar do processamento de eventos ser aplicado para resolver problemas em áreas totalmente distintas, existem alguns requisitos exigidos por estes que são normalmente semelhantes, tais como a necessidade de processar em tempo de execução grandes volumes de dados. Um setor em constante  crescimento que tem gerado grande interesse no processamento de eventos é a Internet das Coisas, onde este tem se aplicado visando solucionar problemas de tomadas de decisão a partir da análise de grandes volumes de dados gerados por estas redes. Diversas ferramentas foram desenvolvidas para o processamento de eventos, visando auxiliar na análise desse grande volume de dados, dentre estas pode-se citar o Apache Storm\footnote{\url{https://storm.apache.org/}}, Apache Spark\footnote{\url{https://spark.apache.org/}} e Apache Flink\footnote{\url{https://flink.apache.org/}}. 
+Apesar do processamento de eventos ser aplicado para resolver problemas em áreas totalmente distintas, existem alguns requisitos exigidos por estes que são normalmente semelhantes, como a necessidade de processar em tempo de execução grandes volumes de dados. Um setor em constante  crescimento que tem gerado grande interesse no processamento de eventos é a Internet das Coisas, onde este tem se aplicado visando solucionar problemas de tomadas de decisão a partir da análise de grandes volumes de dados gerados por estas redes. Diversas ferramentas foram desenvolvidas para o processamento de eventos, visando auxiliar na análise desse grande volume de dados, dentre estas pode-se citar o Apache Storm\footnote{\url{https://storm.apache.org/}}, Apache Spark\footnote{\url{https://spark.apache.org/}} e Apache Flink\footnote{\url{https://flink.apache.org/}}. 
+
+
+O processamento de eventos pode ser subdividida em dois principais conceitos: o processamento de fluxo de eventos(\textit{event stream processing} - ESP), que se caracteriza por ter a capacidade de executar operações contínuas como filtros, agregações, classificações e junções, sob fluxos de dados; e o processamento de eventos complexos (\textit{complex event processing} - CEP) o qual faz uso de padrões pré definidos, aplicando-os sobre sequências de eventos simples, para assim fazer a detecção de eventos compostos \cite{dayarathna2018recent}. Na figura \ref{fig:ConjuntoProcessamento} é ilustrada a relação associativa entre estes três paradigmas, onde o processamento de eventos pode ser visto como um conceito mais genérico o qual engloba o ESP que por sua vez engloba o CEP. 
 
   
 
-\subsection{Definição de Processamento de Fluxo de Eventos} 
+\subsection{Processamento de Fluxo de Eventos} 
 
   
 
-Para uma melhor e simples compreensão do significado de processamento de fluxo de eventos pode-se separar este conceito em outras três subconceitos: 
+Para uma melhor e simples compreensão do significado de processamento de fluxo de eventos, pode-se separar este conceito em outras três subconceitos: 
 
 %já separasses na seção anterior, na verdade ela é uma fusão de outros conceitos 
 
 \begin{enumerate} 
 
-    \item  \textbf{Evento -} pode-se definir evento neste contexto como qualquer ação que aconteça com um tempo claramente definido, onde o mesmo pode ser mensurado.   
+    \item  \textbf{Evento -} pode-se definir evento, neste contexto, como qualquer ação que aconteça com um tempo claramente definido, onde o mesmo pode ser mensurado.   
 
      
 
-    \item  \textbf{Fluxo -} é definido como uma sequência constante e contínua de eventos disparados por dispositivos, onde esta corrente de eventos é claramente ordenada pelo tempo. 
+    \item  \textbf{Fluxo -} é definido como uma sequência constante e contínua de eventos disparados por dispositivos, sendo esta corrente de eventos claramente ordenada no tempo. 
 
      
 
@@ -323,7 +324,7 @@ Para uma melhor e simples compreensão do significado de processamento de fluxo 
 
 \end{enumerate} 
 
-Desta forma, com a combinação destes três sub-termos pode-se dizer que o processamento de fluxo de eventos nada mais é do que o processo de analisar em tempo de execução o fluxo de eventos disparados por dispositivos assim que estes são criados \cite{dayarathna2018recent}.  
+Desta forma, com a combinação destes três subconceitos pode-se dizer que o processamento de fluxo de eventos nada mais é do que o processo de analisar em tempo de execução o fluxo de eventos disparados por dispositivos assim que estes são criados \cite{dayarathna2018recent}.  
 
   
 
@@ -339,7 +340,7 @@ Características presentes em sistemas com aplicabilidade de processamento de fl
 
   
 
-\subsection{Definição de Processamento de Eventos Complexos} 
+\subsection{Processamento de Eventos Complexos} 
 
 O processamento de eventos complexos é um paradigma da computação, onde este é aplicado para o processamento e análise de conjuntos de fluxos de informações em sistemas baseados em eventos, visando assim analisar a interação destes eventos entre si. Sistemas que empregam este paradigma normalmente apresentam as seguintes características: a necessidade de se verificar e informar a ocorrência de uma ação composta, isto é, a necessidade de identificar que dada a ocorrência de uma ação A e B em um determinado intervalo de tempo, o sistema deve ser capaz de informar que tais ações em conjunto formam uma nova ação C, a qual tem um valor semântico distinto se comparado com A e B individualmente. Uma área com grande aplicabilidade para o processamento de eventos complexos que tem se destacado nos últimos anos é a Internet das Coisas, que apresenta amplos fluxos de dados de fontes heterogêneas e que normalmente necessitam ser analisados em tempo de execução \cite{jun2014design}.  
 
@@ -368,7 +369,7 @@ Assim quando combinados esses dois sub-conceitos citados, tem-se que o processam
 
   
 
-Neste capítulo apresenta-se o estado da arte das pesquisas, que tem como tema o processamento de eventos e a Internet das Coisas. Na seção \ref{sec:Mapeamento_Sistematico_da_Literatura} é apresentado o protocolo seguido para a execução do mapeamento sistemático, assim como todos os passos executados que levaram a escolha dos trabalhos de interesse. Por fim, é apresentada uma discussão sobre as soluções abordadas nos trabalhos de interesse selecionados.     
+Neste capítulo apresenta-se o estado da arte das pesquisas, que tem como tema o Processamento de Eventos e a Internet das Coisas. Na seção \ref{sec:Mapeamento_Sistematico_da_Literatura} é apresentado o protocolo seguido para a execução do mapeamento sistemático, assim como todos os passos executados que levaram a escolha dos trabalhos de interesse. Por fim, é apresentada uma discussão sobre as soluções abordadas nos trabalhos de interesse selecionados.     
 
   
 
@@ -377,7 +378,7 @@ Neste capítulo apresenta-se o estado da arte das pesquisas, que tem como tema o
 
   
 
-O mapeamento sistemático abordado neste capítulo é baseado na metodologia proposta por Petersen et al. (2008), onde seguindo a série de passos propostos, torna o estudo realizado possível de ser replicado por outros pesquisadores \cite{petersen08}. A partir desta metodologia, podem ser citadas cinco etapas das quais serão seguidas por este mapeamento: 
+O mapeamento sistemático abordado neste capítulo é baseado na metodologia proposta por Petersen et al. (2008), onde seguindo a série de passos propostos, torna o estudo realizado possível de ser replicado por outros pesquisadores \cite{petersen08}. A partir desta metodologia, podem ser citadas cinco etapas seguidas por este mapeamento: 
 
   
 
@@ -527,7 +528,7 @@ Os critérios de exclusão foram aplicados seguindo-se as seguintes ordens e eta
 
   
 
-\item  \textbf{Filtro por data - } O intervalo de interesse para a aplicação do filtro foi adotado com base no número de publicações por ano. Após o levantamento dos trabalhos de interesse, identificou-se o ano de 2015 como sendo o ano em que o número de publicações aumenta consideravelmente, continuando a ascender até o pico máximo, no ano de 2017, como pode ser visto na figura \ref{fig:grafPublicaAno}. Assim optou-se por eliminar todas as publicações que fossem anteriores ao ano de 2015, retirando desta forma 26 artigos.     
+\item  \textbf{Filtro por data - } O intervalo de interesse para a aplicação do filtro foi adotado com base no número de publicações por ano. Após o levantamento dos trabalhos de interesse, identificou-se o ano de 2015 como sendo o ano no qual o número de publicações aumenta consideravelmente, continuando a ascender até o pico máximo, no ano de 2017, como pode ser visto na figura \ref{fig:grafPublicaAno}. Assim optou-se por eliminar todas as publicações que fossem anteriores ao ano de 2015, retirando desta forma 26 artigos.     
 
   
 
@@ -591,7 +592,7 @@ A execução da 4º etapa do mapeamento, que consiste da triagem final dos traba
 
 \section{Trabalhos Relacionados} 
 
-Com a execução do mapeamento sistemático da literatura, foram selecionados dez trabalhos de interesse, os quais serão apresentados nas subseções a seguir, onde serão abordados os seguintes tópicos de interesse: motivação e justificativa do trabalho, solução apresentada, avaliação e resultados da proposta. 
+Com a execução do mapeamento sistemático da literatura, foram selecionados dez trabalhos de interesse, os quais são apresentados nas subseções a seguir. Serão abordados os seguintes tópicos de interesse: motivação e justificativa do trabalho, solução apresentada, avaliação e resultados da proposta. 
 
   
 
@@ -613,7 +614,7 @@ Com a execução do mapeamento sistemático da literatura, foram selecionados de
 
      
 
-     O sistema desenvolvido foi otimizado, com o uso de uma abordagem de seleção de classificadores baseado em restrições de assinatura. Os resultados obtidos pelos autores mostram que a ferramenta atinge uma taxa de transferência média de 110 quadros/segundo com uma precisão aproximada de 66,34\% em eventos do mundo real de várias aplicações de cidades inteligentes. Por fim, foi apresentado um teste de desempenho com o aumento gradativo do número de classes por classificador, onde os resultados obtidos mostram uma taxa de transferência estável para um classificador de uma classe, porém com o aumento do número destas classes a taxa de transferência cai continuamente.   
+     O sistema desenvolvido foi otimizado, com o uso de uma abordagem de seleção de classificadores baseado em restrições de assinatura. Os resultados obtidos pelos autores mostram que a ferramenta atinge uma taxa de transferência média de 110 quadros/segundo com uma precisão aproximada de 66,34\% em eventos do mundo real de várias aplicações de cidades inteligentes. Por fim, foi apresentado um teste de desempenho com o aumento gradativo do número de classes por classificador, onde os resultados obtidos mostram uma taxa de transferência estável para um classificador de uma classe. Porém com o aumento do número destas classes a taxa de transferência cai continuamente.   
 
      
 
@@ -885,7 +886,7 @@ Um grande problema identificado dentre os dez documentos selecionados foi a ques
 
   
 
-Neste capítulo, executou-se um mapeamento sistemático com o objetivo de identificar o estado da arte em processamento de eventos para redes IoT. Como resultado deste mapeamento foram identificados alguns trabalhos de interesse, nos quais elaborou-se um detalhamento de suas motivações e justificativas para a composição do mesmo. Foi detalhado cada uma das soluções propostas por estes trabalhos, onde foi apresentado os resultados que os autores obtiveram com o desenvolvimento destes. Por fim, demonstrou-se uma comparação entre as tecnologias empregadas em cada um destes artigos e apresentou-se críticas e desafios identificados durante esta revisão.  
+Neste capítulo, executou-se um mapeamento sistemático com o objetivo de identificar o estado da arte em processamento de eventos para redes IoT. Como resultado deste mapeamento foram identificados alguns trabalhos de interesse, nos quais elaborou-se um detalhamento de suas motivações e justificativas para a composição do mesmo. Foi detalhado cada uma das soluções propostas por estes trabalhos, onde foram apresentados os resultados que os autores obtiveram com o desenvolvimento destes. Por fim, demonstrou-se uma comparação entre as tecnologias empregadas em cada um destes artigos e apresentou-se críticas e desafios identificados durante esta revisão.  
 
   
 

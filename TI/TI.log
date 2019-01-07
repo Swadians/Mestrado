@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.10)  20 DEC 2018 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.10)  7 JAN 2019 16:03
 entering extended mode
 **./TI.tex
 (TI.tex
@@ -949,23 +949,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 ] [6
 
 ] [7] [8]
-<imagens/ConjuntoProcessamento.png, id=252, 292.09125pt x 198.7425pt>
+<imagens/ConjuntoProcessamento.png, id=249, 292.09125pt x 198.7425pt>
 File: imagens/ConjuntoProcessamento.png Graphic file (type png)
 <use imagens/ConjuntoProcessamento.png>
 Package pdftex.def Info: imagens/ConjuntoProcessamento.png  used on input line 
-248.
+246.
 (pdftex.def)             Requested size: 273.14923pt x 185.8718pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 258.
  [9
 
- <./imagens/ConjuntoProcessamento.png>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 260.
- [10] [11]
+ <./imagens/ConjuntoProcessamento.png>] [10] [11]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 300.
+(Font)              <7> on input line 298.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 300.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 300.
+(Font)              <5> on input line 298.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 298.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -978,47 +977,47 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 File: imagens/tabela_string_busca.png Graphic file (type png)
 <use imagens/tabela_string_busca.png>
 Package pdftex.def Info: imagens/tabela_string_busca.png  used on input line 41
-6.
+7.
 (pdftex.def)             Requested size: 455.24411pt x 113.59361pt.
 <imagens/GrafPizPubAno.png, id=359, 510.10574pt x 311.36325pt>
 File: imagens/GrafPizPubAno.png Graphic file (type png)
 <use imagens/GrafPizPubAno.png>
-Package pdftex.def Info: imagens/GrafPizPubAno.png  used on input line 440.
+Package pdftex.def Info: imagens/GrafPizPubAno.png  used on input line 441.
 (pdftex.def)             Requested size: 409.71692pt x 250.08864pt.
 <imagens/GrafBarraPubAno.png, id=360, 1156.32pt x 650.43pt>
 File: imagens/GrafBarraPubAno.png Graphic file (type png)
 <use imagens/GrafBarraPubAno.png>
-Package pdftex.def Info: imagens/GrafBarraPubAno.png  used on input line 454.
+Package pdftex.def Info: imagens/GrafBarraPubAno.png  used on input line 455.
 (pdftex.def)             Requested size: 409.71692pt x 230.46262pt.
 <imagens/grafPublicaAno.png, id=363, 439.04025pt x 267.399pt>
 File: imagens/grafPublicaAno.png Graphic file (type png)
 <use imagens/grafPublicaAno.png>
-Package pdftex.def Info: imagens/grafPublicaAno.png  used on input line 474.
+Package pdftex.def Info: imagens/grafPublicaAno.png  used on input line 475.
 (pdftex.def)             Requested size: 409.71692pt x 249.54349pt.
  [16 <./imagens/tabela_string_busca.png>]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 490.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 491.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 490.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 491.
  [17 <./imagens/GrafPizPubAno.png>] [18 <./imagens/GrafBarraPubAno.png>] [19 <.
 /imagens/grafPublicaAno.png>]
 <imagens/FluxoTriagemInicial.png, id=393, 1212.53pt x 682.55pt>
 File: imagens/FluxoTriagemInicial.png Graphic file (type png)
 <use imagens/FluxoTriagemInicial.png>
 Package pdftex.def Info: imagens/FluxoTriagemInicial.png  used on input line 57
-8.
+9.
 (pdftex.def)             Requested size: 773.91359pt x 435.65364pt.
 
-Overfull \hbox (71.13051pt too wide) in paragraph at lines 578--579
+Overfull \hbox (71.13051pt too wide) in paragraph at lines 579--580
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 4.90952pt on input line 584.
+LaTeX Warning: Float too large for page by 4.90952pt on input line 585.
 
 [20 <./imagens/FluxoTriagemInicial.png (PNG copy)>] [21
 
@@ -1028,7 +1027,7 @@ LaTeX Warning: Float too large for page by 4.90952pt on input line 584.
 <imagens/comparacaoArtigos.png, id=532, 390.258pt x 440.847pt>
 File: imagens/comparacaoArtigos.png Graphic file (type png)
 <use imagens/comparacaoArtigos.png>
-Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 864.
+Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 865.
 
 (pdftex.def)             Requested size: 455.24411pt x 514.26193pt.
  [33] [34 <./imagens/comparacaoArtigos.png>] [35] (TI.bbl [36
@@ -1038,14 +1037,14 @@ Package pdftex.def Info: imagens/comparacaoArtigos.png  used on input line 864.
 ] [38]) 
 AED: lastpage setting LastPage
 [39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 922.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 922.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 923.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 923.
  (TI.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 922.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 922.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 923.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 923.
 Package rerunfilecheck Info: File `TI.out' has not changed.
 (rerunfilecheck)             Checksum: 810A49C96E4D4CF178EB79D5D14C8EEA;8719.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 922.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 923.
  ) 
 Here is how much of TeX's memory you used:
  22498 strings out of 492970
@@ -1061,7 +1060,7 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/helvetic/uhvro8a.pfb>
-Output written on TI.pdf (40 pages, 484657 bytes).
+Output written on TI.pdf (40 pages, 484564 bytes).
 PDF statistics:
  654 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)
